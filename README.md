@@ -28,13 +28,9 @@ npm run build && npm start     # 单服务器 :8010，托管页面 + AI 整理
 
 **纯静态托管**（如 Claudefer）：访问根 `/` 会自动跳转 `/dist/index.html`。
 
-### AI 整理配置（部署时放一次）
+### AI 整理配置
 
-在网站根目录放一个 `config.json`（复制 `config.example.json` 填真实 key）：
-```json
-{ "deepseekKey": "sk-你的DeepSeekKey" }
-```
-前端运行时读取，一次配置永久生效；真实 key 不进代码仓库（GitHub 会拦截）。
+点击工具栏 **⚙️ 设置**，填入你的 **DeepSeek API key**（`sk-...`）→ 保存。key 存在本浏览器（localStorage），之后 AI 整理可用。换浏览器需重新填一次。
 
 ### 云同步
 已内置固定 key（jsonbin），保存卡片自动上传云端，跨浏览器点「☁️ 同步」即可共享，无需配置。

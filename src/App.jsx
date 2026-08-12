@@ -6,7 +6,7 @@ import TemplatePicker from './components/TemplatePicker.jsx';
 import HistoryList from './components/HistoryList.jsx';
 import HistoryModal from './components/HistoryModal.jsx';
 import { formatContent, formatDate } from './lib/format.js';
-import { formatWithAI } from './api.js';
+import { formatWithAI, getApiKey, setApiKey } from './api.js';
 import SettingsModal from './components/SettingsModal.jsx';
 import { loadDraft, saveDraft, loadHistory, saveHistory, addHistory, removeHistory, cloudSync, cloudRemove } from './lib/storage.js';
 
@@ -142,7 +142,12 @@ export default function App() {
       if (r.title) setTitle(r.title);
       if (r.content) setBody(r.content);
     } catch (e) {
-      setError(e.noKey ? 'AI 整理：未找到 config.json，请在网站根目录放置（含 deepseekKey）' : (e.message || 'AI 整理失败'));
+      if (e.noKey) {
+        setError('AI 整理需要 API key：点击 ⚙️ 设置，填入 DeepSeek key');
+        setSettingsOpen(true);
+      } else {
+        setError(e.message || 'AI 整理失败');
+      }
     } finally {
       setAiLoading(false);
     }
@@ -232,8 +237,10 @@ export default function App() {
       {/* 设置弹层 */}
       {settingsOpen && (
         <SettingsModal
+          aiKey={getApiKey()}
           syncedAt={syncedAt}
           onClose={() => setSettingsOpen(false)}
+          onSaveAI={(k) => setApiKey(k)}
         />
       )}
     </div>

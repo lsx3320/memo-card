@@ -1,19 +1,18 @@
-// AI 文案整理 API：优先后端代理；后端不可用时前端直连 DeepSeek
-// 真实 key 从网站根目录的 config.json 读取（部署时放一次，不进代码/仓库）
+// AI 文案整理 API：优先后端代理；后端不可用时前端直连 DeepSeek（key 用户在设置里配置，存 localStorage）
+const AI_KEY = 'memo-card:apikey';
 
-let cachedKey = '';
-
-// 读取网站根目录的 config.json（相对路径，适配部署在任意子路径）
-async function getDeepSeekKey() {
-  if (cachedKey) return cachedKey;
+export function getApiKey() {
   try {
-    const res = await fetch('./config.json', { cache: 'no-store' });
-    if (res.ok) {
-      const j = await res.json();
-      cachedKey = String(j.deepseekKey || '').trim();
-    }
-  } catch { /* 未部署 config.json */ }
-  return cachedKey;
+    return localStorage.getItem(AI_KEY) || '';
+  } catch {
+    return '';
+  }
+}
+
+export function setApiKey(key) {
+  try {
+    localStorage.setItem(AI_KEY, key);
+  } catch { /* ignore */ }
 }
 
 const buildPrompt = (text) =>
@@ -37,11 +36,11 @@ const parseResult = (rawText) => {
   };
 };
 
-// 前端直连 DeepSeek（key 从 config.json 读）
+// 前端直连 DeepSeek（key 从 localStorage 读取，用户在设置里配置）
 async function viaDirect(text) {
-  const key = await getDeepSeekKey();
+  const key = getApiKey();
   if (!key) {
-    const e = new Error('未配置 AI key：请在网站根目录放置 config.json');
+    const e = new Error('请先配置 DeepSeek API key');
     e.noKey = true;
     throw e;
   }
