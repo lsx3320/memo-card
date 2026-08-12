@@ -8,6 +8,7 @@ import HistoryModal from './components/HistoryModal.jsx';
 import { formatContent, formatDate } from './lib/format.js';
 import { formatWithAI, getApiKey, setApiKey } from './api.js';
 import SettingsModal from './components/SettingsModal.jsx';
+import LoginGate from './components/LoginGate.jsx';
 import { loadDraft, saveDraft, loadHistory, saveHistory, addHistory, removeHistory, cloudSync, cloudRemove } from './lib/storage.js';
 
 export default function App() {
@@ -22,6 +23,9 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [syncedAt, setSyncedAt] = useState(0);
   const [syncing, setSyncing] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(() => {
+    try { return sessionStorage.getItem('memo-login') === '1'; } catch { return false; }
+  });
 
   const exportRef = useRef(null);
 
@@ -169,6 +173,11 @@ export default function App() {
 
   const cardProps = { title, blocks, date: today, template };
   const cardMark = '随手记 · 便签卡片';
+
+  // 未登录 → 股票操盘风格登录门禁
+  if (!loggedIn) {
+    return <LoginGate onLogin={() => setLoggedIn(true)} />;
+  }
 
   return (
     <div className="app">
