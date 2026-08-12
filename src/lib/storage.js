@@ -49,6 +49,26 @@ export function removeHistory(id) {
 const CLOUD_KEY = '$2a$10$Iyqn3eO8f2SOtdwE9A9k1uY7MIXfb5k1Z7pYYkWZW9lYtxc1bJlbi';
 const CLOUD_BIN = '6a7c55c5f5f4af5e290b8e09';
 const BIN_URL = 'https://api.jsonbin.io/v3/b';
+const DELETED_KEY = 'memo-card:deleted';
+
+// 已删除标记（tombstone）：删除的卡片 id，cloudSync 合并时永远排除，防止刷新/竞态后弹回
+export function getDeletedIds() {
+  try {
+    const arr = JSON.parse(localStorage.getItem(DELETED_KEY));
+    return new Set(Array.isArray(arr) ? arr : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function addDeletedId(id) {
+  try {
+    const set = getDeletedIds();
+    set.add(id);
+    const arr = [...set].slice(-200); // 限长，防无限增长
+    localStorage.setItem(DELETED_KEY, JSON.stringify(arr));
+  } catch { /* ignore */ }
+}
 
 async function cloudGet() {
   const r = await fetch(`${BIN_URL}/${CLOUD_BIN}/latest`, {
@@ -69,11 +89,12 @@ async function cloudPut(data) {
 }
 
 // 双向同步：拉取云端 → 与本地合并去重 → 存本地 → 上传合并结果
-// 任何浏览器保存或点同步都走这里，数据永远合并不覆盖
+// 已删除的 id 在合并与上传时都被排除，删除永久生效（不会因刷新/并集竞态弹回）
 export async function cloudSync(localList) {
+  const deleted = getDeletedIds();
   const cloud = await cloudGet();
-  const cleaned = cloud.filter((x) => x && x.id && x.id !== '_init');
-  const seen = new Set();
+  const cleaned = cloud.filter((x) => x && x.id && x.id !== '_init' && !deleted.has(x.id));
+  const seen = new Set(deleted);
   const merged = [];
   [...cleaned, ...(localList || [])].forEach((x) => {
     if (x && x.id && !seen.has(x.id)) {
@@ -87,9 +108,12 @@ export async function cloudSync(localList) {
   return capped;
 }
 
-// 从云端删除一条（删除卡片时同步，避免刷新后又被 cloudSync 合并回来）
+// 删除卡片：记录删除标记 + 从云端移除，双重保证删除永久生效
 export async function cloudRemove(id) {
-  const cloud = await cloudGet();
-  const next = cloud.filter((x) => x && x.id !== id);
-  await cloudPut(next);
+  addDeletedId(id); // 标记已删除，cloudSync 会永远排除
+  try {
+    const cloud = await cloudGet();
+    const next = cloud.filter((x) => x && x.id !== id);
+    await cloudPut(next);
+  } catch { /* 云端删除失败也不影响本地：deleted 标记会拦住弹回 */ }
 }
