@@ -11,5 +11,17 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // 部署兼容：若 React 未能挂载（#root 为空），说明当前是静态托管未构建的源码版，
+      // 自动跳转到已提交的构建产物 dist/ 打开。
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var root = document.querySelector('#root');
+          if (root && !root.children.length && window.location.pathname.indexOf('/dist/') === -1) {
+            window.location.replace(window.location.origin + '/dist/index.html');
+          }
+        }, 2500);
+      });
+    </script>
   </body>
 </html>
