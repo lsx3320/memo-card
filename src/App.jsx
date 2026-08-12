@@ -8,7 +8,7 @@ import HistoryModal from './components/HistoryModal.jsx';
 import { formatContent, formatDate } from './lib/format.js';
 import { formatWithAI, setApiKey } from './api.js';
 import SettingsModal from './components/SettingsModal.jsx';
-import { loadDraft, saveDraft, loadHistory, addHistory, removeHistory, cloudSync } from './lib/storage.js';
+import { loadDraft, saveDraft, loadHistory, saveHistory, addHistory, removeHistory, cloudSync } from './lib/storage.js';
 
 export default function App() {
   const [title, setTitle] = useState('');
