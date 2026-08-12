@@ -1,19 +1,8 @@
-// AI 文案整理 API：优先后端代理；后端不可用（纯静态部署）时前端直连 DeepSeek
-const AI_KEY = 'memo-card:apikey';
-
-export function getApiKey() {
-  try {
-    return localStorage.getItem(AI_KEY) || '';
-  } catch {
-    return '';
-  }
-}
-
-export function setApiKey(key) {
-  try {
-    localStorage.setItem(AI_KEY, key);
-  } catch { /* ignore */ }
-}
+// AI 文案整理 API：优先后端代理；后端不可用时前端直连 DeepSeek
+// 注意：真实 key 请勿提交到公开仓库（GitHub 会拦截）。部署时替换下面的占位符，
+// 或通过后端 /api/format 代理（key 存服务端）。
+const DEEPSEEK_KEY = 'sk-REPLACE_ME_DEPLOY_KEY';
+const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
 
 const buildPrompt = (text) =>
   '你是文案排版助手。请把下面的原始文案整理成一张「文字卡片」的规整内容，要求：\n' +
@@ -36,32 +25,13 @@ const parseResult = (rawText) => {
   };
 };
 
-// 后端代理模式
-async function viaBackend(text) {
-  const res = await fetch('/api/format', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ text }),
-  });
-  if (res.ok) return await res.json();
-  // 405/404 等 = 无后端（纯静态托管）
-  const e = new Error(`后端不可用（${res.status}）`);
-  e.noBackend = true;
-  throw e;
-}
-
-// 前端直连 DeepSeek 模式
-async function viaDirect(text, apiKey) {
-  if (!apiKey) {
-    const e = new Error('未配置 API key');
-    e.noKey = true;
-    throw e;
-  }
-  const r = await fetch('https://api.deepseek.com/chat/completions', {
+// 前端直连 DeepSeek（key 内置）
+async function viaDirect(text) {
+  const r = await fetch(DEEPSEEK_URL, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
+      Authorization: `Bearer ${DEEPSEEK_KEY}`,
     },
     body: JSON.stringify({
       model: 'deepseek-chat',
@@ -76,12 +46,15 @@ async function viaDirect(text, apiKey) {
   return parseResult(data?.choices?.[0]?.message?.content);
 }
 
-// 主入口：先试后端，失败则前端直连
+// 主入口：优先后端代理；后端不可用（纯静态部署）时前端直连
 export async function formatWithAI(text) {
   try {
-    return await viaBackend(text);
-  } catch (e) {
-    if (!e.noBackend) throw e;
-    return await viaDirect(text, getApiKey());
-  }
+    const res = await fetch('/api/format', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text }),
+    });
+    if (res.ok) return await res.json();
+  } catch { /* 后端不可达，走直连 */ }
+  return await viaDirect(text);
 }

@@ -1,21 +1,10 @@
-// 设置弹层：云同步状态（固定 key）+ AI 直连 key
-import { useState } from 'react';
-
-export default function SettingsModal({ aiKey, syncedAt, onClose, onSaveAI }) {
-  const [aiInput, setAiInput] = useState(aiKey);
-  const [msg, setMsg] = useState('');
-
-  const saveAI = () => {
-    onSaveAI(aiInput.trim());
-    setMsg('已保存 AI key');
-  };
-
+// 设置弹层：云同步状态（key 已内置固定）
+export default function SettingsModal({ syncedAt, onClose }) {
   return (
     <div className="history-modal" onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className="settings-panel">
         <h3 className="settings-title">设置</h3>
 
-        {/* 云同步（固定 key，只读状态） */}
         <div className="settings-section">
           <p className="settings-label">☁️ 云同步</p>
           <p className="settings-ok">✓ 已配置云端共享（固定 key，所有浏览器共用同一份数据）</p>
@@ -29,22 +18,10 @@ export default function SettingsModal({ aiKey, syncedAt, onClose, onSaveAI }) {
 
         <div className="settings-divider" />
 
-        {/* AI 直连 */}
         <div className="settings-section">
-          <p className="settings-label">✨ AI 整理（DeepSeek key，纯静态部署直连用）</p>
-          <input
-            type="password"
-            className="settings-input"
-            placeholder="DeepSeek API key（sk-...）"
-            value={aiInput}
-            onChange={(e) => setAiInput(e.target.value)}
-          />
-          <div className="settings-actions">
-            <button type="button" className="btn btn-ghost" onClick={saveAI}>保存</button>
-          </div>
+          <p className="settings-label">✨ AI 整理</p>
+          <p className="settings-ok">✓ 已内置 DeepSeek（无需配置，纯静态部署也可用）</p>
         </div>
-
-        {msg && <p className="settings-msg">{msg}</p>}
 
         <button type="button" className="btn btn-ghost settings-close" onClick={onClose}>关闭</button>
       </div>
