@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "concurrently -k -n server,web -c blue,green \"npm:dev:server\" \"npm:dev:web\"",
     "dev:server": "node --watch server/index.mjs",
-    "dev:web": "cd web && vite",
-    "build": "cd web && vite build",
+    "dev:web": "vite",
+    "build": "vite build",
     "start": "NODE_ENV=production node server/index.mjs"
   },
   "dependencies": {

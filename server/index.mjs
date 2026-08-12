@@ -6,7 +6,7 @@ import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DIST = path.resolve(__dirname, '../web/dist');
+const DIST = path.resolve(__dirname, '../dist');
 const PORT = Number(process.env.PORT || 8010);
 
 // DeepSeek key：env → ~/.claude/settings.json
