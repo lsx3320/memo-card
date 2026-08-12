@@ -7,7 +7,7 @@ import HistoryList from './components/HistoryList.jsx';
 import HistoryModal from './components/HistoryModal.jsx';
 import { formatContent, formatDate } from './lib/format.js';
 import { loadDraft, saveDraft, loadHistory, addHistory, removeHistory } from './lib/storage.js';
-import { formatWithAI } from './api.js';
+import { formatWithAI, setApiKey } from './api.js';
 
 export default function App() {
   const [title, setTitle] = useState('');
@@ -106,7 +106,18 @@ export default function App() {
       if (r.title) setTitle(r.title);
       if (r.content) setBody(r.content);
     } catch (e) {
-      setError(e.message || 'AI 整理失败');
+      // 纯静态部署无后端 + 未配置 key → 提示填 key 后前端直连
+      if (e.noKey) {
+        const key = window.prompt('纯静态部署没有后端，AI 整理需在前端直连 DeepSeek。\n请输入你的 DeepSeek API key（仅存本浏览器）：');
+        if (key && key.trim()) {
+          setApiKey(key.trim());
+          setAiLoading(false);
+          return doAIFormat();
+        }
+        setError('未配置 API key，已使用本地自动排版');
+      } else {
+        setError(e.message || 'AI 整理失败');
+      }
     } finally {
       setAiLoading(false);
     }
