@@ -8,11 +8,7 @@ import HistoryModal from './components/HistoryModal.jsx';
 import { formatContent, formatDate } from './lib/format.js';
 import { formatWithAI, setApiKey } from './api.js';
 import SettingsModal from './components/SettingsModal.jsx';
-import {
-  loadDraft, saveDraft, loadHistory, addHistory, removeHistory,
-  getCloudKey, setCloudKey, getCloudBin, setCloudBin,
-  cloudPush, cloudPull,
-} from './lib/storage.js';
+import { loadDraft, saveDraft, loadHistory, addHistory, removeHistory, cloudSync } from './lib/storage.js';
 
 export default function App() {
   const [title, setTitle] = useState('');
@@ -25,6 +21,7 @@ export default function App() {
   const [viewItem, setViewItem] = useState(null); // 弹层查看的历史卡片
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [syncedAt, setSyncedAt] = useState(0);
+  const [syncing, setSyncing] = useState(false);
 
   const exportRef = useRef(null);
 
@@ -42,24 +39,13 @@ export default function App() {
       setTemplate(draft.template || 'paper');
     }
     setHistory(loadHistory());
-    // 云同步：启动时拉取并合并
-    const ck = getCloudKey();
-    const bin = getCloudBin();
-    if (ck && bin) {
-      cloudPull(ck, bin).then((cloud) => {
-        if (Array.isArray(cloud) && cloud.length) {
-          const local = loadHistory();
-          // 云端为主合并（去重按 id）
-          const merged = [...cloud];
-          local.forEach((x) => {
-            if (!merged.some((m) => m.id === x.id)) merged.push(x);
-          });
-          merged.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
-          saveHistory(merged.slice(0, 50));
-          setHistory(merged.slice(0, 50));
-        }
-      }).catch(() => {});
-    }
+    // 云同步：启动时自动拉取云端合并（key/bin 固定，所有浏览器共享）
+    cloudSync(loadHistory())
+      .then((merged) => {
+        saveHistory(merged);
+        setHistory(merged);
+      })
+      .catch(() => {});
   }, []);
 
   // 草稿自动保存（防抖）
@@ -103,26 +89,30 @@ export default function App() {
     setHistory(list);
     setSaved(true);
     setTimeout(() => setSaved(false), 1500);
-    // 云同步（有 key 时静默上传）
-    const ck = getCloudKey();
-    if (ck) {
-      cloudPush(ck, getCloudBin(), list)
-        .then((binId) => {
-          if (binId && !getCloudBin()) setCloudBin(binId);
-          setSyncedAt(Date.now());
-        })
-        .catch(() => {});
-    }
+    // 自动保存到云端（固定 key/bin，双向合并不覆盖）
+    cloudSync(list)
+      .then((merged) => {
+        saveHistory(merged);
+        setHistory(merged);
+        setSyncedAt(Date.now());
+      })
+      .catch(() => {});
   };
 
-  // 手动同步到云端
-  const syncNow = async (key) => {
-    if (!key) return;
-    setCloudKey(key);
-    const bin = getCloudBin();
-    const binId = await cloudPush(key, bin, history.length ? history : loadHistory());
-    if (!bin && binId) setCloudBin(binId);
-    setSyncedAt(Date.now());
+  // 手动同步：拉取云端，合并更新本地（旧浏览器内容会同步过来）
+  const doSync = async () => {
+    setSyncing(true);
+    setError('');
+    try {
+      const merged = await cloudSync(history.length ? history : loadHistory());
+      saveHistory(merged);
+      setHistory(merged);
+      setSyncedAt(Date.now());
+    } catch (e) {
+      setError(`同步失败：${e.message || '云端不可达'}`);
+    } finally {
+      setSyncing(false);
+    }
   };
 
   const download = useCallback(async () => {
@@ -196,7 +186,10 @@ export default function App() {
             <button type="button" className="btn btn-ghost" onClick={save} disabled={!body.trim() && !title.trim()}>
               {saved ? '✓ 已保存' : '保存到本页'}
             </button>
-            <button type="button" className="btn btn-ghost" onClick={() => setSettingsOpen(true)} title="设置：云同步 / AI key">
+            <button type="button" className="btn btn-ghost" onClick={doSync} disabled={syncing} title="从云端拉取合并其他浏览器的数据">
+              {syncing ? '同步中…' : '☁️ 同步'}
+            </button>
+            <button type="button" className="btn btn-ghost" onClick={() => setSettingsOpen(true)} title="设置：AI key">
               ⚙️
             </button>
           </div>
@@ -246,14 +239,10 @@ export default function App() {
       {/* 设置弹层 */}
       {settingsOpen && (
         <SettingsModal
-          cloudKey={getCloudKey()}
-          cloudBin={getCloudBin()}
           aiKey={''}
           syncedAt={syncedAt}
           onClose={() => setSettingsOpen(false)}
-          onSaveCloud={(k) => setCloudKey(k)}
           onSaveAI={(k) => setApiKey(k)}
-          onSyncNow={syncNow}
         />
       )}
     </div>

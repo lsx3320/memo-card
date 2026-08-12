@@ -45,64 +45,44 @@ export function removeHistory(id) {
   return list;
 }
 
-// ========== 云同步（jsonbin.io，浏览器直连） ==========
-const CLOUD_KEY = 'memo-card:cloudkey';
-const CLOUD_BIN = 'memo-card:cloudbin';
+// ========== 云同步（jsonbin.io，固定 key + bin，所有浏览器共享同一份数据） ==========
+const CLOUD_KEY = '$2a$10$Iyqn3eO8f2SOtdwE9A9k1uY7MIXfb5k1Z7pYYkWZW9lYtxc1bJlbi';
+const CLOUD_BIN = '6a7c55c5f5f4af5e290b8e09';
 const BIN_URL = 'https://api.jsonbin.io/v3/b';
 
-export function getCloudKey() {
-  try {
-    return localStorage.getItem(CLOUD_KEY) || '';
-  } catch {
-    return '';
-  }
+async function cloudGet() {
+  const r = await fetch(`${BIN_URL}/${CLOUD_BIN}/latest`, {
+    headers: { 'X-Master-Key': CLOUD_KEY },
+  });
+  if (!r.ok) throw new Error(`云读取失败（${r.status}）`);
+  const j = await r.json();
+  return Array.isArray(j.record) ? j.record : [];
 }
 
-export function setCloudKey(k) {
-  try {
-    localStorage.setItem(CLOUD_KEY, k);
-  } catch { /* ignore */ }
-}
-
-export function getCloudBin() {
-  try {
-    return localStorage.getItem(CLOUD_BIN) || '';
-  } catch {
-    return '';
-  }
-}
-
-export function setCloudBin(id) {
-  try {
-    localStorage.setItem(CLOUD_BIN, id);
-  } catch { /* ignore */ }
-}
-
-// 上传历史到云端（首次自动创建 bin）
-export async function cloudPush(key, binId, data) {
-  const isUpdate = !!binId;
-  const res = await fetch(isUpdate ? `${BIN_URL}/${binId}` : BIN_URL, {
-    method: isUpdate ? 'PUT' : 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Master-Key': key,
-      'X-Bin-Name': 'memo-card-notes',
-    },
+async function cloudPut(data) {
+  const r = await fetch(`${BIN_URL}/${CLOUD_BIN}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json', 'X-Master-Key': CLOUD_KEY },
     body: JSON.stringify(data),
   });
-  if (!res.ok) throw new Error(`云同步失败（${res.status}）`);
-  const j = await res.json();
-  // 创建时 bin id 在 metadata.id（record 是数据本体）
-  return isUpdate ? binId : (j.metadata?.id || j.record?.id || '');
+  if (!r.ok) throw new Error(`云写入失败（${r.status}）`);
 }
 
-// 从云端拉取历史
-export async function cloudPull(key, binId) {
-  if (!binId) return null;
-  const res = await fetch(`${BIN_URL}/${binId}/latest`, {
-    headers: { 'X-Master-Key': key },
+// 双向同步：拉取云端 → 与本地合并去重 → 存本地 → 上传合并结果
+// 任何浏览器保存或点同步都走这里，数据永远合并不覆盖
+export async function cloudSync(localList) {
+  const cloud = await cloudGet();
+  const cleaned = cloud.filter((x) => x && x.id && x.id !== '_init');
+  const seen = new Set();
+  const merged = [];
+  [...cleaned, ...(localList || [])].forEach((x) => {
+    if (x && x.id && !seen.has(x.id)) {
+      seen.add(x.id);
+      merged.push(x);
+    }
   });
-  if (!res.ok) throw new Error(`云读取失败（${res.status}）`);
-  const j = await res.json();
-  return j.record;
+  merged.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
+  const capped = merged.slice(0, 50);
+  await cloudPut(capped);
+  return capped;
 }
