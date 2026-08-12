@@ -1,8 +1,20 @@
 // AI 文案整理 API：优先后端代理；后端不可用时前端直连 DeepSeek
-// 注意：真实 key 请勿提交到公开仓库（GitHub 会拦截）。部署时替换下面的占位符，
-// 或通过后端 /api/format 代理（key 存服务端）。
-const DEEPSEEK_KEY = 'sk-REPLACE_ME_DEPLOY_KEY';
-const DEEPSEEK_URL = 'https://api.deepseek.com/chat/completions';
+// 真实 key 从网站根目录的 config.json 读取（部署时放一次，不进代码/仓库）
+
+let cachedKey = '';
+
+// 读取网站根目录的 config.json（相对路径，适配部署在任意子路径）
+async function getDeepSeekKey() {
+  if (cachedKey) return cachedKey;
+  try {
+    const res = await fetch('./config.json', { cache: 'no-store' });
+    if (res.ok) {
+      const j = await res.json();
+      cachedKey = String(j.deepseekKey || '').trim();
+    }
+  } catch { /* 未部署 config.json */ }
+  return cachedKey;
+}
 
 const buildPrompt = (text) =>
   '你是文案排版助手。请把下面的原始文案整理成一张「文字卡片」的规整内容，要求：\n' +
@@ -25,13 +37,19 @@ const parseResult = (rawText) => {
   };
 };
 
-// 前端直连 DeepSeek（key 内置）
+// 前端直连 DeepSeek（key 从 config.json 读）
 async function viaDirect(text) {
-  const r = await fetch(DEEPSEEK_URL, {
+  const key = await getDeepSeekKey();
+  if (!key) {
+    const e = new Error('未配置 AI key：请在网站根目录放置 config.json');
+    e.noKey = true;
+    throw e;
+  }
+  const r = await fetch('https://api.deepseek.com/chat/completions', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${DEEPSEEK_KEY}`,
+      Authorization: `Bearer ${key}`,
     },
     body: JSON.stringify({
       model: 'deepseek-chat',

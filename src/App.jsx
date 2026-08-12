@@ -142,7 +142,7 @@ export default function App() {
       if (r.title) setTitle(r.title);
       if (r.content) setBody(r.content);
     } catch (e) {
-      setError(e.message || 'AI 整理失败');
+      setError(e.noKey ? 'AI 整理：未找到 config.json，请在网站根目录放置（含 deepseekKey）' : (e.message || 'AI 整理失败'));
     } finally {
       setAiLoading(false);
     }
