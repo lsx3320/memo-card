@@ -86,3 +86,10 @@ export async function cloudSync(localList) {
   await cloudPut(capped);
   return capped;
 }
+
+// 从云端删除一条（删除卡片时同步，避免刷新后又被 cloudSync 合并回来）
+export async function cloudRemove(id) {
+  const cloud = await cloudGet();
+  const next = cloud.filter((x) => x && x.id !== id);
+  await cloudPut(next);
+}

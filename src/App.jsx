@@ -8,7 +8,7 @@ import HistoryModal from './components/HistoryModal.jsx';
 import { formatContent, formatDate } from './lib/format.js';
 import { formatWithAI, setApiKey } from './api.js';
 import SettingsModal from './components/SettingsModal.jsx';
-import { loadDraft, saveDraft, loadHistory, saveHistory, addHistory, removeHistory, cloudSync } from './lib/storage.js';
+import { loadDraft, saveDraft, loadHistory, saveHistory, addHistory, removeHistory, cloudSync, cloudRemove } from './lib/storage.js';
 
 export default function App() {
   const [title, setTitle] = useState('');
@@ -167,7 +167,11 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const deleteHistory = (id) => setHistory(removeHistory(id));
+  const deleteHistory = (id) => {
+    setHistory(removeHistory(id));
+    // 同步删除云端，避免刷新后又被拉回来
+    cloudRemove(id).catch(() => {});
+  };
 
   const cardProps = { title, blocks, date: today, template };
   const cardMark = '随手记 · 便签卡片';
