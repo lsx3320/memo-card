@@ -7,10 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-dCwjba2A.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CAsoAhq2.css">
+    <script type="module" crossorigin src="./assets/index-dCwjba2A.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CAsoAhq2.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      // 部署兼容：若 React 未能挂载（#root 为空），说明当前是静态托管未构建的源码版，
+      // 自动跳转到已提交的构建产物 dist/ 打开。
+      window.addEventListener('load', function () {
+        setTimeout(function () {
+          var root = document.querySelector('#root');
+          if (root && !root.children.length && window.location.pathname.indexOf('/dist/') === -1) {
+            window.location.replace(window.location.origin + '/dist/index.html');
+          }
+        }, 2500);
+      });
+    </script>
   </body>
 </html>
