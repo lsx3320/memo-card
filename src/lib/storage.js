@@ -92,7 +92,8 @@ export async function cloudPush(key, binId, data) {
   });
   if (!res.ok) throw new Error(`云同步失败（${res.status}）`);
   const j = await res.json();
-  return isUpdate ? binId : (j.record?.id || '');
+  // 创建时 bin id 在 metadata.id（record 是数据本体）
+  return isUpdate ? binId : (j.metadata?.id || j.record?.id || '');
 }
 
 // 从云端拉取历史
