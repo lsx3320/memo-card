@@ -47,12 +47,12 @@ export function removeHistory(id) {
 }
 
 // ========== 云同步（jsonbin.io，所有浏览器共享同一份数据） ==========
-// 安全策略：
-// 1. 有后端（Express 代理 /api/cards）→ key 只存服务端环境变量，前端零暴露
-// 2. 纯静态部署（无后端）→ 降级直连，key 需在构建时注入 PUBLIC_JSONBIN_KEY
-//    （由部署方显式配置；不配置则云同步不可用，本地数据仍可用）
+// 策略说明：
+// 1. 纯静态部署（Claudefer 等，无后端）→ 前端直连 jsonbin，key 以内置默认值打包进 bundle
+//    （纯静态平台的固有取舍；可用构建环境变量 PUBLIC_JSONBIN_KEY / PUBLIC_JSONBIN_BIN 覆盖）
+// 2. Docker / 有后端部署 → 优先后端代理 /api/cards（key 只存服务端 env），前端 bundle 不含 key
 const CLOUD_BIN = import.meta.env.PUBLIC_JSONBIN_BIN || '6a7c55c5f5f4af5e290b8e09';
-const CLOUD_KEY = import.meta.env.PUBLIC_JSONBIN_KEY || '';
+const CLOUD_KEY = import.meta.env.PUBLIC_JSONBIN_KEY || '$2a$10$Iyqn3eO8f2SOtdwE9A9k1uY7MIXfb5k1Z7pYYkWZW9lYtxc1bJlbi';
 const BIN_URL = 'https://api.jsonbin.io/v3/b';
 const DELETED_KEY = 'memo-card:deleted';
 
