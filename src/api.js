@@ -63,15 +63,32 @@ async function viaDirect(text) {
   return parseResult(data?.choices?.[0]?.message?.content);
 }
 
-// 主入口：优先后端代理；后端不可用（纯静态部署）时前端直连
-export async function formatWithAI(text) {
+// 主入口：有后端（Express 代理）→ 走后端，key 零暴露；纯静态部署 → 前端直连
+// 后端可用性探测一次并缓存，避免纯静态下每次请求都白发一次 /api/format
+let backendAvailable = null; // null=未知 true/false=已确认
+
+async function checkBackend() {
+  if (backendAvailable !== null) return backendAvailable;
   try {
+    const r = await fetch('/api/health', { headers: { Accept: 'application/json' } });
+    backendAvailable = r.ok;
+  } catch {
+    backendAvailable = false;
+  }
+  return backendAvailable;
+}
+
+export async function formatWithAI(text) {
+  if (await checkBackend()) {
+    // 有后端：key 在服务端，前端不保存；业务错误直接透传
     const res = await fetch('/api/format', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ text }),
     });
     if (res.ok) return await res.json();
-  } catch { /* 后端不可达，走直连 */ }
+    const errBody = await res.json().catch(() => null);
+    throw new Error(errBody?.error || `AI 整理失败（${res.status}）`);
+  }
   return await viaDirect(text);
 }

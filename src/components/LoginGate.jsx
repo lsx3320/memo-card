@@ -1,7 +1,10 @@
-// 登录门禁：股票投资手账风格（密码固定）
+// 登录门禁：股票投资手账风格
+// 说明：纯前端门禁，仅用于防误入（sessionStorage 可被手动伪造）。
+// 密码以 SHA-256 哈希存储，源码不暴露明文。
 import { useState } from 'react';
 
-const PASSWORD = 'yc031213';
+// SHA-256('yc031213') —— 改密码：算出新哈希替换此值即可
+const PASSWORD_HASH = 'acd3a469a6b7b175cf7f654cb7153ed61135e293ca7b45bd8a4a75edc76b7dbb';
 
 const TICKERS = [
   { name: '贵州茅台', code: '600519', val: '1724.50', chg: '+0.86%', up: true },
@@ -22,8 +25,11 @@ export default function LoginGate({ onLogin }) {
   const [error, setError] = useState(false);
   const [shake, setShake] = useState(false);
 
-  const submit = () => {
-    if (pass === PASSWORD) {
+  const submit = async () => {
+    // 哈希后比对，源码不暴露明文密码
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(pass));
+    const hex = [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
+    if (hex === PASSWORD_HASH) {
       sessionStorage.setItem('memo-login', '1');
       onLogin();
     } else {

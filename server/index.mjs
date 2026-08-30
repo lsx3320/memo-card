@@ -28,6 +28,51 @@ const app = express();
 app.disable('x-powered-by');
 app.use(express.json({ limit: '64kb' }));
 
+// ===== 云同步代理（jsonbin.io）=====
+// key/bin 只存在于服务端环境变量，绝不进入前端 bundle。
+// 纯静态部署（无后端）时前端会降级直连（需构建时注入 PUBLIC_JSONBIN_KEY）。
+const JSONBIN_KEY = (process.env.JSONBIN_MASTER_KEY || '').trim();
+const JSONBIN_BIN = (process.env.JSONBIN_BIN || '').trim();
+const JSONBIN_URL = 'https://api.jsonbin.io/v3/b';
+
+// GET /api/cards — 拉取云端卡片
+app.get('/api/cards', async (_req, res) => {
+  if (!JSONBIN_KEY || !JSONBIN_BIN) {
+    return res.status(503).json({ error: '服务端未配置 JSONBIN_MASTER_KEY / JSONBIN_BIN' });
+  }
+  try {
+    const r = await fetch(`${JSONBIN_URL}/${JSONBIN_BIN}/latest`, {
+      headers: { 'X-Master-Key': JSONBIN_KEY },
+    });
+    if (!r.ok) return res.status(502).json({ error: `云端读取失败（${r.status}）` });
+    const j = await r.json();
+    res.json({ record: Array.isArray(j.record) ? j.record : [] });
+  } catch (e) {
+    res.status(500).json({ error: `云端读取异常：${e.message}` });
+  }
+});
+
+// PUT /api/cards — 覆盖云端卡片
+app.put('/api/cards', async (req, res) => {
+  if (!JSONBIN_KEY || !JSONBIN_BIN) {
+    return res.status(503).json({ error: '服务端未配置 JSONBIN_MASTER_KEY / JSONBIN_BIN' });
+  }
+  const data = req.body;
+  if (!Array.isArray(data)) return res.status(400).json({ error: '数据格式错误' });
+  try {
+    const r = await fetch(`${JSONBIN_URL}/${JSONBIN_BIN}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+      body: JSON.stringify(data),
+    });
+    if (!r.ok) return res.status(502).json({ error: `云端写入失败（${r.status}）` });
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: `云端写入异常：${e.message}` });
+  }
+});
+
+
 // AI 文案整理：把零散文案整理成规整的卡片内容（标题 + 分段，保持原意）
 app.post('/api/format', async (req, res) => {
   const text = typeof req.body?.text === 'string' ? req.body.text.trim() : '';

@@ -15,12 +15,12 @@ export default function SettingsModal({ aiKey, syncedAt, onClose, onSaveAI }) {
       <div className="settings-panel">
         <h3 className="settings-title">设置</h3>
 
-        {/* 云同步（固定 key，只读状态） */}
+        {/* 云同步（只读状态） */}
         <div className="settings-section">
           <p className="settings-label">☁️ 云同步</p>
-          <p className="settings-ok">✓ 已配置云端共享（固定 key，所有浏览器共用同一份数据）</p>
+          <p className="settings-ok">✓ 已配置云端共享（所有设备共用同一份数据）</p>
           <p className="settings-hint">
-            保存卡片自动上传云端；换浏览器点工具栏「☁️ 同步」即可拉取。每 5 秒自动刷新。
+            保存卡片自动上传云端；换设备/浏览器后点工具栏「☁️ 同步」即可拉取最新数据。启动页面时也会自动同步。
           </p>
           {syncedAt > 0 && (
             <p className="settings-hint">上次同步：{new Date(syncedAt).toLocaleString()}</p>

@@ -13,5 +13,13 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    // 手动分包：react 全家桶独立 chunk，浏览器可长期缓存
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ['react', 'react-dom'],
+        },
+      },
+    },
   },
 });

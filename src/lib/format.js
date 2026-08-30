@@ -7,8 +7,8 @@ export function normalizeText(text) {
   let s = String(text);
   // 统一换行
   s = s.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
-  // 统一全角标点（半角 → 全角常见场景：, . ! ? : ;）
-  s = s.replace(/[,]/g, '，').replace(/[.]/g, '。');
+  // 统一全角标点：半角 , . 转全角，但跳过数字序号（1. / 1,000）与小数（3.14）
+  s = s.replace(/(?<!\d)[,](?!\d)/g, '，').replace(/(?<!\d)[.](?![\d\s])/g, '。');
   // 去掉行内多余空格（但保留列表符号后的空格）
   s = s.split('\n').map((line) => line.replace(/[ \t　]+/g, (m, off, str) => {
     // 列表符号（- 1. · 等）后保留一个空格

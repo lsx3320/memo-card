@@ -8,16 +8,19 @@ export default function HistoryModal({ item, onClose, onLoad, onDelete }) {
   const exportRef = useRef(null);
   const [scale, setScale] = useState(0.4);
   const [busy, setBusy] = useState(false);
+  const [confirmDel, setConfirmDel] = useState(false);
 
   // 卡片内容
   const blocks = useMemo(() => formatContent(item?.content || ''), [item]);
   const date = item?.date || formatDate();
 
-  // 弹层自适应缩放：容器宽高与缩放后卡片完全一致，避免位置错位
+  // 弹层自适应缩放：同时受屏幕宽高约束，容器与缩放后卡片完全一致
   useEffect(() => {
     const onResize = () => {
-      const maxW = Math.min(window.innerWidth - 48, 560);
-      const base = Math.min(maxW, 500); // 弹层卡片目标宽度
+      const pad = 24; // 手机 12px*2 + 按钮区余量；桌面 24px*2
+      const maxW = Math.min(window.innerWidth - pad, 560);
+      const maxH = window.innerHeight * 0.62; // 给按钮区留空间
+      const base = Math.min(maxW, maxH * (1080 / 1350), 500);
       setScale(Math.min(1, base / 1080));
     };
     onResize();
@@ -76,14 +79,19 @@ export default function HistoryModal({ item, onClose, onLoad, onDelete }) {
           </button>
           <button
             type="button"
-            className="btn btn-ghost"
-            style={{ color: '#ff3b30' }}
+            className={`btn btn-ghost ${confirmDel ? 'btn-danger' : ''}`}
+            style={confirmDel ? undefined : { color: '#ff3b30' }}
             onClick={() => {
+              if (!confirmDel) {
+                setConfirmDel(true);
+                setTimeout(() => setConfirmDel(false), 2500);
+                return;
+              }
               onDelete(item.id);
               onClose();
             }}
           >
-            删除
+            {confirmDel ? '确认删除？' : '删除'}
           </button>
           <button type="button" className="btn btn-ghost" onClick={onClose}>关闭</button>
         </div>
