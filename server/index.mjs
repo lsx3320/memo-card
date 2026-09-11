@@ -30,10 +30,13 @@ app.use(express.json({ limit: '64kb' }));
 
 // ===== 云同步代理（jsonbin.io）=====
 // key/bin 只存在于服务端环境变量，绝不进入前端 bundle。
-// 纯静态部署（无后端）时前端会降级直连（需构建时注入 PUBLIC_JSONBIN_KEY）。
+// 纯静态部署（无后端）时前端会降级直连（key 以内置默认值打包）。
 const JSONBIN_KEY = (process.env.JSONBIN_MASTER_KEY || '').trim();
 const JSONBIN_BIN = (process.env.JSONBIN_BIN || '').trim();
+const JSONBIN_DELETED_BIN = (process.env.JSONBIN_DELETED_BIN || '').trim();
 const JSONBIN_URL = 'https://api.jsonbin.io/v3/b';
+
+const jsonbinHeaders = (extra = {}) => ({ 'X-Master-Key': JSONBIN_KEY, ...extra });
 
 // GET /api/cards — 拉取云端卡片
 app.get('/api/cards', async (_req, res) => {
@@ -41,9 +44,7 @@ app.get('/api/cards', async (_req, res) => {
     return res.status(503).json({ error: '服务端未配置 JSONBIN_MASTER_KEY / JSONBIN_BIN' });
   }
   try {
-    const r = await fetch(`${JSONBIN_URL}/${JSONBIN_BIN}/latest`, {
-      headers: { 'X-Master-Key': JSONBIN_KEY },
-    });
+    const r = await fetch(`${JSONBIN_URL}/${JSONBIN_BIN}/latest`, { headers: jsonbinHeaders() });
     if (!r.ok) return res.status(502).json({ error: `云端读取失败（${r.status}）` });
     const j = await r.json();
     res.json({ record: Array.isArray(j.record) ? j.record : [] });
@@ -62,13 +63,48 @@ app.put('/api/cards', async (req, res) => {
   try {
     const r = await fetch(`${JSONBIN_URL}/${JSONBIN_BIN}`, {
       method: 'PUT',
-      headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
+      headers: jsonbinHeaders({ 'Content-Type': 'application/json' }),
       body: JSON.stringify(data),
     });
     if (!r.ok) return res.status(502).json({ error: `云端写入失败（${r.status}）` });
     res.json({ ok: true });
   } catch (e) {
     res.status(500).json({ error: `云端写入异常：${e.message}` });
+  }
+});
+
+// GET /api/deleted — 拉取云端删除名单（tombstone：跨设备永久排除已删卡片）
+app.get('/api/deleted', async (_req, res) => {
+  if (!JSONBIN_KEY || !JSONBIN_DELETED_BIN) {
+    return res.status(503).json({ error: '服务端未配置 JSONBIN_MASTER_KEY / JSONBIN_DELETED_BIN' });
+  }
+  try {
+    const r = await fetch(`${JSONBIN_URL}/${JSONBIN_DELETED_BIN}/latest`, { headers: jsonbinHeaders() });
+    if (!r.ok) return res.status(502).json({ error: `删除名单读取失败（${r.status}）` });
+    const j = await r.json();
+    res.json({ deleted: Array.isArray(j.record?.deleted) ? j.record.deleted : [] });
+  } catch (e) {
+    res.status(500).json({ error: `删除名单读取异常：${e.message}` });
+  }
+});
+
+// PUT /api/deleted — 覆盖云端删除名单
+app.put('/api/deleted', async (req, res) => {
+  if (!JSONBIN_KEY || !JSONBIN_DELETED_BIN) {
+    return res.status(503).json({ error: '服务端未配置 JSONBIN_MASTER_KEY / JSONBIN_DELETED_BIN' });
+  }
+  const deleted = req.body?.deleted;
+  if (!Array.isArray(deleted)) return res.status(400).json({ error: '数据格式错误' });
+  try {
+    const r = await fetch(`${JSONBIN_URL}/${JSONBIN_DELETED_BIN}`, {
+      method: 'PUT',
+      headers: jsonbinHeaders({ 'Content-Type': 'application/json' }),
+      body: JSON.stringify({ deleted: [...new Set(deleted)].slice(-300) }),
+    });
+    if (!r.ok) return res.status(502).json({ error: `删除名单写入失败（${r.status}）` });
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: `删除名单写入异常：${e.message}` });
   }
 });
 
