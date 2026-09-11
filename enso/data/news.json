@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-12 02:02:11",
-  "cycle": 31,
+  "generated_at": "2026-09-12 02:55:55",
+  "cycle": 32,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -155,34 +155,6 @@
       "confidence": "中",
       "reason": "美国CPC预测极强厄尔尼诺概率超90%，开源证券指棕榈油、白糖、棉花面临减产风险，油价推升估值",
       "verify": "若CPC下调概率或降水恢复正常则弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609113871414347",
-      "ts": "2026-09-11 09:12:20",
-      "title": "农产品 | 出口需求强劲 美豆大幅走高",
-      "summary": "周四BMD毛棕榈油连续第三个交易日走低。竞争性豆油疲软，加上需求和供应数据偏空，对市场构成压力。MPOB供需报告显示，马来西亚8月棕榈油库存升至八个月高位，因产量升至去年12月以来最高，而出口下降。",
-      "source": "国信期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609113871414347.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 61,
-      "matched": [
-        "库存",
-        "产量",
-        "棕榈油",
-        "农产品"
-      ],
-      "direction": "利空",
-      "strength": "中",
-      "instruments": [
-        "棕榈油"
-      ],
-      "horizon": "短期",
-      "confidence": "高",
-      "reason": "MPOB：马棕8月库存升至八个月高位，产量为去年12月以来最高，出口下降，供需偏空",
-      "verify": "若后续库存回落或出口回升则利空减弱",
       "judged": true
     },
     {
@@ -1210,7 +1182,7 @@
     }
   ],
   "stats": {
-    "news_total": 7,
+    "news_total": 6,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
