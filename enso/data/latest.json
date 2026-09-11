@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11 23:34:12 CST",
+  "generated_at": "2026-09-11 23:52:53 CST",
   "sources": [
     {
       "key": "noaa",
@@ -52,7 +52,7 @@
       },
       "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-11 23:34:12 CST",
+      "fetched_at": "2026-09-11 23:52:53 CST",
       "error": null
     },
     {
@@ -105,7 +105,7 @@
       },
       "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-11 23:34:12 CST",
+      "fetched_at": "2026-09-11 23:52:53 CST",
       "error": null
     },
     {
@@ -147,7 +147,7 @@
       },
       "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-11 23:34:12 CST",
+      "fetched_at": "2026-09-11 23:52:53 CST",
       "error": null
     },
     {
@@ -155,29 +155,17 @@
       "org": "世界气象组织(WMO)",
       "org_en": "World Meteorological Organization",
       "url": "https://wmo.int/topics/el-nino-la-nina",
-      "published": "11 September 2026",
+      "published": null,
       "next_update": null,
-      "status_text": "WMO El Niño/La Niña Update issued in September 2026 confirmed a nearly 100% likelihood that El Niño will persist through September-November 2026 and December 2026-February 2027",
-      "summary": "WMO El Niño/La Niña Update issued in September 2026 confirmed a nearly 100% likelihood that El Niño will persist through September-November 2026 and December 2026-February 2027. Forecasts indicate further strengthening of El Niño in the coming months, with the event forecast to reach very strong intensity before peaking towards the end of the year. WMO’s monthly Global Seasonal Climate Update issued on 3 September confirms that a strong El Niño continues to intensify steadily and is expected to dominate global climate patterns through September-November 2026, increasing the likelihood of above-normal temperatures across much of the world and driving significant shifts in rainfall patterns. Combined with exceptionally warm global oceans and the likelihood of a positive Indian Ocean Dipole, the El Niño is expected to shape weather patterns across many parts of the world in the months ahead. Measurement Since the 1980s, the dominant approach to measuring or identifying El Niño has been the use of the Oceanic Niño Index wherein scientists calculate the Sea Surface Temperature Anomaly in a specific region of the Pacific called the Niño 3.4 region. When computed over a three-month average, this becomes the Oceanic Niño Index (ONI). In recent years and with global warming, a newer metric of measurement called the Relative Oceanic Niño Index (RONI) has gained ground. This approach measures relative warming, not just absolute warming, helping scientists assess whether a warming event ",
+      "status_text": "",
+      "summary": "",
       "excerpts": [],
-      "indicators": [
-        {
-          "key": "prob",
-          "label": "WMO 通报 El Niño 持续概率",
-          "value": "100%",
-          "unit": "",
-          "threshold": ">= 70% 视为高确定",
-          "note": ""
-        }
-      ],
-      "indicators_raw": {
-        "prob_persist_pct": 100,
-        "note": "正文提及 El Niño 回归预警"
-      },
+      "indicators": [],
+      "indicators_raw": {},
       "is_new": false,
-      "degraded": false,
-      "fetched_at": "2026-09-11 23:34:12 CST",
-      "error": null
+      "degraded": true,
+      "fetched_at": "2026-09-11 23:52:53 CST",
+      "error": "抓取失败: SSLError: HTTPSConnectionPool(host='wmo.int', port=443): Max retries exceeded with url: /topics/el-nino-la-nina (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
     },
     {
       "key": "cma",
@@ -195,7 +183,7 @@
       "indicators_raw": {},
       "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-11 23:34:12 CST",
+      "fetched_at": "2026-09-11 23:52:53 CST",
       "error": null
     }
   ],
@@ -415,6 +403,6 @@
   "llm": {
     "used": true,
     "error": null,
-    "text": "# 厄尔尼诺事件驱动量化研判（2026-09-11）\n\n> 数据基准：NOAA/CPC（9/10）、BOM（9/1）、JMA（9/9）、WMO（9/11）。**CMA/NCC 本期未获取**（仅门户首页命中关键词，无结构化指标，不纳入定量评估）。\n\n---\n\n## 一、催化效应评估\n\n### 评级：**极强催化（维持）**\n\n**与规则引擎结论的异同：**\n- **一致**：四家权威机构（NOAA/BOM/JMA/WMO）方向完全共振——\"增强/strengthening\"措辞一致，JMA 与 WMO 概率均为 **100%**，NOAA 给出 **>90% 极强事件**概率，BOM 预测相对 Niño3.4 将突破 1950 年以来最高纪录。规则引擎\"极强催化/评分≈4.0\"得到多机构交叉验证。\n- **边际增量（比规则引擎更强）**：\n  1. **JMA 给出历史级锚点**——NINO.3 八月距平 **+3.4°C**，超过 1997 年 8 月的 +3.0°C，为 **1949 年以来最高八月值**。这是本次材料中最强的\"超预期\"证据。\n  2. **NOAA 首次给出\"historic event\"定性**——10-12 月有 **75% 概率**超过 1950 年以来所有厄尔尼诺事件强度。\n  3. **WMO 引入 IOD 正相位叠加**——\"positive IOD likelihood\"，意味着印度洋偶极子与厄尔尼诺形成**双因子共振**，对印度季风/东南亚干旱的压制更强。\n- **需注意的边际弱化信号（规则引擎未充分定价）**：\n  - **BOM：IOD 已回落至中性（+0.22°C）**，与 WMO 的\"positive IOD\"表述存在**机构分歧**，需跟踪。\n  - **NOAA：Niño-4 指数 8 月降至 +0.1°C**（其余 Niño 区均上升），说明暖中心偏东，**对印尼/马来降水的影响路径偏东太平洋型**，对西太平洋（东南亚产区）的干旱传导可能弱于典型中部型厄尔尼诺。\n  - **BOM：SOI 近两周回升**（但仍 -14.6 强负值），大气响应边际略缓。\n\n### 通胀预期与市场情绪传导路径\n\n```\n海温极值（NINO3.4 +2.7 / NINO.3 +3.4，历史级）\n   → 东南亚（印尼/马来）降水偏少 → 棕榈油/橡胶减产预期\n   → 印度季风偏弱 + 乙醇分流 → 白糖减产\n   → 美豆/美玉米生长季干热 → 天气升水\n   → 油脂/软商品/饲料成本上行 → 食品通胀预期\n   → A股：种植/白糖/油脂加工估值催化；饲料/养殖成本承压\n```\n\n**情绪定位**：处于**\"概念炒作/预期发酵阶段（气象预警期）\"**，尚未进入供需验证阶段。当前驱动来自\"气象确定性\"而非\"实际减产数据\"，情绪弹性大但脆弱。\n\n### 预期差（Price-in）分析\n\n| 维度 | 判断 |\n|---|---|\n| 确定性 | 概率 100%（JMA/WMO），**已无预期差空间**，属\"确定性极高但高度定价\"区间 |\n| 强度 | JMA 历史纪录 + NOAA \"historic event\" 属**新增超预期信息**，但市场对\"超强厄尔尼诺\"叙事已交易数月 |\n| 边际 | 强度措辞仍在向上（\"strengthening\"），**边际利好未钝化**，但斜率放缓 |\n| 结论 | **强度端仍有小幅预期差（历史纪录级别），概率端已打满**。追高性价比低，回调布局优于追涨 |\n\n---\n\n## 二、受影响资产清单与涨跌预期\n\n### 期货品种\n\n| 品种 | 方向 | 核心逻辑（基于材料事实） |\n|---|---|---|\n| **棕榈油 P / FCPO** | **看多** | 印尼/马来降水偏少（NOAA：印尼对流受抑制）→ 减产+去库预期；但需警惕暖中心偏东（Niño-4 降）对东南亚传导的削弱 |\n| **白糖 SR** | **看多** | 印度季风偏弱 + WMO 提示正 IOD 叠加 → 主产区干旱减产 + 乙醇分流，外盘拉动内盘 |\n| **大豆 A / 豆粕 M** | **震荡偏多** | 北美生长期天气升水；南美播种期不确定性抬升波动。**注意**：厄尔尼诺通常利南美降水，对南美反而偏多产，逻辑不如棕榈/糖直接 |\n| **玉米 C** | **震荡偏多** | 美玉米生长期高温干旱升水；国内供需相对独立，弹性弱于豆粕 |\n| **天胶 RU** | **偏多** | 东南亚产区干旱 → 割胶量下滑预期，成本端抬升；但 BOM 提示 SOI 回升，需跟踪降水修复 |\n| **棉花 CF** | **中性（区域分化）** | 印度减产利多外盘；中国产区影响待观察，多空切换 |\n\n### A 股标的\n\n**高弹性 / 受益（事件催化直接）**\n- **白糖链**：中粮糖业（600737）、南宁糖业（000911）——**强弹性**，糖价上行直接受益；粤桂股份（000833）弹性中等。\n- **种植/种业**：隆平高科（000998）事件敏感；北大荒（600598）、苏垦农发（601952）温和受益（粮价景气）。\n- **橡胶**：海南橡胶（601118）事件受益（减产/胶价上行）。\n- **油脂加工**：道道全（002852）库存受益（油脂涨价）。\n\n**估值承压 / 成本挤压（利空传导）**\n- **粮油加工**：金龙鱼（300999）——原料涨价考验毛利，**成本端偏空**。\n- **饲料/养殖**：海大集团（002311）、新希望（000876）、牧原股份（002714）、温氏股份（300498）——豆粕/玉米成本上行挤压毛利，**成本承压/敏感**。\n\n**弱相关 / 滞后受益**\n- **化肥农药**：扬农化工（600486）弱相关；新洋丰（000902）、云图控股（002539）滞后受益（粮价高企提振施肥意愿）。\n\n**估值端提示**：若大宗通胀引发央行收紧，**高位品种（白糖、油脂）估值端承压**；股票端已部分 Price-in 强度，谨防\"卖事实\"。\n\n---\n\n## 三、交易策略与风险提示\n\n### 关键观察窗口（下一次机构更新）\n\n| 机构 | 预计更新 | 关注点 |\n|---|---|---|\n| **NOAA/CPC** | 10 月中旬（月度 ENSO Diagnostic） | ONI 是否突破 +2.0；是否确认\"historic event\" |\n| **BOM** | 10 月初（双周/月度） | IOD 是否重回正相位（当前 +0.22 中性）；SOI 是否再走弱 |\n| **JMA** | 10 月中旬 | NINO.3 是否续创新高；100% 概率是否维持 |\n| **WMO** | 10 月初（月度 Seasonal Update） | 正 IOD 表述是否被 BOM 数据证伪 |\n| **CMA/NCC** | **本期未获取**，需补采 | 国内官方口径对东南亚/国内产区影响定性 |\n\n### 事件证伪的风险点\n\n1. **降水/海温超预期回归**：MJO 扰动引发东南亚降水修复，减产预期被证伪，升水快速回吐。\n2. **IOD 分歧兑现**：BOM 显示 IOD 已回落中性，若 WMO 的\"正 IOD\"被证伪，印度季风干旱逻辑削弱。\n3. **暖中心偏东**：Niño-4 降至 +0.1°C，若暖中心持续偏东，东南亚（棕榈/橡胶）干旱传导弱于预期。\n4. **政策面**：国家抛储、进口配额放大、关税调整平抑价格。\n5. **宏观**：大宗通胀引发央行收紧，高位品种估值端承压。\n6. **股票端**：概率已 100%，属\"确定性极高但高度定价\"区间，**强催化后边际利好钝化，谨防\"卖事实\"**。\n\n### 仓位 / 节奏建议\n\n- **期货**：棕榈油、白糖为**核心多头**，回调布局优于追涨；豆粕/玉米**震荡偏多**，轻仓参与天气升水；天胶偏多但需跟踪降水；棉花中性观望。\n- **股票**：白糖链（中粮糖业/南宁糖业）弹性最优，但已部分定价，**逢回调配置**；种植/种业事件敏感，波段操作；饲料/养殖**规避成本挤压**，或作为对冲空头。\n- **节奏**：当前处概念炒作阶段，**不宜追高**；等待 10 月机构更新确认强度或实际减产数据（供需验证阶段）再加仓。\n- **对冲**：多油脂/白糖 vs 空饲料/养殖，捕捉产业链利润转移。\n\n---\n\n**一句话总结**：四机构共振确认**历史级超强厄尔尼诺**（JMA 八月 +3.4°C 破 1997 纪录，NOAA 75% 概率\"historic event\"），催化评级**极强**；但概率端已 100% 打满，**强度端仍有小幅预期差**。核心多头棕榈油/白糖，规避饲料/养殖成本挤压，**回调布局优于追涨，谨防\"卖事实\"**。"
+    "text": "# 厄尔尼诺事件驱动量化研判（2026-09-11）\n\n> 数据基准：NOAA/CPC（9/10）、BOM（9/1）、JMA（9/9）三机构正文；WMO 抓取失败、CMA/NCC 本期未获取有效指标。\n\n---\n\n## 一、催化效应评估\n\n**评级：极强催化（维持，且边际仍在向上）**\n\n**与规则引擎结论的异同**\n- **相同**：方向、强度、阶段判定一致——事件已确认、强度\"强\"、处于\"概念炒作/预期发酵阶段\"，评分≈4.0 合理。\n- **需补充的边际信息（规则引擎未充分体现）**：\n  1. **JMA 给出 8 月 NINO.3 距平 +3.4°C，超过 1997 年 8 月 +3.0°C 的历史同期纪录（1949 年以来最高）**——这是\"超预期加强\"的硬证据，而非仅\"符合预期\"。\n  2. **NOAA 明确\"10–12 月有 75% 概率出现超过 1950 年以来所有事件的'历史性事件'\"**，且\"very strong event 概率 >90%\"——强度指引被官方二次上修。\n  3. **BOM 指出 IOD 已回落至中性（+0.22°C）**——印度洋偶极子不再提供额外利多，**印度季风/糖减产逻辑的\"第二引擎\"边际减弱**，这是规则引擎未捕捉的**结构性分歧点**。\n  4. **BOM 提示 SOI 近两周回升（仍强负 -14.6）**——大气响应出现轻微钝化迹象，需警惕。\n\n**通胀预期与市场情绪传导路径**\n```\n中东太平洋海温极端偏高（Niño3.4 +1.8 / NINO.3 +3.4）\n  → 印尼/马来/东南亚降水偏少（NOAA：印尼对流受抑制）\n  → 棕榈油、天胶减产预期 → 油脂/软商品成本抬升\n  → 印度季风偏弱（但 IOD 转中性，边际弱化）→ 白糖减产\n  → 美豆/美玉米生长季干热 → 天气升水 → 豆粕/饲料成本上行\n  → 食品通胀预期 → 种植/油脂/白糖板块估值催化\n```\n情绪面：三机构口径高度一致（\"strengthening\"\"historic\"\"100%\"），**叙事已从\"预警\"升级为\"确定性事件\"**，市场情绪处于亢奋区。\n\n**预期差（Price-in）分析**\n- **确定性已被高度定价**：JMA 100%、NOAA >90%、BOM\"自 1950 年以来最暖\"，概率与强度均处极值区间，**\"超预期\"空间被大幅压缩**。\n- **真正的预期差在\"节奏\"而非\"方向\"**：\n  - 利多已充分反映在**气象预警期**（当前阶段），后续若进入**供需验证期**而实际减产不及叙事，升水将快速回吐。\n  - **BOM 的 IOD 转中性 + SOI 回升**是潜在\"预期差向下\"的早期信号，市场尚未定价。\n- 结论：**方向确定性极高，但追高性价比低**；超额收益来自\"验证期兑现度\"与\"品种间分化\"，而非事件本身。\n\n---\n\n## 二、受影响资产清单与涨跌预期\n\n### 期货品种\n\n| 品种 | 方向 | 核心逻辑（基于材料事实） |\n|---|---|---|\n| **棕榈油 P / FCPO** | **看多（首选）** | NOAA 明确\"印尼对流受抑制\"，东南亚干旱→减产+去库；库存偏低放大弹性。IOD 转中性对其影响有限（依赖太平洋而非印度洋）。 |\n| **白糖 SR** | **看多（弹性次之）** | 印度季风偏弱→减产+乙醇分流；但 **BOM 提示 IOD 已回落中性**，印度洋\"第二引擎\"减弱，弹性弱于棕榈油。 |\n| **大豆 A / 豆粕 M** | **震荡偏多** | 北美生长期天气升水；南美播种期不确定性抬升波动。NOAA 未直接给美豆产区干旱结论，升水依赖后续验证。 |\n| **玉米 C** | **震荡偏多** | 美玉米生长期高温干旱预期升水；国内供需相对独立，外盘驱动为主。 |\n| **天胶 RU** | **偏多** | 东南亚产区干旱→割胶量下滑、成本抬升；NOAA\"印尼降水受抑制\"直接支撑。 |\n| **棉花 CF** | **中性（区域分化）** | 印度减产利多外盘，中国产区影响待观察；材料无中国产区明确指引。 |\n\n### A 股标的\n\n| 板块 | 代表标的 | 弹性/方向 | 估值分析 |\n|---|---|---|---|\n| **白糖** | 中粮糖业、南宁糖业 | **强弹性** | 糖价上行直接受益，但 IOD 转中性削弱印度减产叙事，**估值已部分反映，追高需谨慎** |\n| **种业/种植** | 隆平高科、北大荒、苏垦农发 | 事件敏感/温和受益 | 减产年份用种与粮价弹性，**估值受益于粮价景气** |\n| **粮油加工** | 金龙鱼、道道全 | 成本挤压 / 库存受益 | 金龙鱼原料涨价**毛利承压（估值偏空）**；道道全油脂涨价或有**库存收益** |\n| **化肥农药** | 新洋丰、云图控股、扬农化工 | 滞后受益/弱相关 | 粮价高企提振施肥意愿，**传导滞后，估值温和受益** |\n| **饲料养殖** | 海大集团、新希望、牧原、温氏 | **成本承压/敏感** | 豆粕/玉米成本上行挤压毛利，**估值承压**，考验配方与采购能力 |\n| **橡胶** | 海南橡胶 | 事件受益 | 国内天胶种植龙头，减产/胶价上行**直接受益** |\n\n---\n\n## 三、交易策略与风险提示\n\n**关键观察窗口（下一次各机构更新时间）**\n- **NOAA/CPC**：ENSO Diagnostic Discussion 通常**每月第二个周四**发布 → 下次约 **2026-10-08**。\n- **BOM**：ENSO Outlook 通常**每两周**更新 → 下次约 **2026-09-15**（关注 IOD 是否继续回落、SOI 是否进一步回升）。\n- **JMA**：东京气候中心月度展望 → 下次约 **2026-10-10**。\n- **WMO / CMA-NCC**：本期未获取有效指标，**需人工补抓**，尤其 CMA 对国内产区（东北、广西）的定性指引。\n\n**事件证伪的风险点**\n1. **IOD 转中性 + SOI 回升**（BOM 已现端倪）→ 印度洋利多引擎熄火，白糖叙事最先松动。\n2. **MJO 扰动引发降水修复** → 东南亚干旱预期被证伪，棕榈油/天胶升水快速回吐。\n3. **政策面**：国家抛储、进口配额放大、关税调整平抑价格。\n4. **央行收紧**：若大宗通胀引发货币政策转向，高位品种估值端承压。\n5. **\"卖事实\"风险**：概率已 ≥90%、强度指引处历史极值，**边际利好钝化**，谨防事件确认后利多出尽。\n\n**仓位/节奏建议**\n- **阶段定位**：当前处**概念炒作/预期发酵阶段**，非供需验证期。**方向做多，但不宜追高**。\n- **品种优先级**：棕榈油 P > 天胶 RU > 白糖 SR > 豆粕 M/玉米 C > 棉花 CF（中性）。\n- **节奏**：\n  - 预警期**逢回调布局**，不追涨；关注 BOM 9/15 更新作为短期情绪风向标。\n  - 进入**供需验证期**（实际减产数据、库存见底）前，**控制仓位、设好止盈**。\n  - 股票端**优先弹性品种（白糖、橡胶种植）**，规避成本承压的饲料养殖板块。\n- **对冲思路**：多油脂/软商品 vs 空饲料养殖成本端，捕捉板块内部分化。\n\n> **一句话总结**：事件确定性已达历史极值（JMA 100%、NOAA 75% 历史性事件），**方向无争议但预期高度定价**；真正的 Alpha 在\"验证期兑现度\"与\"品种分化\"，**BOM 的 IOD 转中性是最需警惕的边际转弱信号**。"
   }
 }
