@@ -177,6 +177,14 @@ export default function App() {
         <HistoryList items={history} onOpen={setViewItem} onDelete={deleteHistory} />
       </div>
 
+      {/* 站内入口：厄尔尼诺量化看板（独立页面，不影响卡片数据） */}
+      <footer className="site-footer">
+        <a className="site-link" href="/enso/" target="_blank" rel="noopener">
+          🌏 厄尔尼诺量化看板
+          <span className="site-link-arrow" aria-hidden="true">↗</span>
+        </a>
+      </footer>
+
       {/* 历史卡片放大预览弹层（懒加载） */}
       {viewItem && (
         <Suspense fallback={null}>

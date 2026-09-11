@@ -271,6 +271,30 @@ input, textarea, button { font-family: inherit; }
 .history-item-del.confirming:active { background: #d92f24; }
 .history-empty { color: var(--muted); font-size: 13px; padding: 20px 0; text-align: center; }
 
+/* ========== 站内入口（厄尔尼诺量化看板） ========== */
+.site-footer {
+  display: flex;
+  justify-content: center;
+  padding: 4px 0 8px;
+}
+.site-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  color: var(--muted);
+  font-size: 13px;
+  text-decoration: none;
+  transition: color .15s, transform .1s;
+  touch-action: manipulation;
+}
+.site-link:active { transform: scale(.97); }
+.site-link:hover { color: var(--ink); }
+.site-link-arrow { font-size: 12px; opacity: .6; }
+
 /* AI 整理 loading 状态 */
 .btn-ai.loading { pointer-events: none; opacity: .7; }
 
