@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13 14:01:32",
-  "cycle": 150,
+  "generated_at": "2026-09-13 15:49:29",
+  "cycle": 151,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,33 +13,6 @@
     "soi": -14.6
   },
   "news": [
-    {
-      "id": "em:202609133872781776",
-      "ts": "2026-09-13 08:53:56",
-      "title": "2026至2027年度全国主要农作物种子供应充足",
-      "summary": "尽管部分区域受不利天气影响单产有所下降，但种子供应总量依然充裕。 据全国农业技术推广服务中心首席专家王玉玺介绍，秋冬种作物中，冬小麦繁种收获面积达1445.2万亩，比上年增长2.0%，新产种子70亿公斤，远超预计40亿公斤的商品种子需求量。",
-      "source": "上海证券报·中国证券网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609133872781776.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 31,
-      "matched": [
-        "天气",
-        "农业",
-        "种子"
-      ],
-      "direction": "利空",
-      "strength": "弱",
-      "instruments": [
-        "小麦"
-      ],
-      "horizon": "中期",
-      "confidence": "高",
-      "reason": "官方称冬小麦繁种面积1445.2万亩增2.0%，新产种子70亿公斤远超40亿公斤需求，供应充裕",
-      "verify": "若后续播种面积大幅缩减或主产区遭遇严重灾害",
-      "judged": true
-    },
     {
       "id": "em:202609133872771384",
       "ts": "2026-09-13 03:32:58",
@@ -137,32 +110,6 @@
       "confidence": "中",
       "reason": "世界气象组织通报厄尔尼诺持续增强，扰动全球产区，农产品期货价格升温",
       "verify": "若后续产区降水恢复正常则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609113872003855",
-      "ts": "2026-09-11 14:23:46",
-      "title": "SPPOMA：马来西亚2026年9月1-10日棕榈油产量环比上月同期增加26.62%",
-      "summary": "据南部半岛棕榈油压榨商协会（SPPOMA）数据显示，2026年9月1-10日马来西亚棕榈油单产环比上月同期增加23.99%，出油率环比上月同期增加0.5%，产量环比上月同期增加26.62%。",
-      "source": "财联社",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609113872003855.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 42,
-      "matched": [
-        "产量",
-        "棕榈油"
-      ],
-      "direction": "利空",
-      "strength": "中",
-      "instruments": [
-        "棕榈油"
-      ],
-      "horizon": "短期",
-      "confidence": "高",
-      "reason": "SPPOMA：9月1-10日马棕产量环比增26.62%，单产增23.99%，出油率增0.5%，供应增加",
-      "verify": "若后续产量增速回落或出口转强则利空减弱",
       "judged": true
     }
   ],
@@ -1170,7 +1117,7 @@
     }
   ],
   "stats": {
-    "news_total": 5,
+    "news_total": 3,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
