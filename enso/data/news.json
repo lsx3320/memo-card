@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14 22:34:39",
-  "cycle": 194,
+  "generated_at": "2026-09-15 00:37:18",
+  "cycle": 195,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -35,34 +35,6 @@
       "confidence": "中",
       "reason": "IEA称中东冲突叠加厄尔尼诺，全球煤炭需求或创纪录，电力需求增长使化石燃料消费难降",
       "verify": "若天然气价格回落或可再生能源加速替代则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609143873721888",
-      "ts": "2026-09-14 22:06:19",
-      "title": "经济观察：一穗鲜食玉米 “种”出增收新路",
-      "summary": "浙江省农业科学院玉米与特色旱粮研究所所长吕桂华说，高温天气下，常规鲜食玉米出苗率不足五成，“红彩甜糯211”就是针对这一空档培育的耐热品种，一亩地能增加产值5000元左右。 此外，一穗玉米从田间走向市场，还要面对保鲜、物流等考验。",
-      "source": "中国新闻网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609143873721888.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 51,
-      "matched": [
-        "高温",
-        "天气",
-        "农业",
-        "玉米"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "玉米"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "高温致常规鲜食玉米出苗率不足五成，但耐热新品种可增产，影响结构而非总量",
-      "verify": "若高温缓解或耐热品种大面积推广则影响消退",
       "judged": true
     },
     {
@@ -304,7 +276,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 3,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -351,15 +323,15 @@
         "key": "nf_P0",
         "name": "棕榈油",
         "kind": "future",
-        "price": 10094.0,
+        "price": 10091.0,
         "prev_close": 10038.0,
-        "change": 56.0,
-        "change_pct": 0.56,
+        "change": 53.0,
+        "change_pct": 0.53,
         "open": 10025.0,
         "high": 10124.0,
         "low": 10011.0,
-        "volume": 214032.0,
-        "ts": "2026-09-14 22:35:28",
+        "volume": 235078.0,
+        "ts": "2026-09-14 22:59:59",
         "source": "sina",
         "ok": true
       },
@@ -387,15 +359,15 @@
         "key": "nf_SR0",
         "name": "白糖",
         "kind": "future",
-        "price": 5383.0,
+        "price": 5372.0,
         "prev_close": 5395.0,
-        "change": -12.0,
-        "change_pct": -0.22,
+        "change": -23.0,
+        "change_pct": -0.43,
         "open": 5398.0,
         "high": 5398.0,
-        "low": 5378.0,
-        "volume": 126803.0,
-        "ts": "2026-09-14 22:35:29",
+        "low": 5370.0,
+        "volume": 154805.0,
+        "ts": "2026-09-14 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -450,15 +422,15 @@
         "key": "nf_M0",
         "name": "豆粕",
         "kind": "future",
-        "price": 3380.0,
+        "price": 3381.0,
         "prev_close": 3384.0,
-        "change": -4.0,
-        "change_pct": -0.12,
+        "change": -3.0,
+        "change_pct": -0.09,
         "open": 3366.0,
         "high": 3390.0,
         "low": 3357.0,
-        "volume": 407478.0,
-        "ts": "2026-09-14 22:35:28",
+        "volume": 456610.0,
+        "ts": "2026-09-14 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -479,7 +451,7 @@
       "climate_dir": "震荡偏多",
       "climate_logic": "生长期高温干旱预期升水，国内供需相对独立",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "全国秋收临近，近期天气如何",
@@ -498,15 +470,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://stock.eastmoney.com/a/202609143873388094.html"
-        },
-        {
-          "title": "经济观察：一穗鲜食玉米 “种”出增收新路",
-          "ts": "2026-09-14 22:06:19",
-          "direction": "中性",
-          "source": "中国新闻网",
-          "relevance": 51,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609143873721888.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -514,23 +477,23 @@
         "key": "nf_C0",
         "name": "玉米",
         "kind": "future",
-        "price": 2216.0,
+        "price": 2213.0,
         "prev_close": 2236.0,
-        "change": -20.0,
-        "change_pct": -0.89,
+        "change": -23.0,
+        "change_pct": -1.03,
         "open": 2221.0,
         "high": 2223.0,
         "low": 2209.0,
-        "volume": 304324.0,
-        "ts": "2026-09-14 22:35:28",
+        "volume": 338024.0,
+        "ts": "2026-09-14 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
         "若后续秋收期出现大范围干旱或渍涝则逻辑反转",
         "若厄尔尼诺转弱或供应链恢复则逻辑弱化",
-        "若高温缓解或耐热品种大面积推广则影响消退",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     },
     {
@@ -560,15 +523,15 @@
         "key": "nf_RU0",
         "name": "天然橡胶",
         "kind": "future",
-        "price": 18890.0,
+        "price": 18855.0,
         "prev_close": 19050.0,
-        "change": -160.0,
-        "change_pct": -0.84,
+        "change": -195.0,
+        "change_pct": -1.02,
         "open": 18935.0,
         "high": 18945.0,
         "low": 18785.0,
-        "volume": 87464.0,
-        "ts": "2026-09-14 22:35:29",
+        "volume": 98504.0,
+        "ts": "2026-09-14 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -595,15 +558,15 @@
         "key": "nf_CF0",
         "name": "棉花",
         "kind": "future",
-        "price": 16185.0,
+        "price": 16155.0,
         "prev_close": 16275.0,
-        "change": -90.0,
-        "change_pct": -0.55,
+        "change": -120.0,
+        "change_pct": -0.74,
         "open": 16200.0,
         "high": 16225.0,
-        "low": 16150.0,
-        "volume": 87056.0,
-        "ts": "2026-09-14 22:35:29",
+        "low": 16140.0,
+        "volume": 106525.0,
+        "ts": "2026-09-14 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -1225,7 +1188,7 @@
     }
   ],
   "stats": {
-    "news_total": 10,
+    "news_total": 9,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
