@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14 18:14:25",
-  "cycle": 175,
+  "generated_at": "2026-09-14 18:34:44",
+  "cycle": 179,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,92 +13,6 @@
     "soi": -14.6
   },
   "news": [
-    {
-      "id": "sina:891839432",
-      "ts": "2026-09-14 16:57:53",
-      "title": "【橡胶季报】橡胶四季度能做空吗？",
-      "summary": "大地期货研究院 核心观点 整体来看，整体橡胶从绝对价格、资金层面角度来看都偏高估，同时存在一定的天气情绪溢价，四季度在库存累库、季节性上量阶段存在回调的机会...",
-      "source": "市场资讯",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/future/2026-09-14/doc-inirutnu9465984.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 53,
-      "matched": [
-        "库存",
-        "天气",
-        "橡胶",
-        "期货"
-      ],
-      "direction": "利空",
-      "strength": "中",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "大地期货指橡胶绝对价格与资金层面偏高估，含天气情绪溢价，四季度库存累库与季节性上量存回调机会",
-      "verify": "若产区降水持续异常或库存未累库则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "sina:891839429",
-      "ts": "2026-09-14 16:57:53",
-      "title": "【油脂季报】天气定义未来，能源决定当下",
-      "summary": "大地期货研究院 观点小结 展望： 1）供应方面： 供给方面：①27年棕榈油减产是油脂预期交易的基本面核心逻辑，当前降水推算27年产地棕榈油减产幅度接近7.6%...",
-      "source": "市场资讯",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/future/2026-09-14/doc-inirutnu9465413.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "降水",
-        "减产",
-        "天气",
-        "棕榈油",
-        "油脂",
-        "期货"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "棕榈油"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "大地期货称27年棕榈油减产是油脂预期交易核心逻辑，当前降水推算产地减产幅度接近7.6%",
-      "verify": "若后续产地降水恢复正常则减产预期弱化",
-      "judged": true
-    },
-    {
-      "id": "sina:891836174",
-      "ts": "2026-09-14 16:55:02",
-      "title": "【点评报告】棉花：2026年9月USDA棉花供需报告解读",
-      "summary": "国投期货研究院 棉花：棉花：美棉下调低于预期，报告总体影响偏中性 2025/26年度供需数据调整情况： 美国农业部9月供需报告，26/27年全球棉花产量环比上月小幅下调...",
-      "source": "市场资讯",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/future/2026-09-14/doc-inirutnu9459904.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 51,
-      "matched": [
-        "产量",
-        "农业",
-        "棉花",
-        "期货"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "棉花"
-      ],
-      "horizon": "短期",
-      "confidence": "高",
-      "reason": "国投期货解读USDA9月报告：美棉下调低于预期，26/27年度全球棉花产量环比小幅下调，总体影响偏中性",
-      "verify": "若后续USDA大幅下调产量或出口超预期则转利多",
-      "judged": true
-    },
     {
       "id": "em:202609143873388094",
       "ts": "2026-09-14 14:48:19",
@@ -443,15 +357,6 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "【油脂季报】天气定义未来，能源决定当下",
-          "ts": "2026-09-14 16:57:53",
-          "direction": "利多",
-          "source": "市场资讯",
-          "relevance": 100,
-          "strength": "强",
-          "url": "https://finance.sina.com.cn/money/future/2026-09-14/doc-inirutnu9465413.shtml"
-        },
-        {
           "title": "粮食ETF鹏华(159698)盘中净申购3650万份，超强厄尔尼诺扰动农产品供给预期",
           "ts": "2026-09-14 11:22:11",
           "direction": "利多",
@@ -468,6 +373,15 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://finance.eastmoney.com/a/202609143872962746.html"
+        },
+        {
+          "title": "中国气象科学研究院研究员房世波： 建立适应气候变化的长期应对思路",
+          "ts": "2026-09-14 07:22:36",
+          "direction": "不确定",
+          "source": "证券时报",
+          "relevance": 100,
+          "strength": "弱",
+          "url": "http://finance.eastmoney.com/a/202609143872922551.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -488,8 +402,8 @@
         "ok": true
       },
       "verify": [
-        "若后续产地降水恢复正常则减产预期弱化",
         "若主产区降水恢复正常、减产预期落空则逻辑弱化",
+        "若后续无品种供需数据佐证则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -677,8 +591,8 @@
       "region": "东南亚",
       "climate_dir": "偏多（干旱减产逻辑）",
       "climate_logic": "产区干旱→割胶量下滑预期，成本端抬升",
-      "news_dir": "利空",
-      "news_count": 2,
+      "news_dir": "中性",
+      "news_count": 1,
       "top_news": [
         {
           "title": "能化 | 短期甲醇港口库存持续去库 甲醇价格整体维持高位",
@@ -688,18 +602,9 @@
           "relevance": 73,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609143872958352.html"
-        },
-        {
-          "title": "【橡胶季报】橡胶四季度能做空吗？",
-          "ts": "2026-09-14 16:57:53",
-          "direction": "利空",
-          "source": "市场资讯",
-          "relevance": 53,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/future/2026-09-14/doc-inirutnu9465984.shtml"
         }
       ],
-      "resonance": "背离（警惕）",
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_RU0",
         "name": "天然橡胶",
@@ -717,7 +622,6 @@
         "ok": true
       },
       "verify": [
-        "若产区降水持续异常或库存未累库则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -733,18 +637,8 @@
       "climate_dir": "中性（区域分化）",
       "climate_logic": "印度减产利多外盘；中国产区影响待观察",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "【点评报告】棉花：2026年9月USDA棉花供需报告解读",
-          "ts": "2026-09-14 16:55:02",
-          "direction": "中性",
-          "source": "市场资讯",
-          "relevance": 51,
-          "strength": "弱",
-          "url": "https://finance.sina.com.cn/money/future/2026-09-14/doc-inirutnu9459904.shtml"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "nf_CF0",
@@ -763,7 +657,6 @@
         "ok": true
       },
       "verify": [
-        "若后续USDA大幅下调产量或出口超预期则转利多",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -1551,7 +1444,7 @@
     }
   ],
   "stats": {
-    "news_total": 14,
+    "news_total": 11,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
