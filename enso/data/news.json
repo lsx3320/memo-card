@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15 07:28:31",
-  "cycle": 206,
+  "generated_at": "2026-09-15 07:49:00",
+  "cycle": 210,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,33 @@
     "soi": -14.6
   },
   "news": [
+    {
+      "id": "em:202609143873668874",
+      "ts": "2026-09-15 07:40:19",
+      "title": "东方财富期货早餐 9月15日 周二",
+      "summary": "（财联社） 棕榈油：截至2026年9月11日，全国重点地区棕榈油商业库存为93.97万吨，环比增加3.76万吨，增幅4.17%；同比去年增加29.82万吨，增幅46.48%。分地区看，华东、天津及福建等地库存环比上涨，其中福建增幅显著；山东和广东库存环比下跌。",
+      "source": "东方财富研究中心",
+      "channel": "eastmoney",
+      "url": "http://futures.eastmoney.com/a/202609143873668874.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 41,
+      "matched": [
+        "库存",
+        "棕榈油",
+        "期货"
+      ],
+      "direction": "利空",
+      "strength": "中",
+      "instruments": [
+        "棕榈油"
+      ],
+      "horizon": "短期",
+      "confidence": "中",
+      "reason": "全国重点地区棕榈油商业库存93.97万吨，环比增4.17%，同比增46.48%，华东天津福建累库，供应宽松压制价格",
+      "verify": "若后续库存转为去化或产地出口收紧则逻辑弱化",
+      "judged": true
+    },
     {
       "id": "em:202609143873721294",
       "ts": "2026-09-15 05:11:01",
@@ -36,33 +63,6 @@
       "reason": "IEA称中东冲突叠加厄尔尼诺，全球煤炭需求或创纪录，电力需求增长使化石燃料消费难降",
       "verify": "若天然气价格回落或可再生能源加速替代则逻辑弱化",
       "judged": true
-    },
-    {
-      "id": "em:202609143873806633",
-      "ts": "2026-09-14 22:42:51",
-      "title": "中国棉花协会：棉区整体热量条件充足",
-      "summary": "调查结果显示：全国大部棉花进入裂铃吐絮期，棉区整体热量条件充足，气候适宜度较好，尽管气象扰动多发，棉田长势分化，但未发生大范围灾害性天气，对单产影响有限，全国单产、总产预测与上期持平。",
-      "source": "期货日报网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609143873806633.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 43,
-      "matched": [
-        "天气",
-        "气候",
-        "棉花"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [
-        "棉花"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "调查结果显示：全国大部棉花进入裂铃吐絮期，棉区整体热量条件充足，气候适宜度较好，尽管气象扰动多发，棉",
-      "verify": "",
-      "judged": false
     },
     {
       "id": "em:202609143873735072",
@@ -205,36 +205,6 @@
       "reason": "天然橡胶：本周天然橡胶整体先扬后抑，RU2701收于19315元/吨，周内上涨3.18%。供应端，国",
       "verify": "",
       "judged": false
-    },
-    {
-      "id": "em:202609143872962746",
-      "ts": "2026-09-14 07:47:00",
-      "title": "“超强”厄尔尼诺对全球影响几何？",
-      "summary": "受其影响，泰国的稻米与印度尼西亚的棕榈油生产均遭到严重冲击，农户收入锐减，当地农产品供应面临严峻挑战。在印尼棕榈油主产区廖内省，持续高温少雨导致土壤湿度极低，棕榈果产量大幅下滑。 印度则遭遇高温极端事件，多地最高气温突破45摄氏度，部分地区接近50摄氏度。",
-      "source": "光明日报",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609143872962746.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "高温",
-        "产量",
-        "产区",
-        "棕榈油",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "棕榈油"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "受其影响，泰国的稻米与印度尼西亚的棕榈油生产均遭到严重冲击，农户收入锐减，当地农产品供应面临严峻挑战",
-      "verify": "",
-      "judged": false
     }
   ],
   "news_new_count": 0,
@@ -252,15 +222,6 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "“超强”厄尔尼诺对全球影响几何？",
-          "ts": "2026-09-14 07:47:00",
-          "direction": "利多",
-          "source": "光明日报",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609143872962746.html"
-        },
-        {
           "title": "农产品 | 国内整体供需宽松下 红枣价格或暂维持稳中偏弱运行",
           "ts": "2026-09-14 08:55:48",
           "direction": "不确定",
@@ -277,6 +238,15 @@
           "relevance": 55,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609143872972086.html"
+        },
+        {
+          "title": "农产品 | 近来鸡蛋期价上下波动 高基差继续支撑盘面表现 短期或维持区间震荡",
+          "ts": "2026-09-14 08:45:39",
+          "direction": "利多",
+          "source": "瑞达期货",
+          "relevance": 47,
+          "strength": "中",
+          "url": "http://futures.eastmoney.com/a/202609143872960196.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -493,18 +463,8 @@
       "climate_dir": "中性（区域分化）",
       "climate_logic": "印度减产利多外盘；中国产区影响待观察",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国棉花协会：棉区整体热量条件充足",
-          "ts": "2026-09-14 22:42:51",
-          "direction": "不确定",
-          "source": "期货日报网",
-          "relevance": 43,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609143873806633.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "nf_CF0",
@@ -1074,7 +1034,7 @@
     }
   ],
   "stats": {
-    "news_total": 8,
+    "news_total": 7,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
