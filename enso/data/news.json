@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15 02:17:37",
-  "cycle": 196,
+  "generated_at": "2026-09-15 04:28:55",
+  "cycle": 197,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,33 @@
     "soi": -14.6
   },
   "news": [
+    {
+      "id": "em:202609143873806633",
+      "ts": "2026-09-14 22:42:51",
+      "title": "中国棉花协会：棉区整体热量条件充足",
+      "summary": "调查结果显示：全国大部棉花进入裂铃吐絮期，棉区整体热量条件充足，气候适宜度较好，尽管气象扰动多发，棉田长势分化，但未发生大范围灾害性天气，对单产影响有限，全国单产、总产预测与上期持平。",
+      "source": "期货日报网",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202609143873806633.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 43,
+      "matched": [
+        "天气",
+        "气候",
+        "棉花"
+      ],
+      "direction": "不确定",
+      "strength": "中",
+      "instruments": [
+        "棉花"
+      ],
+      "horizon": "短期",
+      "confidence": "中",
+      "reason": "调查结果显示：全国大部棉花进入裂铃吐絮期，棉区整体热量条件充足，气候适宜度较好，尽管气象扰动多发，棉",
+      "verify": "",
+      "judged": false
+    },
     {
       "id": "em:202609143873721294",
       "ts": "2026-09-14 22:11:00",
@@ -275,7 +302,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 0,
+  "news_new_count": 1,
   "instruments": [
     {
       "key": "P",
@@ -550,8 +577,18 @@
       "climate_dir": "中性（区域分化）",
       "climate_logic": "印度减产利多外盘；中国产区影响待观察",
       "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "中国棉花协会：棉区整体热量条件充足",
+          "ts": "2026-09-14 22:42:51",
+          "direction": "不确定",
+          "source": "期货日报网",
+          "relevance": 43,
+          "strength": "中",
+          "url": "http://finance.eastmoney.com/a/202609143873806633.html"
+        }
+      ],
       "resonance": "仅气候信号",
       "quote": {
         "key": "nf_CF0",
@@ -1187,7 +1224,7 @@
     }
   ],
   "stats": {
-    "news_total": 9,
+    "news_total": 10,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
