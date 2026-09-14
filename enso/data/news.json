@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15 04:28:55",
-  "cycle": 197,
+  "generated_at": "2026-09-15 06:29:15",
+  "cycle": 198,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,30 @@
     "soi": -14.6
   },
   "news": [
+    {
+      "id": "em:202609143873721294",
+      "ts": "2026-09-15 05:11:01",
+      "title": "IEA：中东冲突叠加厄尔尼诺 今年全球煤炭需求或创纪录",
+      "summary": "IEA表示，煤炭行业未来走势将高度取决于天然气价格、可再生能源发电、天气状况及地缘政治局势。报告指出，尽管可再生能源持续扩张，但全球电力需求不断增长，尚不足以使化石燃料消费步入下降通道。",
+      "source": "澎湃新闻",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202609143873721294.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 81,
+      "matched": [
+        "厄尔尼诺",
+        "天气"
+      ],
+      "direction": "利多",
+      "strength": "中",
+      "instruments": [],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "IEA称中东冲突叠加厄尔尼诺，全球煤炭需求或创纪录，电力需求增长使化石燃料消费难降",
+      "verify": "若天然气价格回落或可再生能源加速替代则逻辑弱化",
+      "judged": true
+    },
     {
       "id": "em:202609143873806633",
       "ts": "2026-09-14 22:42:51",
@@ -39,29 +63,6 @@
       "reason": "调查结果显示：全国大部棉花进入裂铃吐絮期，棉区整体热量条件充足，气候适宜度较好，尽管气象扰动多发，棉",
       "verify": "",
       "judged": false
-    },
-    {
-      "id": "em:202609143873721294",
-      "ts": "2026-09-14 22:11:00",
-      "title": "IEA：中东冲突叠加厄尔尼诺，今年全球煤炭需求或创纪录",
-      "summary": "此外，2026年异常强烈的厄尔尼诺现象预计将通过增加制冷需求、削减印度和越南等亚洲主要煤炭消费国的水力发电量等方式，进一步支撑煤炭需求。",
-      "source": "澎湃新闻",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609143873721294.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 49,
-      "matched": [
-        "厄尔尼诺"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "IEA称中东冲突叠加厄尔尼诺，全球煤炭需求或创纪录，电力需求增长使化石燃料消费难降",
-      "verify": "若天然气价格回落或可再生能源加速替代则逻辑弱化",
-      "judged": true
     },
     {
       "id": "em:202609143873735072",
@@ -265,44 +266,9 @@
       "reason": "受其影响，泰国的稻米与印度尼西亚的棕榈油生产均遭到严重冲击，农户收入锐减，当地农产品供应面临严峻挑战",
       "verify": "",
       "judged": false
-    },
-    {
-      "id": "em:202609143872922551",
-      "ts": "2026-09-14 07:22:36",
-      "title": "中国气象科学研究院研究员房世波： 建立适应气候变化的长期应对思路",
-      "summary": "糖、棕榈油主产区集中热带，一旦受旱，国际价格容易上行，并且传导至国内期货市场。我国主粮基本自给，主要进口大豆等饲料作物。历史上全球粮食减产的时候，部分产粮国会出台粮食出口禁令，叠加化肥、能源成本波动，加剧全球粮食市场震荡。",
-      "source": "证券时报",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609143872922551.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "减产",
-        "产区",
-        "气候",
-        "棕榈油",
-        "大豆",
-        "化肥",
-        "期货",
-        "饲料"
-      ],
-      "direction": "不确定",
-      "strength": "弱",
-      "instruments": [
-        "棕榈油",
-        "豆粕",
-        "化肥农药板块",
-        "饲料养殖板块"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "专家称厄尔尼诺为短期扰动因子，未提具体品种减产或价格影响",
-      "verify": "若后续无品种供需数据佐证则逻辑弱化",
-      "judged": true
     }
   ],
-  "news_new_count": 1,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -326,15 +292,6 @@
           "url": "http://finance.eastmoney.com/a/202609143872962746.html"
         },
         {
-          "title": "中国气象科学研究院研究员房世波： 建立适应气候变化的长期应对思路",
-          "ts": "2026-09-14 07:22:36",
-          "direction": "不确定",
-          "source": "证券时报",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609143872922551.html"
-        },
-        {
           "title": "农产品 | 国内整体供需宽松下 红枣价格或暂维持稳中偏弱运行",
           "ts": "2026-09-14 08:55:48",
           "direction": "不确定",
@@ -342,6 +299,15 @@
           "relevance": 69,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609143872965498.html"
+        },
+        {
+          "title": "多空交织 棕榈油市场呈“近弱远强”格局",
+          "ts": "2026-09-14 09:14:41",
+          "direction": "利多",
+          "source": "期货日报",
+          "relevance": 55,
+          "strength": "中",
+          "url": "http://futures.eastmoney.com/a/202609143872972086.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -362,7 +328,6 @@
         "ok": true
       },
       "verify": [
-        "若后续无品种供需数据佐证则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -434,13 +399,13 @@
           "url": "http://stock.eastmoney.com/a/202609143873388094.html"
         },
         {
-          "title": "中国气象科学研究院研究员房世波： 建立适应气候变化的长期应对思路",
-          "ts": "2026-09-14 07:22:36",
+          "title": "农产品 | 国内整体供需宽松下 红枣价格或暂维持稳中偏弱运行",
+          "ts": "2026-09-14 08:55:48",
           "direction": "不确定",
-          "source": "证券时报",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609143872922551.html"
+          "source": "南华期货",
+          "relevance": 69,
+          "strength": "中",
+          "url": "http://futures.eastmoney.com/a/202609143872965498.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -463,8 +428,8 @@
       "verify": [
         "若后续秋收期出现大范围干旱或渍涝则逻辑反转",
         "若厄尔尼诺转弱或供应链恢复则逻辑弱化",
-        "若后续无品种供需数据佐证则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     },
     {
@@ -961,18 +926,8 @@
       "climate_dir": "滞后受益",
       "climate_logic": "复合肥龙头，粮价高企提振施肥意愿",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国气象科学研究院研究员房世波： 建立适应气候变化的长期应对思路",
-          "ts": "2026-09-14 07:22:36",
-          "direction": "不确定",
-          "source": "证券时报",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609143872922551.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "000902.SZ",
@@ -991,7 +946,6 @@
         "ok": true
       },
       "verify": [
-        "若后续无品种供需数据佐证则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1006,18 +960,8 @@
       "climate_dir": "滞后受益",
       "climate_logic": "磷复肥+联碱，农业景气传导",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国气象科学研究院研究员房世波： 建立适应气候变化的长期应对思路",
-          "ts": "2026-09-14 07:22:36",
-          "direction": "不确定",
-          "source": "证券时报",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609143872922551.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "002539.SZ",
@@ -1036,7 +980,6 @@
         "ok": true
       },
       "verify": [
-        "若后续无品种供需数据佐证则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1051,18 +994,8 @@
       "climate_dir": "成本承压",
       "climate_logic": "饲料龙头，豆粕/玉米成本上行挤压毛利（考验配方与采购）",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国气象科学研究院研究员房世波： 建立适应气候变化的长期应对思路",
-          "ts": "2026-09-14 07:22:36",
-          "direction": "不确定",
-          "source": "证券时报",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609143872922551.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "002311.SZ",
@@ -1081,7 +1014,6 @@
         "ok": true
       },
       "verify": [
-        "若后续无品种供需数据佐证则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1224,7 +1156,7 @@
     }
   ],
   "stats": {
-    "news_total": 10,
+    "news_total": 9,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
