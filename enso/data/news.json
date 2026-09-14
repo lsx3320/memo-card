@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14 18:34:44",
-  "cycle": 179,
+  "generated_at": "2026-09-14 19:26:28",
+  "cycle": 182,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -140,29 +140,6 @@
       "reason": "开源证券指厄尔尼诺转入快速强化，四季度至2027初强度高位，种植种业受扰动",
       "verify": "若四季度强度低于预期或天气转正常",
       "judged": true
-    },
-    {
-      "id": "em:202609143873223245",
-      "ts": "2026-09-14 10:33:00",
-      "title": "国光股份：目前未发现厄尔尼诺现象对整体经营业绩产生重大影响",
-      "summary": "目前，公司未发现厄尔尼诺现象对整体经营业绩产生重大影响。",
-      "source": "南方财经网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609143873223245.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 49,
-      "matched": [
-        "厄尔尼诺"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "南方财经9月14日电，国光股份(002749)近日在业绩说明会上表示，厄尔尼诺现象导致极端气候频发，",
-      "verify": "",
-      "judged": false
     },
     {
       "id": "em:202609143872972086",
@@ -1444,7 +1421,7 @@
     }
   ],
   "stats": {
-    "news_total": 11,
+    "news_total": 10,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
