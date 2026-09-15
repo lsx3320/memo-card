@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15 17:38:11",
-  "cycle": 240,
+  "generated_at": "2026-09-15 18:16:20",
+  "cycle": 241,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,30 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "sina:892075047",
-      "ts": "2026-09-15 15:54:52",
-      "title": "长安期货侯荃宇：地缘扰动叠加库存低位 乙二醇高位博弈加剧",
-      "summary": "2026年9月前半月，乙二醇期货市场在经历8月大幅拉涨后，进入高位宽幅震荡阶段，价格波动弹性显著放大。9月11日乙二醇主力合约在创下阶段性高点6204元/吨后，行情急转直下...",
-      "source": "市场资讯",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-15/doc-inirwwmu8649055.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 30,
-      "matched": [
-        "库存",
-        "期货"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "2026年9月前半月，乙二醇期货市场在经历8月大幅拉涨后，进入高位宽幅震荡阶段，价格波动弹性显著放大",
-      "verify": "",
-      "judged": false
-    },
     {
       "id": "em:202609153874641988",
       "ts": "2026-09-15 14:46:00",
@@ -241,7 +217,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 4,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -1285,7 +1261,7 @@
     }
   ],
   "stats": {
-    "news_total": 8,
+    "news_total": 7,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
