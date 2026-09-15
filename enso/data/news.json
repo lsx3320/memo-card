@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15 22:20:44",
-  "cycle": 262,
+  "generated_at": "2026-09-16 00:00:53",
+  "cycle": 263,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -38,58 +38,6 @@
       "reason": "报道仅述极端天气与国产算力气象预报，无具体农产品产量、库存或价格数据，无交易方向指引。",
       "verify": "若后续出现具体产区减产或库存数据则需重估。",
       "judged": true
-    },
-    {
-      "id": "em:202609153874641988",
-      "ts": "2026-09-15 14:46:00",
-      "title": "种植业概念盘中走弱，极端天气下优质种质价值或逐步凸显|异动情报",
-      "summary": "此外，世界气象组织（WMO）最新公报显示，受热带太平洋异常温暖海洋条件推动，厄尔尼诺预计将在数月内增强为超强厄尔尼诺事件，强度可能在今年年底达到顶峰，且该事件持续至2027年2月的可能性极高，接近100%。",
-      "source": "21世纪经济报道",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609153874641988.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "种植",
-        "天气",
-        "极端天气"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "种植粮油板块"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "此外，世界气象组织（WMO）最新公报显示，受热带太平洋异常温暖海洋条件推动，厄尔尼诺预计将在数月内增",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609153874647635",
-      "ts": "2026-09-15 14:41:53",
-      "title": "河南：“三秋”天气条件利于秋作物后期灌浆成熟",
-      "summary": "此外，目前厄尔尼诺处于持续发展阶段，预计冬季偏暖概率大，但阶段性寒潮风险高，冷暖波动明显。建议小麦适期适量晚播，避免冬前旺长，提高植株抗寒抗冻能力，安全越冬。",
-      "source": "新华社",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609153874647635.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 71,
-      "matched": [
-        "厄尔尼诺",
-        "天气"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "此外，目前厄尔尼诺处于持续发展阶段，预计冬季偏暖概率大，但阶段性寒潮风险高，冷暖波动明显。建议小麦适",
-      "verify": "",
-      "judged": false
     },
     {
       "id": "em:202609153874648058",
@@ -157,64 +105,9 @@
       "reason": "仅提出厄尔尼诺干旱与洪水两种可能，聚焦泰印，未给出明确结论",
       "verify": "若量化数据显示减产则转利多，增产则转利空",
       "judged": true
-    },
-    {
-      "id": "em:202609153874065843",
-      "ts": "2026-09-15 08:42:43",
-      "title": "农产品 | 棉纺行业开始进入消费旺季 但供应端持续抛储 多空因素交织",
-      "summary": "（4）据南部半岛棕榈油压榨商协会（SPPOMA）数据显示，2026年9月1-5日马来西亚棕榈油产量环比增长35.88%，出油率环比增加0.42%，单产环比增加32.92%。 【策略观点】 受加息预期影响，短期棕榈油价格出现调整。",
-      "source": "五矿期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609153874065843.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 49,
-      "matched": [
-        "产量",
-        "棕榈油",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "白糖"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "五矿期货称厄尔尼诺或致2026/27年度泰国、印度大幅减产，推动原糖大涨；但国内预期延续高产，外强内弱",
-      "verify": "若泰国印度降水恢复正常或国内减产则逻辑反转",
-      "judged": true
-    },
-    {
-      "id": "em:202609153874063770",
-      "ts": "2026-09-15 08:36:17",
-      "title": "农产品 | 双粕：USDA报告偏空 连粕面临回调压力",
-      "summary": "500万公顷的棕榈油种植园和工业森林特许权，印尼林业工作组将237万公顷被征收的种植园移交给国有棕榈油种植商AGRINAS。",
-      "source": "混沌天成期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609153874063770.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 47,
-      "matched": [
-        "种植",
-        "棕榈油",
-        "农产品"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "豆粕",
-        "菜粕"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "USDA报告偏空，连粕短期面临回调压力；但厄尔尼诺提供远月减产预期，建议回调逢低买入",
-      "verify": "若产区天气转好或印尼生柴执行不及预期则逻辑弱化",
-      "judged": true
     }
   ],
-  "news_new_count": 1,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -226,7 +119,7 @@
       "climate_dir": "看多",
       "climate_logic": "干旱削减产量前景，库存偏低→减产+去库预期",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
@@ -245,15 +138,6 @@
           "relevance": 100,
           "strength": "弱",
           "url": "http://futures.eastmoney.com/a/202609153874068248.html"
-        },
-        {
-          "title": "农产品 | 棉纺行业开始进入消费旺季 但供应端持续抛储 多空因素交织",
-          "ts": "2026-09-15 08:42:43",
-          "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 49,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609153874065843.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -261,23 +145,23 @@
         "key": "nf_P0",
         "name": "棕榈油",
         "kind": "future",
-        "price": 10049.0,
+        "price": 10030.0,
         "prev_close": 10031.0,
-        "change": 18.0,
-        "change_pct": 0.18,
+        "change": -1.0,
+        "change_pct": -0.01,
         "open": 9988.0,
         "high": 10060.0,
         "low": 9968.0,
-        "volume": 132994.0,
-        "ts": "2026-09-15 22:22:44",
+        "volume": 161660.0,
+        "ts": "2026-09-15 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
         "若量化数据显示减产则转利多，增产则转利空",
-        "若泰国印度降水恢复正常或国内减产则逻辑反转",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -290,7 +174,7 @@
       "climate_dir": "看多",
       "climate_logic": "主产区干旱减产预期+乙醇分流，外盘拉动内盘",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
@@ -309,15 +193,6 @@
           "relevance": 100,
           "strength": "弱",
           "url": "http://futures.eastmoney.com/a/202609153874068248.html"
-        },
-        {
-          "title": "农产品 | 棉纺行业开始进入消费旺季 但供应端持续抛储 多空因素交织",
-          "ts": "2026-09-15 08:42:43",
-          "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 49,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609153874065843.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -325,23 +200,23 @@
         "key": "nf_SR0",
         "name": "白糖",
         "kind": "future",
-        "price": 5347.0,
+        "price": 5348.0,
         "prev_close": 5369.0,
-        "change": -22.0,
-        "change_pct": -0.41,
+        "change": -21.0,
+        "change_pct": -0.39,
         "open": 5345.0,
         "high": 5361.0,
         "low": 5345.0,
-        "volume": 102142.0,
-        "ts": "2026-09-15 22:22:44",
+        "volume": 120146.0,
+        "ts": "2026-09-15 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
         "若量化数据显示减产则转利多，增产则转利空",
-        "若泰国印度降水恢复正常或国内减产则逻辑反转",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -354,37 +229,26 @@
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "农产品 | 双粕：USDA报告偏空 连粕面临回调压力",
-          "ts": "2026-09-15 08:36:17",
-          "direction": "中性",
-          "source": "混沌天成期货",
-          "relevance": 47,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609153874063770.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "nf_M0",
         "name": "豆粕",
         "kind": "future",
-        "price": 3406.0,
+        "price": 3414.0,
         "prev_close": 3374.0,
-        "change": 32.0,
-        "change_pct": 0.95,
+        "change": 40.0,
+        "change_pct": 1.19,
         "open": 3385.0,
-        "high": 3410.0,
+        "high": 3420.0,
         "low": 3382.0,
-        "volume": 391146.0,
-        "ts": "2026-09-15 22:22:44",
+        "volume": 570286.0,
+        "ts": "2026-09-15 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若产区天气转好或印尼生柴执行不及预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -407,15 +271,15 @@
         "key": "nf_C0",
         "name": "玉米",
         "kind": "future",
-        "price": 2212.0,
+        "price": 2210.0,
         "prev_close": 2212.0,
-        "change": 0.0,
-        "change_pct": 0.0,
+        "change": -2.0,
+        "change_pct": -0.09,
         "open": 2205.0,
         "high": 2217.0,
         "low": 2205.0,
-        "volume": 220098.0,
-        "ts": "2026-09-15 22:22:44",
+        "volume": 242819.0,
+        "ts": "2026-09-15 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -461,15 +325,15 @@
         "key": "nf_RU0",
         "name": "天然橡胶",
         "kind": "future",
-        "price": 18810.0,
+        "price": 18775.0,
         "prev_close": 18775.0,
-        "change": 35.0,
-        "change_pct": 0.19,
+        "change": 0.0,
+        "change_pct": 0.0,
         "open": 18740.0,
         "high": 18850.0,
         "low": 18740.0,
-        "volume": 78220.0,
-        "ts": "2026-09-15 22:22:44",
+        "volume": 91901.0,
+        "ts": "2026-09-15 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -497,15 +361,15 @@
         "key": "nf_CF0",
         "name": "棉花",
         "kind": "future",
-        "price": 16020.0,
+        "price": 15990.0,
         "prev_close": 16110.0,
-        "change": -90.0,
-        "change_pct": -0.56,
+        "change": -120.0,
+        "change_pct": -0.74,
         "open": 16000.0,
         "high": 16025.0,
         "low": 15935.0,
-        "volume": 126172.0,
-        "ts": "2026-09-15 22:22:43",
+        "volume": 142492.0,
+        "ts": "2026-09-15 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -525,17 +389,8 @@
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "种植业概念盘中走弱，极端天气下优质种质价值或逐步凸显|异动情报",
-          "ts": "2026-09-15 14:46:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609153874641988.html"
-        },
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
           "ts": "2026-09-15 14:40:34",
@@ -544,15 +399,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://stock.eastmoney.com/a/202609153874648058.html"
-        },
-        {
-          "title": "农产品 | 双粕：USDA报告偏空 连粕面临回调压力",
-          "ts": "2026-09-15 08:36:17",
-          "direction": "中性",
-          "source": "混沌天成期货",
-          "relevance": 47,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609153874063770.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -573,7 +419,6 @@
         "ok": true
       },
       "verify": [
-        "若产区天气转好或印尼生柴执行不及预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -588,17 +433,8 @@
       "climate_dir": "温和受益",
       "climate_logic": "东北种植主体，粮价景气受益",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "种植业概念盘中走弱，极端天气下优质种质价值或逐步凸显|异动情报",
-          "ts": "2026-09-15 14:46:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609153874641988.html"
-        },
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
           "ts": "2026-09-15 14:40:34",
@@ -607,15 +443,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://stock.eastmoney.com/a/202609153874648058.html"
-        },
-        {
-          "title": "农产品 | 双粕：USDA报告偏空 连粕面临回调压力",
-          "ts": "2026-09-15 08:36:17",
-          "direction": "中性",
-          "source": "混沌天成期货",
-          "relevance": 47,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609153874063770.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -636,7 +463,6 @@
         "ok": true
       },
       "verify": [
-        "若产区天气转好或印尼生柴执行不及预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -651,17 +477,8 @@
       "climate_dir": "温和受益",
       "climate_logic": "土地流转+稻麦种植，粮价上行受益",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "种植业概念盘中走弱，极端天气下优质种质价值或逐步凸显|异动情报",
-          "ts": "2026-09-15 14:46:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609153874641988.html"
-        },
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
           "ts": "2026-09-15 14:40:34",
@@ -670,15 +487,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://stock.eastmoney.com/a/202609153874648058.html"
-        },
-        {
-          "title": "农产品 | 双粕：USDA报告偏空 连粕面临回调压力",
-          "ts": "2026-09-15 08:36:17",
-          "direction": "中性",
-          "source": "混沌天成期货",
-          "relevance": 47,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609153874063770.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -699,7 +507,6 @@
         "ok": true
       },
       "verify": [
-        "若产区天气转好或印尼生柴执行不及预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -714,7 +521,7 @@
       "climate_dir": "强弹性",
       "climate_logic": "国内食糖贸易与加工龙头，糖价弹性大",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
@@ -733,15 +540,6 @@
           "relevance": 100,
           "strength": "弱",
           "url": "http://futures.eastmoney.com/a/202609153874068248.html"
-        },
-        {
-          "title": "农产品 | 棉纺行业开始进入消费旺季 但供应端持续抛储 多空因素交织",
-          "ts": "2026-09-15 08:42:43",
-          "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 49,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609153874065843.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -763,7 +561,6 @@
       },
       "verify": [
         "若量化数据显示减产则转利多，增产则转利空",
-        "若泰国印度降水恢复正常或国内减产则逻辑反转",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -778,7 +575,7 @@
       "climate_dir": "强弹性",
       "climate_logic": "制糖主业，糖价上行直接受益",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
@@ -797,15 +594,6 @@
           "relevance": 100,
           "strength": "弱",
           "url": "http://futures.eastmoney.com/a/202609153874068248.html"
-        },
-        {
-          "title": "农产品 | 棉纺行业开始进入消费旺季 但供应端持续抛储 多空因素交织",
-          "ts": "2026-09-15 08:42:43",
-          "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 49,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609153874065843.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -827,7 +615,6 @@
       },
       "verify": [
         "若量化数据显示减产则转利多，增产则转利空",
-        "若泰国印度降水恢复正常或国内减产则逻辑反转",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -842,7 +629,7 @@
       "climate_dir": "弹性中等",
       "climate_logic": "广西糖业+浆纸双主业",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "粮食ETF鹏华(159698)盘中净申购950万份，冲刺连续4日资金净申购，航运持续受阻叠加异常气候，有望推动板块行情",
@@ -861,15 +648,6 @@
           "relevance": 100,
           "strength": "弱",
           "url": "http://futures.eastmoney.com/a/202609153874068248.html"
-        },
-        {
-          "title": "农产品 | 棉纺行业开始进入消费旺季 但供应端持续抛储 多空因素交织",
-          "ts": "2026-09-15 08:42:43",
-          "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 49,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609153874065843.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -891,7 +669,6 @@
       },
       "verify": [
         "若量化数据显示减产则转利多，增产则转利空",
-        "若泰国印度降水恢复正常或国内减产则逻辑反转",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1238,7 +1015,7 @@
     }
   ],
   "stats": {
-    "news_total": 7,
+    "news_total": 3,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
