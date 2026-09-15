@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16 00:44:25",
-  "cycle": 269,
+  "generated_at": "2026-09-16 01:46:22",
+  "cycle": 271,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,32 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "em:202609153874974757",
-      "ts": "2026-09-15 21:13:00",
-      "title": "极端天气频发怎么办？国产算力支撑气象科研应用，更精准预报",
-      "summary": "南都讯记者李玲这个夏天，欧洲遭遇极端热浪，多地空调一机难求；8月26日，中国和尼泊尔边境地区遭遇大规模泥石流灾害，造成重大人员伤亡、失联…… 近年来，气候变化让极端天气变得频发、持续时间也更长，气象早期预警的重要性愈发凸显。如何缩小早期预警差距，筑牢防灾减灾的防线？",
-      "source": "南方都市报",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609153874974757.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 74,
-      "matched": [
-        "热浪",
-        "天气",
-        "气候",
-        "极端天气"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "低",
-      "reason": "报道仅述极端天气与国产算力气象预报，无具体农产品产量、库存或价格数据，无交易方向指引。",
-      "verify": "若后续出现具体产区减产或库存数据则需重估。",
-      "judged": true
-    },
     {
       "id": "em:202609153874648058",
       "ts": "2026-09-15 14:40:34",
@@ -960,7 +934,7 @@
     }
   ],
   "stats": {
-    "news_total": 3,
+    "news_total": 2,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
