@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15 08:28:33 CST",
+  "generated_at": "2026-09-16 14:05:02 CST",
   "sources": [
     {
       "key": "noaa",
@@ -52,7 +52,7 @@
       },
       "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-15 08:28:33 CST",
+      "fetched_at": "2026-09-16 14:05:02 CST",
       "error": null
     },
     {
@@ -60,22 +60,22 @@
       "org": "澳大利亚气象局(BOM)",
       "org_en": "Australian Bureau of Meteorology",
       "url": "http://www.bom.gov.au/climate/enso/",
-      "published": "1 September 2026",
+      "published": "15 September 2026",
       "next_update": null,
-      "status_text": "El Niño continues to strengthen while IOD values ease back into the neutral range",
-      "summary": "Issued 1 September 2026 El Niño continues to strengthen while IOD values ease back into the neutral range El Niño is firmly established. Both oceanic and atmospheric indices reflect values consistent with a strong El Niño, with further intensification likely during spring. The latest relative Niño3.4 index value for the week ending 30 August 2026 is +2.45 °C, well above the El Niño threshold (+0.80 °C). All models, including the bureau's, forecast the tropical Pacific to continue warming through the southern hemisphere spring, likely peaking in late spring or summer. Relative-Niño3.4 values are forecast to reach levels above the warmest observed since reliable records began in 1950. Given its current strength, in addition to the typical life cycle of an El Niño, this event is expected to persist into autumn 2027. The Southern Oscillation Index (SOI), a measure of the atmospheric component of the El Niño-Southern Oscillation (ENSO), has risen over the past fortnight, but remains strongly negative, with the latest 30-day SOI to 30 August at -14.6, well below the El Niño threshold of -7. A strong El Niño is also indicated in the atmosphere by weakened or reversed trade winds in the we",
+      "status_text": "El Niño continues to strengthen; IOD index back above positive IOD threshold",
+      "summary": "Issued 15 September 2026 El Niño continues to strengthen; IOD index back above positive IOD threshold El Niño is firmly established. Both oceanic and atmospheric indices reflect values consistent with a strong El Niño, with further intensification likely during spring. The latest relative Niño3.4 index value for the week ending 13 September 2026 is +2.51 °C, well above the El Niño threshold (+0.80 °C). All models, including the bureau's, forecast the tropical Pacific to continue warming through the southern hemisphere spring, likely peaking in late spring or summer. Relative-Niño3.4 values are forecast to reach levels above the warmest observed since reliable records began in 1950, with the majority of models indicating a peak value above +3.0 °C. Given its current strength, in addition to the typical life cycle of an El Niño, this event is expected to persist into autumn 2027. The Southern Oscillation Index (SOI), a measure of the atmospheric component of the El Niño-Southern Oscillation (ENSO) remains strongly negative, with the latest 30-day SOI to 13 September 2026 at -18.5, well below the El Niño threshold of -7. A strong El Niño is also evident in the atmosphere, with weakene",
       "excerpts": [
-        "The latest relative Niño3.4 index value for the week ending 30 August 2026 is +2.",
-        "The Southern Oscillation Index (SOI), a measure of the atmospheric component of the El Niño-Southern Oscillation (ENSO), has risen over the past fortnight, but remains strongly negative, with the latest 30-day SOI to 30 August at -14.",
-        "The latest IOD index value for the week ending 30 August is +0.",
+        "The latest relative Niño3.4 index value for the week ending 13 September 2026 is +2.",
+        "The Southern Oscillation Index (SOI), a measure of the atmospheric component of the El Niño-Southern Oscillation (ENSO) remains strongly negative, with the latest 30-day SOI to 13 September 2026 at -18.",
+        "The Indian Ocean Dipole (IOD) is currently neutral although the IOD index value for the week ending 13 September 2026 is +0.",
         "All models, including the bureau's, forecast the tropical Pacific to continue warming through the southern hemisphere spring, likely peaking in late spring or summer.",
-        "4 values are forecast to reach levels above the warmest observed since reliable records began in 1950."
+        "4 values are forecast to reach levels above the warmest observed since reliable records began in 1950, with the majority of models indicating a peak value above +3."
       ],
       "indicators": [
         {
           "key": "nino34_relative",
           "label": "相对 Niño3.4 指数（BOM）",
-          "value": "+2.45",
+          "value": "+2.51",
           "unit": "°C",
           "threshold": "El Niño >= +0.80",
           "note": "周度数据"
@@ -83,7 +83,7 @@
         {
           "key": "soi_30d",
           "label": "SOI（30日）",
-          "value": "-14.6",
+          "value": "-18.5",
           "unit": "",
           "threshold": "El Niño <= -7",
           "note": "BOM 30日SOI"
@@ -91,21 +91,21 @@
         {
           "key": "iod",
           "label": "IOD 指数（BOM）",
-          "value": "+0.22",
+          "value": "+0.65",
           "unit": "°C",
           "threshold": "正IOD >= +0.4",
           "note": ""
         }
       ],
       "indicators_raw": {
-        "nino34_relative": 2.45,
-        "nino34_week": "30 August 2026",
-        "soi_30d": -14.6,
-        "iod": 0.22
+        "nino34_relative": 2.51,
+        "nino34_week": "13 September 2026",
+        "soi_30d": -18.5,
+        "iod": 0.65
       },
-      "is_new": false,
+      "is_new": true,
       "degraded": false,
-      "fetched_at": "2026-09-15 08:28:33 CST",
+      "fetched_at": "2026-09-16 14:05:02 CST",
       "error": null
     },
     {
@@ -147,7 +147,7 @@
       },
       "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-15 08:28:33 CST",
+      "fetched_at": "2026-09-16 14:05:02 CST",
       "error": null
     },
     {
@@ -174,9 +174,9 @@
         "prob_persist_pct": 100,
         "note": "正文提及 El Niño 回归预警"
       },
-      "is_new": true,
+      "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-15 08:28:33 CST",
+      "fetched_at": "2026-09-16 14:05:02 CST",
       "error": null
     },
     {
@@ -195,7 +195,7 @@
       "indicators_raw": {},
       "is_new": false,
       "degraded": false,
-      "fetched_at": "2026-09-15 08:28:33 CST",
+      "fetched_at": "2026-09-16 14:05:02 CST",
       "error": null
     }
   ],
@@ -415,6 +415,6 @@
   "llm": {
     "used": true,
     "error": null,
-    "text": "# 厄尔尼诺事件驱动量化研判（2026-09-15）\n\n> 数据基准：NOAA/CPC（09-10）、BOM（09-01）、JMA（09-09）、WMO（09-11）。**CMA/NCC 本期未获取**（仅门户首页关键词命中，无结构化指标，不纳入研判）。\n\n---\n\n## 一、催化效应评估\n\n### 评级：**极强催化（维持）**\n\n**与规则引擎结论的异同：**\n- **一致**：规则引擎判定\"增强/强/概率100%/极强催化\"，与四大机构正文完全吻合——NOAA 明确 \"strengthening\" 且 >90% 概率为 very strong；JMA 给出 100% 持续概率、NINO.3 达 +3.4°C（1949 年以来 8 月最高，超 1997 年 +3.0°C）；WMO 确认近 100% 持续至 2027 年 2 月并\"进一步走强\"；BOM 相对 Niño3.4 达 +2.45°C，且预测将超过 1950 年以来最暖记录。\n- **边际差异（需提示）**：规则引擎 ONI 取 +1.8（JJA），但 NOAA 周度 Niño3.4 SSTA 已达 **+2.90°C**、Niño-1+2 达 **+3.4°C**，JMA NINO.3 达 **+3.4°C**——**实测强度高于规则引擎所用季度均值**，说明\"增强\"仍在加速，边际方向向上未被证伪。唯一\"降温\"信号：Niño-4 指数 8 月降至 +0.1°C、BOM 的 IOD 回落至中性（+0.22°C），属结构性扰动，不改变主逻辑。\n\n### 通胀预期与市场情绪传导路径\n```\n中东太平洋海温极端偏高（Niño1+2 +3.4°C）\n   → 印尼/马来/东南亚降水偏少（NOAA：印尼对流受抑制）\n   → 棕榈油、天胶减产+去库预期\n   → 印度季风偏弱 → 白糖减产 + 乙醇分流\n   → 美豆/美玉米生长期干热 → 天气升水\n   → 豆粕/饲料成本上行 → 养殖利润挤压\n   → 食品通胀预期升温 → 种植/油脂/白糖板块估值催化\n```\n**情绪面**：WMO 已用\"超强厄尔尼诺事件\"措辞（国内门户转载），事件从\"气象预警\"进入**主流媒体扩散期**，情绪处于高位但尚未到\"卖事实\"阶段。\n\n### 预期差（Price-in）分析\n- **确定性极高、预期亦高度定价**：概率已 ≥90%~100%，属\"确定性极高但预期高度打满\"区间。**强度上调（very strong / 破 1997 记录）是本期最大边际增量**，但市场对\"强厄尔尼诺\"已有充分认知，**追高性价比低**。\n- **真正的预期差在\"兑现节奏\"**：当前处于**概念炒作/预期发酵阶段**，尚未进入\"实际减产与库存见底\"的供需验证阶段。若 10-12 月东南亚降水实际偏少、MPOB 库存下滑、印度糖产量下修，则**第二波驱动（供需验证）**才启动；反之若 MJD/降水修复，升水快速回吐。\n\n---\n\n## 二、受影响资产清单与涨跌预期\n\n### 期货品种\n\n| 品种 | 方向 | 核心逻辑 |\n|---|---|---|\n| **棕榈油 P / FCPO** | **看多** | 印尼/马来降水偏少（NOAA 确认印尼对流受抑制）→ 减产+去库；库存偏低放大弹性。**最强主线**。 |\n| **白糖 SR** | **看多** | 印度季风偏弱→减产+乙醇分流，外盘拉动内盘；BOM IOD 回落至中性略削弱印度洋侧逻辑，但太平洋侧仍强。 |\n| **大豆 A / 豆粕 M** | **震荡偏多** | 北美生长期天气升水；南美播种期不确定性抬升波动。**注意**：厄尔尼诺对南美（阿根廷）通常偏多雨、利播种，与拉尼娜逻辑相反，故弹性弱于油脂。 |\n| **玉米 C** | **震荡偏多** | 美玉米生长期高温干旱升水；国内供需相对独立，外盘传导有限。 |\n| **天胶 RU** | **偏多** | 东南亚产区干旱→割胶量下滑预期，成本端抬升；但需求端（轮胎）未在材料中体现，弹性受制。 |\n| **棉花 CF** | **中性（区域分化）** | 印度减产利多外盘；中国产区影响待观察，多空对冲。 |\n\n### A 股标的\n\n| 板块 | 代表标的 | 弹性/方向 | 估值分析 |\n|---|---|---|---|\n| **白糖** | 中粮糖业、南宁糖业 | **强弹性** | 糖价上行直接受益，业绩弹性最大，**首选方向** |\n| **白糖/浆纸** | 粤桂股份 | 弹性中等 | 双主业摊薄弹性 |\n| **种业/种植** | 隆平高科、北大荒、苏垦农发 | 事件敏感/温和受益 | 减产年份用种与粮价景气受益，但传导偏慢 |\n| **粮油加工** | 金龙鱼 | **成本挤压（承压）** | 原料涨价考验毛利，成本端偏空 |\n| **植物油** | 道道全 | 库存受益 | 油脂涨价或有库存收益，弹性中等 |\n| **化肥农药** | 新洋丰、云图控股、扬农化工 | 滞后/弱相关 | 粮价高企提振施肥意愿，属**滞后受益**，非当期主线 |\n| **饲料养殖** | 海大集团、新希望、牧原、温氏 | **成本承压/敏感** | 豆粕/玉米成本上行挤压毛利，**估值承压**，与油脂/白糖形成跷跷板 |\n| **橡胶种植** | 海南橡胶 | 事件受益 | 胶价上行+减产逻辑，弹性中等 |\n\n**板块排序（做多优先级）**：白糖 > 油脂加工/植物油 > 橡胶种植 > 种业种植 > 化肥农药（滞后）> 饲料养殖（承压）。\n\n---\n\n## 三、交易策略与风险提示\n\n### 关键观察窗口（下一次各机构更新时间）\n- **NOAA/CPC**：ENSO Diagnostic Discussion 通常**每月第二个周四**更新 → 下次约 **2026-10-08**（重点看是否维持 very strong 及 Niño3.4 周度是否破 +3.0°C）。\n- **BOM**：ENSO Outlook 通常**每两周**更新 → 下次约 **2026-09-15 前后**（关注相对 Niño3.4 是否续升、IOD 是否转正）。\n- **JMA**：El Niño Outlook 通常**每月 10 日前后** → 下次约 **2026-10-09**。\n- **WMO**：El Niño/La Niña Update 通常**季度更新** → 下次约 **2026-12**。\n- **CMA/NCC**：**本期未获取**，建议补充国内官方口径以验证内盘定价。\n\n### 事件证伪的风险点\n1. **降水/海温超预期回归**：MJO 扰动引发东南亚降水修复，减产预期被证伪，升水快速回吐（规则引擎已列为首要风险）。\n2. **政策平抑**：国家抛储、进口配额放大、关税调整（尤其白糖、油脂）。\n3. **宏观收紧**：若大宗通胀引发央行收紧，高位品种估值端承压。\n4. **股票端\"卖事实\"**：强催化后边际利好钝化，概率已 ≥90%，谨防利好出尽。\n5. **IOD 转负**：BOM IOD 已回落至中性（+0.22°C），若转负将削弱印度洋侧对白糖的支撑。\n\n### 仓位/节奏建议\n- **阶段定位**：当前为**概念炒作/预期发酵阶段**，非供需验证阶段。**不宜追高**，宜**逢回调布局**。\n- **节奏**：\n  - **期货**：棕榈油、白糖为主多配置，回调加仓；豆粕/玉米轻仓跟随；棉花观望。\n  - **股票**：优先白糖（中粮糖业、南宁糖业），其次油脂加工；**规避饲料养殖**（成本承压）。\n  - **仓位**：事件确定性极高但预期高度定价，建议**中等仓位（5-6 成）**，保留子弹等待 10 月机构报告确认\"very strong\"后的第二波供需验证行情。\n- **止盈/止损**：以 NOAA 10 月报告为分水岭——若维持 very strong 且降水持续偏少，持有；若出现降水修复或政策平抑信号，**减仓兑现**。\n\n---\n\n**一句话总结**：厄尔尼诺\"极强催化\"逻辑成立且边际向上，但预期已高度定价，**做多白糖/棕榈油、规避饲料养殖**，等 10 月机构报告确认后再加仓，警惕\"卖事实\"与降水修复证伪。"
+    "text": "# 厄尔尼诺事件驱动量化研判（2026-09-16）\n\n> 数据基准：NOAA/CPC（09-10）、BOM（09-15）、JMA（09-09）、WMO（09-11）。**CMA/NCC 本期未获取**（门户仅命中关键词，无可用指标）。\n\n---\n\n## 一、催化效应评估\n\n**评级：极强催化（维持）**\n\n与规则引擎结论**一致**，但需补充两点边际信息：\n\n| 维度 | 规则引擎 | 本次材料增量 |\n|---|---|---|\n| 强度 | 强 | NOAA 明确 \"very strong\"、BOM 预测峰值 **>+3.0°C**、JMA NINO.3 达 **+3.4°C**（1949 年以来 8 月最高，超 1997 年） |\n| 确定性 | 100% | WMO/JMA 均给 **~100%**；NOAA 给 **>90%** 且点名\"historic event\"（75% 概率超 1950 年以来所有事件） |\n| 持续性 | 未明确 | BOM 预期**延续至 2027 年秋季**；WMO 预期年底前见顶 |\n| 新增变量 | 无 | **IOD 指数回升至 +0.65°C**（BOM），正 IOD 与厄尔尼诺叠加 → 印尼/澳洲干旱共振强化 |\n\n**结论：催化方向向上，且由\"强度确认\"升级为\"历史级强度 + 跨年持续性\"双确认。**\n\n**通胀预期与情绪传导路径：**\n```\n海温破纪录(+3.4°C) + 正IOD共振\n  → 东南亚/印度/澳洲降水显著偏少（NOAA：印尼对流受抑制）\n  → 棕榈油/橡胶/白糖减产预期强化\n  → 美豆/玉米生长期干热升水\n  → 食品通胀预期 → 种植/油脂/白糖板块估值催化\n  → 饲料成本上行 → 养殖利润挤压（成本端利空）\n```\n\n**预期差（Price-in）分析：**\n- **气象层面已高度定价**：概率 100%、强度\"very strong\"、破纪录表述——市场对\"厄尔尼诺存在\"几无分歧，**气象预期差已基本打满**。\n- **真正的预期差在\"减产兑现度\"**：当前处于**概念炒作/预期发酵阶段**，尚未进入供需验证。市场分歧点已从\"是否有厄尔尼诺\"转移到\"东南亚实际减产幅度 vs 历史类比\"。\n- **风险信号**：机构概率 ≥90% 属\"确定性极高但预期亦高度定价\"区间，**边际利好钝化**，追高性价比低；一旦出现降水修复或库存数据证伪，升水回吐速度快。\n\n---\n\n## 二、受影响资产清单与涨跌预期\n\n### 期货品种\n\n| 品种 | 方向 | 核心逻辑 |\n|---|---|---|\n| **棕榈油 P / FCPO** | **看多** | 印尼/马来干旱 + 正IOD 共振，减产+去库预期最强，弹性首选 |\n| **白糖 SR** | **看多** | 印度/泰国季风偏弱减产 + 乙醇分流，外盘拉动内盘 |\n| **大豆 A / 豆粕 M** | **震荡偏多** | 北美生长期天气升水；南美播种期不确定性抬升波动率 |\n| **玉米 C** | **震荡偏多** | 美玉米高温干旱升水；国内供需相对独立，跟涨力度弱于豆系 |\n| **天胶 RU** | **偏多** | 东南亚干旱→割胶量下滑，成本端抬升；但需求端弹性有限 |\n| **棉花 CF** | **中性** | 印度减产利多外盘，中国产区影响待观察，区域分化 |\n\n### A 股标的\n\n| 板块 | 代表标的 | 弹性/方向 | 估值分析 |\n|---|---|---|---|\n| **白糖** | 中粮糖业、南宁糖业 | **强弹性** | 糖价直接传导，估值受益最确定 |\n| **种业/种植** | 隆平高科、北大荒、苏垦农发 | 事件敏感 / 温和受益 | 粮价景气提振，但传导滞后 |\n| **粮油加工** | 金龙鱼（成本挤压）、道道全（库存受益） | 分化 | 原料涨价考验毛利，加工端承压 |\n| **化肥农药** | 新洋丰、云图控股、扬农化工 | 滞后/弱相关 | 粮价高企提振施肥意愿，传导最慢 |\n| **饲料养殖** | 海大集团、新希望、牧原、温氏 | **成本承压** | 豆粕/玉米上行挤压毛利，估值端承压 |\n| **橡胶种植** | 海南橡胶 | 事件受益 | 胶价上行直接受益 |\n\n---\n\n## 三、交易策略与风险提示\n\n**关键观察窗口：**\n- **NOAA/CPC**：月度 ENSO Diagnostic Discussion（下次约 10 月上旬）\n- **BOM**：每两周更新（下次约 09-29）\n- **JMA**：月度 outlook（下次约 10 月上旬）\n- **WMO**：季度更新（下次约 12 月）\n- **CMA/NCC**：本期未获取，需持续监控补位\n\n**事件证伪风险点：**\n1. **MJO 扰动引发降水修复** → 东南亚减产预期证伪，升水快速回吐\n2. **政策平抑**：抛储、进口配额放大、关税调整\n3. **央行收紧**：大宗通胀引发货币政策转向，高位品种估值承压\n4. **\"卖事实\"风险**：强催化后边际利好钝化，股票端已 Price-in 强度\n5. **IOD 回落**：若正 IOD 未能维持，印尼干旱逻辑削弱\n\n**仓位/节奏建议：**\n- **期货**：棕榈油、白糖为多头核心配置，回调逢低介入；豆粕/玉米以区间震荡对待，不追高\n- **股票**：白糖板块弹性最优，可优先配置；种业/种植逢预期差修复介入；**饲料养殖板块规避成本挤压**\n- **节奏**：当前处概念炒作阶段，**控制仓位、等待供需验证信号**（库存见底、实际减产数据）再加仓；警惕\"确定性极高但预期打满\"后的钝化回撤\n- **对冲**：多油脂/白糖 vs 空饲料养殖，捕捉产业链利润转移"
   }
 }
