@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17 23:34:24",
-  "cycle": 318,
+  "generated_at": "2026-09-17 23:54:44",
+  "cycle": 322,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,34 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "em:202609173877582779",
-      "ts": "2026-09-17 21:35:52",
-      "title": "18天9板万向德农发布异动公告：玉米种业市场整体供大于求 行业供需矛盾仍突出",
-      "summary": "当前玉米种业市场整体呈现供大于求局面，行业供需矛盾依然突出，市场竞争形势严峻，叠加极端天气频发的不利因素，公司产品价格处于低位，且部分无明显市场竞争优势的品种销售价格短期内无明显改善迹象，公司业绩承压。（央广财经）",
-      "source": "央广财经",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609173877582779.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 74,
-      "matched": [
-        "天气",
-        "极端天气",
-        "玉米",
-        "种业"
-      ],
-      "direction": "利空",
-      "strength": "中",
-      "instruments": [
-        "玉米"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "公司公告称玉米种业供大于求、供需矛盾突出，产品价格低位，压制玉米价格预期",
-      "verify": "若后续玉米现货价格企稳回升或种业库存去化，则逻辑弱化",
-      "judged": true
-    },
     {
       "id": "em:202609173877518669",
       "ts": "2026-09-17 20:38:00",
@@ -521,20 +493,10 @@
       "region": "种业/种植",
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
-      "news_dir": "利空",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "18天9板万向德农发布异动公告：玉米种业市场整体供大于求 行业供需矛盾仍突出",
-          "ts": "2026-09-17 21:35:52",
-          "direction": "利空",
-          "source": "央广财经",
-          "relevance": 74,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609173877582779.html"
-        }
-      ],
-      "resonance": "背离（警惕）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000998.SZ",
         "name": "隆平高科",
@@ -552,7 +514,6 @@
         "ok": true
       },
       "verify": [
-        "若后续玉米现货价格企稳回升或种业库存去化，则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1201,7 +1162,7 @@
     }
   ],
   "stats": {
-    "news_total": 6,
+    "news_total": 5,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
