@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17 23:14:00",
-  "cycle": 314,
+  "generated_at": "2026-09-17 23:34:24",
+  "cycle": 318,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -97,34 +97,6 @@
       "confidence": "高",
       "reason": "CPC官方称厄尔尼诺正在增强，秋冬出现极强事件概率超90%",
       "verify": "若CPC下调极强事件概率则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "sina:892679074",
-      "ts": "2026-09-17 19:17:20",
-      "title": "ETF日报：近期粮食板块行情以超强厄尔尼诺减产预期为核心主线，中长期配置价值显著，可关注粮食ETF",
-      "summary": "今日A股震荡调整。截至收盘，上证指数跌0.41%，报3875.60点，深证成指跌0.33%，科创综指跌0.15%，创业板指跌0.40%。全市场成交额1.84万亿元，较上日缩量160亿元...",
-      "source": "新浪基金",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-17/doc-iniscvfz0363125.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "玉米",
-        "小麦",
-        "棕榈油"
-      ],
-      "horizon": "中期",
-      "confidence": "低",
-      "reason": "ETF日报称粮食板块以超强厄尔尼诺减产预期为核心主线，中长期配置价值显著",
-      "verify": "若减产预期证伪或板块资金流出则逻辑弱化",
       "judged": true
     },
     {
@@ -243,15 +215,6 @@
           "url": "http://finance.eastmoney.com/a/202609173877518669.html"
         },
         {
-          "title": "ETF日报：近期粮食板块行情以超强厄尔尼诺减产预期为核心主线，中长期配置价值显著，可关注粮食ETF",
-          "ts": "2026-09-17 19:17:20",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-17/doc-iniscvfz0363125.shtml"
-        },
-        {
           "title": "警告声又起！中东战火与超级厄尔尼诺夹击 亚洲粮食安全风险加剧",
           "ts": "2026-09-17 16:58:25",
           "direction": "利多",
@@ -259,6 +222,15 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://finance.eastmoney.com/a/202609173877360189.html"
+        },
+        {
+          "title": "美国天气预报机构CPC表示厄尔尼诺正在增强",
+          "ts": "2026-09-17 20:37:28",
+          "direction": "利多",
+          "source": "财联社",
+          "relevance": 90,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202609173877516590.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -280,8 +252,8 @@
       },
       "verify": [
         "若厄尔尼诺减弱或主产区天气正常则逻辑弱化",
-        "若减产预期证伪或板块资金流出则逻辑弱化",
         "若后续降水恢复正常或野火受控则逻辑弱化",
+        "若CPC下调极强事件概率则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -417,15 +389,6 @@
           "url": "http://finance.eastmoney.com/a/202609173877518669.html"
         },
         {
-          "title": "ETF日报：近期粮食板块行情以超强厄尔尼诺减产预期为核心主线，中长期配置价值显著，可关注粮食ETF",
-          "ts": "2026-09-17 19:17:20",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-09-17/doc-iniscvfz0363125.shtml"
-        },
-        {
           "title": "地缘扰动+厄尔尼诺+政策利好，粮食ETF广发（159587）标的指数盘中涨超2%",
           "ts": "2026-09-17 14:49:00",
           "direction": "利多",
@@ -433,6 +396,15 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://stock.eastmoney.com/a/202609173877263770.html"
+        },
+        {
+          "title": "美国天气预报机构CPC表示厄尔尼诺正在增强",
+          "ts": "2026-09-17 20:37:28",
+          "direction": "利多",
+          "source": "财联社",
+          "relevance": 90,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202609173877516590.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -454,8 +426,8 @@
       },
       "verify": [
         "若厄尔尼诺减弱或主产区天气正常则逻辑弱化",
-        "若减产预期证伪或板块资金流出则逻辑弱化",
         "若拉尼娜未出现或天气扰动减弱则逻辑弱化",
+        "若CPC下调极强事件概率则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1229,7 +1201,7 @@
     }
   ],
   "stats": {
-    "news_total": 7,
+    "news_total": 6,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
