@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18 07:01:17",
-  "cycle": 405,
+  "generated_at": "2026-09-18 07:21:35",
+  "cycle": 409,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,32 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "em:202609183877703081",
-      "ts": "2026-09-18 05:59:44",
-      "title": "发展韧性农业守好良田沃土",
-      "summary": "还可扩大洪涝灾害农业保险覆盖范围，优化查勘定损流程、加快赔付进度，分摊极端天气带来的经营风险等。 筑牢韧性农业防线是发展现代农业的有效之举，必须具备主动迎战汛期各类风险、守好各地良田的能力，方能从容应对极端天气考验，稳稳扛起保障国家粮食安全的重大使命。",
-      "source": "经济日报",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609183877703081.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 63,
-      "matched": [
-        "洪涝",
-        "天气",
-        "极端天气",
-        "农业"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "经济日报评论，仅提扩大洪涝农业保险覆盖、加快赔付，未涉及具体品种减产或供需数据",
-      "verify": "若后续报道具体作物受灾面积或产量损失则方向明确",
-      "judged": true
-    },
     {
       "id": "em:202609183877683028",
       "ts": "2026-09-18 02:00:43",
@@ -1175,7 +1149,7 @@
     }
   ],
   "stats": {
-    "news_total": 5,
+    "news_total": 4,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
