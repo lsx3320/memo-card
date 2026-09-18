@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18 07:41:52",
-  "cycle": 413,
+  "generated_at": "2026-09-18 08:02:10",
+  "cycle": 417,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,34 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "em:202609173877584444",
+      "ts": "2026-09-18 07:40:42",
+      "title": "东方财富期货早餐 9月18日 周五",
+      "summary": "周内生猪出栏均重继续小幅上调，高温天气影响逐渐消退，毛猪生长速度加快；加之中旬多地前期控重猪源增量出栏，生猪出栏均重继续回升。短时来看，中秋节前养殖端大猪出栏或相对积极，预计下周生猪出栏均重或仍小涨。",
+      "source": "东方财富研究中心",
+      "channel": "eastmoney",
+      "url": "http://futures.eastmoney.com/a/202609173877584444.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 45,
+      "matched": [
+        "高温",
+        "天气",
+        "期货",
+        "生猪"
+      ],
+      "direction": "利空",
+      "strength": "弱",
+      "instruments": [
+        "生猪"
+      ],
+      "horizon": "短期",
+      "confidence": "中",
+      "reason": "高温消退、生长加快、控重猪源增量出栏，出栏均重继续回升，节前大猪出栏积极，供应增加压制猪价",
+      "verify": "若节前出栏节奏放缓或需求超预期则逻辑弱化",
+      "judged": true
+    },
     {
       "id": "em:202609183877683028",
       "ts": "2026-09-18 02:00:43",
@@ -1088,10 +1116,20 @@
       "region": "养殖",
       "climate_dir": "成本敏感",
       "climate_logic": "生猪+肉鸡，饲料成本转嫁能力一般",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利空",
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "东方财富期货早餐 9月18日 周五",
+          "ts": "2026-09-18 07:40:42",
+          "direction": "利空",
+          "source": "东方财富研究中心",
+          "relevance": 45,
+          "strength": "弱",
+          "url": "http://futures.eastmoney.com/a/202609173877584444.html"
+        }
+      ],
+      "resonance": "共振（利空）",
       "quote": {
         "key": "300498.SZ",
         "name": "温氏股份",
@@ -1109,6 +1147,7 @@
         "ok": true
       },
       "verify": [
+        "若节前出栏节奏放缓或需求超预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1149,7 +1188,7 @@
     }
   ],
   "stats": {
-    "news_total": 4,
+    "news_total": 5,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
