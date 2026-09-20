@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20 09:01:22",
-  "cycle": 507,
+  "generated_at": "2026-09-20 11:08:19",
+  "cycle": 508,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,33 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "sina:893365165",
+      "ts": "2026-09-20 11:12:00",
+      "title": "“玉”见未来：华北新季玉米价格持续下跌，东北产区如何应对？",
+      "summary": "卓创资讯玉米市场分析师李霞 【导语】8月下旬以来华北和东北地区的玉米价格走势出现明显分化：华北玉米价格因供应增加而下行，东北玉米价格则因减产预期和惜售情绪而反弹。...",
+      "source": "市场资讯",
+      "channel": "sina",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-20/doc-inismvpc2578633.shtml",
+      "authority": "media",
+      "important": false,
+      "relevance": 64,
+      "matched": [
+        "减产",
+        "产区",
+        "玉米"
+      ],
+      "direction": "中性",
+      "strength": "中",
+      "instruments": [
+        "玉米"
+      ],
+      "horizon": "短期",
+      "confidence": "中",
+      "reason": "华北供应增加价格下行，东北减产预期惜售反弹，区域分化，整体方向不明",
+      "verify": "若东北减产预期被证伪或华北供应持续放量则分化收敛",
+      "judged": true
+    },
     {
       "id": "em:202609193879220156",
       "ts": "2026-09-19 15:36:54",
@@ -124,7 +151,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 0,
+  "news_new_count": 1,
   "instruments": [
     {
       "key": "P",
@@ -241,8 +268,18 @@
       "climate_dir": "震荡偏多",
       "climate_logic": "生长期高温干旱预期升水，国内供需相对独立",
       "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "“玉”见未来：华北新季玉米价格持续下跌，东北产区如何应对？",
+          "ts": "2026-09-20 11:12:00",
+          "direction": "中性",
+          "source": "市场资讯",
+          "relevance": 64,
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-20/doc-inismvpc2578633.shtml"
+        }
+      ],
       "resonance": "仅气候信号",
       "quote": {
         "key": "nf_C0",
@@ -261,6 +298,7 @@
         "ok": true
       },
       "verify": [
+        "若东北减产预期被证伪或华北供应持续放量则分化收敛",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -902,7 +940,7 @@
     }
   ],
   "stats": {
-    "news_total": 4,
+    "news_total": 5,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
