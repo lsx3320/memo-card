@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20 15:07:12",
-  "cycle": 510,
+  "generated_at": "2026-09-20 16:47:15",
+  "cycle": 511,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -38,31 +38,6 @@
       "confidence": "中",
       "reason": "华北供应增加价格下行，东北减产预期惜售反弹，区域分化，整体方向不明",
       "verify": "若东北减产预期被证伪或华北供应持续放量则分化收敛",
-      "judged": true
-    },
-    {
-      "id": "em:202609203879336220",
-      "ts": "2026-09-20 10:48:45",
-      "title": "华西地区降雨范围扩大 东北、西北多地迎立秋以来最高气温新低",
-      "summary": "据中国天气网，今明两天（9月20日至21日），华西地区降雨范围会向东扩展，雨势也会有所增强，局地或现大暴雨。同时，北方降温将继续向南推进，东北、西北地区多地迎立秋以来最高气温新低。而江南、华南一带闷热感进一步增强，多地将现高温天气。",
-      "source": "财联社",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609203879336220.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 39,
-      "matched": [
-        "降雨",
-        "高温",
-        "天气"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "华西降雨扩大利空当地作物，但东北西北降温、江南华南高温影响方向相反，整体无明确单边驱动",
-      "verify": "若华西大暴雨持续成灾或南方高温干旱加剧，则方向转为利多",
       "judged": true
     },
     {
@@ -148,35 +123,9 @@
       "reason": "原文称强厄尔尼诺致天然橡胶产量下降、价格上涨，但公司占比小且可传导成本",
       "verify": "若橡胶产区降水恢复正常则逻辑弱化",
       "judged": true
-    },
-    {
-      "id": "em:202609183879203060",
-      "ts": "2026-09-18 15:47:00",
-      "title": "上期所本周铜、橡胶库存增加，铝、锌、铅、镍、锡库存减少",
-      "summary": "南方财经9月18日电，据上期所，本周铜库存增加1293吨，铝库存减少26729吨，锌库存减少898吨，铅库存减少3685吨，镍库存减少2138吨，锡库存减少593吨，天然橡胶库存增加1660吨。",
-      "source": "南方财经网",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609183879203060.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 40,
-      "matched": [
-        "库存",
-        "橡胶"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "短期",
-      "confidence": "高",
-      "reason": "上期所数据显示天然橡胶库存增加1660吨，铜增1293吨，铝锌铅镍锡库存均减少",
-      "verify": "若下周橡胶库存转为下降则利空逻辑弱化",
-      "judged": true
     }
   ],
-  "news_new_count": 1,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -339,7 +288,7 @@
       "climate_dir": "偏多（干旱减产逻辑）",
       "climate_logic": "产区干旱→割胶量下滑预期，成本端抬升",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
         {
           "title": "华密新材：强厄尔尼诺现象对公司影响十分有限",
@@ -349,15 +298,6 @@
           "relevance": 100,
           "strength": "弱",
           "url": "http://finance.eastmoney.com/a/202609183878877872.html"
-        },
-        {
-          "title": "上期所本周铜、橡胶库存增加，铝、锌、铅、镍、锡库存减少",
-          "ts": "2026-09-18 15:47:00",
-          "direction": "中性",
-          "source": "南方财经网",
-          "relevance": 40,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609183879203060.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -379,9 +319,9 @@
       },
       "verify": [
         "若橡胶产区降水恢复正常则逻辑弱化",
-        "若下周橡胶库存转为下降则利空逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -965,7 +905,7 @@
     }
   ],
   "stats": {
-    "news_total": 6,
+    "news_total": 4,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
