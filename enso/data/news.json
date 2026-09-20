@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21 05:15:23",
-  "cycle": 549,
+  "generated_at": "2026-09-21 07:16:56",
+  "cycle": 550,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,33 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "em:202609213879503170",
+      "ts": "2026-09-21 05:45:47",
+      "title": "农业保险需织起更密安全网",
+      "summary": "近年来极端天气多发频发，台风、洪涝、干旱等灾害给农业造成严重损失，广大农户风险保障需求日益增长。需要推动农业保险提质增效、转型升级，使其真正成为农业强国建设的重要支撑。",
+      "source": "经济日报",
+      "channel": "eastmoney",
+      "url": "http://insurance.eastmoney.com/a/202609213879503170.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 85,
+      "matched": [
+        "干旱",
+        "洪涝",
+        "天气",
+        "极端天气",
+        "农业"
+      ],
+      "direction": "中性",
+      "strength": "弱",
+      "instruments": [],
+      "horizon": "短期",
+      "confidence": "中",
+      "reason": "经济日报评论，仅泛述极端天气多发、农业保险需求增长，未涉及具体品种产量或价格数据",
+      "verify": "若后续无具体灾害减产数据或政策落地则影响弱化",
+      "judged": true
+    },
     {
       "id": "em:202609193879220156",
       "ts": "2026-09-19 15:36:54",
@@ -70,7 +97,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 0,
+  "news_new_count": 1,
   "instruments": [
     {
       "key": "P",
@@ -828,7 +855,7 @@
     }
   ],
   "stats": {
-    "news_total": 2,
+    "news_total": 3,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
