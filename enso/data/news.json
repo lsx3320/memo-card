@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21 13:04:59",
-  "cycle": 553,
+  "generated_at": "2026-09-21 13:46:26",
+  "cycle": 554,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,191 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "jin10:20260921125734837800",
-      "ts": "2026-09-21 12:57:34",
-      "title": "【期货热点追踪】备战节日旺季！印度出台食糖调控新政，放宽大宗库存并强力施压中间商与零售商，要求终端糖价必须与出厂价同步大",
-      "summary": "【期货热点追踪】备战节日旺季！印度出台食糖调控新政，放宽大宗库存并强力施压中间商与零售商，要求终端糖价必须与出厂价同步大幅下调。点击阅读。",
-      "source": "金十数据",
-      "channel": "jin10",
-      "url": "",
-      "authority": "media",
-      "important": true,
-      "relevance": 67,
-      "matched": [
-        "库存",
-        "食糖",
-        "期货"
-      ],
-      "direction": "利空",
-      "strength": "中",
-      "instruments": [
-        "白糖"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "印度放宽食糖库存并施压降价，终端价与出厂价同步下调，增加市场供应预期",
-      "verify": "若印度政策执行不力或出口限制收紧则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609213879850543",
-      "ts": "2026-09-21 11:37:51",
-      "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-      "summary": "而在另一边，极端天气、地缘局势导致的国际粮价波动引发市场关注。世界气象组织近日确认，厄尔尼诺事件已稳固建立，预计未来数月将增强为超强级别事件；风险咨询公司Verisk Maplecroft近期发布的一份报告指出，极端天气灾害将加剧亚洲的粮食安全风险。",
-      "source": "东方财富研究中心",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609213879850543.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "天气",
-        "极端天气"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "玉米",
-        "豆粕",
-        "棕榈油",
-        "白糖",
-        "天然橡胶",
-        "棉花"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "世界气象组织确认厄尔尼诺增强为超强级别，Verisk报告指极端天气加剧亚洲粮食安全风险",
-      "verify": "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609213879853761",
-      "ts": "2026-09-21 11:28:55",
-      "title": "【涨停直击】农业板块走强，热门股三连板",
-      "summary": "9月18日晚，金健米业再次发布风险提示称，近期市场对公司所处粮食、食品加工板块关注度较高，存在“超强厄尔尼诺”“粮食概念”等市场热点讨论。经公司核实，公司粮油产品作为民生必需品，终端价格波动幅度有限，前述题材预期对公司实际经营业绩的影响存在较大不确定性，请投资者理性看待。",
-      "source": "中国证券报·中证金牛座",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609213879853761.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 69,
-      "matched": [
-        "厄尔尼诺",
-        "农业"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "粮油加工板块"
-      ],
-      "horizon": "短期",
-      "confidence": "高",
-      "reason": "金健米业公告称粮油终端价格波动有限，厄尔尼诺题材对实际经营影响存在较大不确定性",
-      "verify": "若公司后续业绩证实题材影响则逻辑改变",
-      "judged": true
-    },
-    {
-      "id": "em:202609213879830234",
-      "ts": "2026-09-21 11:13:00",
-      "title": "A股农业板块为何难走出持续行情？",
-      "summary": "近日，厄尔尼诺等极端天气扰动全球多地农业生产，A股以种业股为代表的农业板块走势强劲，出现一波“脉冲式”上涨行情。不过从历史上看，A股农业股行情往往缺乏持续性，这种现象令不少投资者大惑不解。",
-      "source": "证券时报网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609213879830234.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "天气",
-        "极端天气",
-        "农业",
-        "种业"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "种业板块"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "厄尔尼诺扰动农业，但A股农业板块行情缺乏持续性，呈脉冲式上涨",
-      "verify": "若板块出现持续放量上涨则逻辑推翻",
-      "judged": true
-    },
-    {
-      "id": "em:202609213879600434",
-      "ts": "2026-09-21 09:35:03",
-      "title": "农产品 | 节前备货提振有限 生猪盘面震荡偏弱",
-      "summary": "中长期来看，超强厄尔尼诺预期持续强化，印尼山火持续发酵，市场对产区减产的担忧仍在。豆油方面，USDA 9月供需报告上调美豆单产至52.8蒲式耳/英亩，美豆价格承压下行；国内大豆到港量维持高位，油厂压榨开工率偏高，豆油库存处于高位。",
-      "source": "南华期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609213879600434.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产",
-        "库存",
-        "产区",
-        "大豆",
-        "农产品",
-        "生猪"
-      ],
-      "direction": "中性",
-      "strength": "中",
-      "instruments": [
-        "棕榈油",
-        "豆油",
-        "生猪"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "超强厄尔尼诺强化、印尼山火发酵利多油脂；但USDA上调美豆单产至52.8、豆油库存高位利空",
-      "verify": "若印尼山火受控或美豆单产再上调则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609213879616846",
-      "ts": "2026-09-21 09:31:00",
-      "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-      "summary": "近期，赤道中东太平洋海温持续偏暖，多家权威监测机构上调本轮厄尔尼诺强度预期。据历史经验，厄尔尼诺所带来的大范围极端降水、持续高温干旱，会直接干扰全球主产区作物生长，推升减产预期，进而传导至农产品价格。",
-      "source": "证券时报网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609213879616846.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "海温",
-        "太平洋海温",
-        "干旱",
-        "降水",
-        "高温",
-        "减产",
-        "产区",
-        "气候",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "棕榈油",
-        "白糖",
-        "玉米",
-        "天然橡胶",
-        "棉花"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "多家权威机构上调厄尔尼诺强度预期，极端降水高温干旱干扰主产区，推升减产预期",
-      "verify": "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
-      "judged": true
-    },
     {
       "id": "em:202609213879548264",
       "ts": "2026-09-21 09:15:52",
@@ -233,17 +48,16 @@
       "id": "em:202609213879533480",
       "ts": "2026-09-21 08:40:25",
       "title": "农产品 | 鸡蛋：供给继续宽松 蛋价面临阶段性回调压力",
-      "summary": "油脂： 国外：马棕9月1-15日出口环比降17.8%/25.6%（ITS/AmSpec），需求疲弱叠加MPOB8月库存282万吨创7个月新高，产地压制延续；CBOT豆油随美豆走强提供一定支撑，印尼B50与厄尔尼诺减产担忧构成远端支撑。",
+      "summary": "国内：三大油脂库存278.29万吨、周增0.92万吨，供应宽松；棕榈油买船增多、到港压力加大，板块再度回落。产地累库与出口疲弱主导，油脂反弹夭折重回弱势，关注下方支撑有效性。建议观望，空单轻仓者可持有，等待产地出口改善信号。",
       "source": "中财期货",
       "channel": "eastmoney",
       "url": "http://futures.eastmoney.com/a/202609213879533480.html",
       "authority": "media",
       "important": false,
-      "relevance": 100,
+      "relevance": 61,
       "matched": [
-        "厄尔尼诺",
-        "减产",
         "库存",
+        "棕榈油",
         "油脂",
         "农产品"
       ],
@@ -260,7 +74,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 4,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -271,59 +85,50 @@
       "region": "印尼/马来",
       "climate_dir": "看多",
       "climate_logic": "干旱削减产量前景，库存偏低→减产+去库预期",
-      "news_dir": "利多",
-      "news_count": 3,
+      "news_dir": "利空",
+      "news_count": 2,
       "top_news": [
         {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "农产品 | 节前备货提振有限 生猪盘面震荡偏弱",
-          "ts": "2026-09-21 09:35:03",
-          "direction": "中性",
-          "source": "南华期货",
-          "relevance": 100,
+          "title": "农产品 | 新粮上市压制 玉米市场承压",
+          "ts": "2026-09-21 09:15:52",
+          "direction": "利空",
+          "source": "国信期货",
+          "relevance": 94,
           "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609213879600434.html"
+          "url": "http://futures.eastmoney.com/a/202609213879548264.html"
         },
         {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
+          "title": "农产品 | 鸡蛋：供给继续宽松 蛋价面临阶段性回调压力",
+          "ts": "2026-09-21 08:40:25",
+          "direction": "中性",
+          "source": "中财期货",
+          "relevance": 61,
+          "strength": "弱",
+          "url": "http://futures.eastmoney.com/a/202609213879533480.html"
         }
       ],
-      "resonance": "共振（利多）",
+      "resonance": "背离（警惕）",
       "quote": {
         "key": "nf_P0",
         "name": "棕榈油",
         "kind": "future",
-        "price": 9886.0,
+        "price": 9899.0,
         "prev_close": 9907.0,
-        "change": -21.0,
-        "change_pct": -0.21,
+        "change": -8.0,
+        "change_pct": -0.08,
         "open": 9865.0,
         "high": 9935.0,
         "low": 9842.0,
-        "volume": 290342.0,
-        "ts": "2026-09-21 11:30:00",
+        "volume": 304809.0,
+        "ts": "2026-09-21 13:46:25",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若印尼山火受控或美豆单产再上调则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "若出口回暖、库存意外下降则跌势扭转",
+        "若马棕出口恢复或库存回落，则压制逻辑弱化。",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     },
     {
@@ -335,59 +140,30 @@
       "region": "印度/泰国",
       "climate_dir": "看多",
       "climate_logic": "主产区干旱减产预期+乙醇分流，外盘拉动内盘",
-      "news_dir": "利多",
-      "news_count": 3,
-      "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
-        },
-        {
-          "title": "【期货热点追踪】备战节日旺季！印度出台食糖调控新政，放宽大宗库存并强力施压中间商与零售商，要求终端糖价必须与出厂价同步大",
-          "ts": "2026-09-21 12:57:34",
-          "direction": "利空",
-          "source": "金十数据",
-          "relevance": 67,
-          "strength": "中",
-          "url": ""
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_SR0",
         "name": "白糖",
         "kind": "future",
-        "price": 5330.0,
+        "price": 5332.0,
         "prev_close": 5326.0,
-        "change": 4.0,
-        "change_pct": 0.08,
+        "change": 6.0,
+        "change_pct": 0.11,
         "open": 5335.0,
         "high": 5339.0,
         "low": 5318.0,
-        "volume": 232688.0,
-        "ts": "2026-09-21 11:29:59",
+        "volume": 242783.0,
+        "ts": "2026-09-21 13:46:25",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
-        "若印度政策执行不力或出口限制收紧则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -399,50 +175,30 @@
       "region": "美豆/南美",
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
-      "news_dir": "利多",
-      "news_count": 2,
-      "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "农产品 | 节前备货提振有限 生猪盘面震荡偏弱",
-          "ts": "2026-09-21 09:35:03",
-          "direction": "中性",
-          "source": "南华期货",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609213879600434.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_M0",
         "name": "豆粕",
         "kind": "future",
-        "price": 3390.0,
+        "price": 3396.0,
         "prev_close": 3429.0,
-        "change": -39.0,
-        "change_pct": -1.14,
+        "change": -33.0,
+        "change_pct": -0.96,
         "open": 3393.0,
         "high": 3406.0,
         "low": 3374.0,
-        "volume": 1044831.0,
-        "ts": "2026-09-21 11:30:00",
+        "volume": 1088600.0,
+        "ts": "2026-09-21 13:46:25",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若印尼山火受控或美豆单产再上调则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -454,27 +210,9 @@
       "region": "美玉米/国内",
       "climate_dir": "震荡偏多",
       "climate_logic": "生长期高温干旱预期升水，国内供需相对独立",
-      "news_dir": "利多",
-      "news_count": 3,
+      "news_dir": "利空",
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
-        },
         {
           "title": "农产品 | 新粮上市压制 玉米市场承压",
           "ts": "2026-09-21 09:15:52",
@@ -485,28 +223,28 @@
           "url": "http://futures.eastmoney.com/a/202609213879548264.html"
         }
       ],
-      "resonance": "共振（利多）",
+      "resonance": "背离（警惕）",
       "quote": {
         "key": "nf_C0",
         "name": "玉米",
         "kind": "future",
-        "price": 2173.0,
+        "price": 2171.0,
         "prev_close": 2188.0,
-        "change": -15.0,
-        "change_pct": -0.69,
+        "change": -17.0,
+        "change_pct": -0.78,
         "open": 2185.0,
         "high": 2192.0,
         "low": 2166.0,
-        "volume": 486104.0,
-        "ts": "2026-09-21 11:30:00",
+        "volume": 500718.0,
+        "ts": "2026-09-21 13:46:25",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
         "若出口回暖、库存意外下降则跌势扭转",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -518,50 +256,30 @@
       "region": "东南亚",
       "climate_dir": "偏多（干旱减产逻辑）",
       "climate_logic": "产区干旱→割胶量下滑预期，成本端抬升",
-      "news_dir": "利多",
-      "news_count": 2,
-      "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_RU0",
         "name": "天然橡胶",
         "kind": "future",
-        "price": 18845.0,
+        "price": 18840.0,
         "prev_close": 18750.0,
-        "change": 95.0,
-        "change_pct": 0.51,
+        "change": 90.0,
+        "change_pct": 0.48,
         "open": 18710.0,
         "high": 18930.0,
         "low": 18695.0,
-        "volume": 194529.0,
-        "ts": "2026-09-21 11:30:00",
+        "volume": 203986.0,
+        "ts": "2026-09-21 13:46:25",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -573,50 +291,30 @@
       "region": "印度/美棉",
       "climate_dir": "中性（区域分化）",
       "climate_logic": "印度减产利多外盘；中国产区影响待观察",
-      "news_dir": "利多",
-      "news_count": 2,
-      "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
-        }
-      ],
-      "resonance": "中性",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_CF0",
         "name": "棉花",
         "kind": "future",
-        "price": 15895.0,
+        "price": 15915.0,
         "prev_close": 15795.0,
-        "change": 100.0,
-        "change_pct": 0.63,
+        "change": 120.0,
+        "change_pct": 0.76,
         "open": 15705.0,
-        "high": 15920.0,
+        "high": 15925.0,
         "low": 15705.0,
-        "volume": 263795.0,
-        "ts": "2026-09-21 11:30:00",
+        "volume": 278280.0,
+        "ts": "2026-09-21 13:46:25",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -629,37 +327,26 @@
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "A股农业板块为何难走出持续行情？",
-          "ts": "2026-09-21 11:13:00",
-          "direction": "中性",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609213879830234.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "000998.SZ",
         "name": "隆平高科",
         "kind": "stock",
-        "price": 9.01,
+        "price": 9.04,
         "prev_close": 8.99,
-        "change": 0.02,
-        "change_pct": 0.22,
+        "change": 0.05,
+        "change_pct": 0.56,
         "open": 8.91,
         "high": 9.09,
         "low": 8.83,
-        "volume": 29928485.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 32276685.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若板块出现持续放量上涨则逻辑推翻",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -674,37 +361,26 @@
       "climate_dir": "温和受益",
       "climate_logic": "东北种植主体，粮价景气受益",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "【涨停直击】农业板块走强，热门股三连板",
-          "ts": "2026-09-21 11:28:55",
-          "direction": "中性",
-          "source": "中国证券报·中证金牛座",
-          "relevance": 69,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609213879853761.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "600598.SH",
         "name": "北大荒",
         "kind": "stock",
-        "price": 12.77,
+        "price": 12.81,
         "prev_close": 12.64,
-        "change": 0.13,
-        "change_pct": 1.03,
+        "change": 0.17,
+        "change_pct": 1.34,
         "open": 12.59,
         "high": 12.85,
         "low": 12.5,
-        "volume": 19883640.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 21221840.0,
+        "ts": "2026-09-21 13:46:21",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若公司后续业绩证实题材影响则逻辑改变",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -719,37 +395,26 @@
       "climate_dir": "温和受益",
       "climate_logic": "土地流转+稻麦种植，粮价上行受益",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "【涨停直击】农业板块走强，热门股三连板",
-          "ts": "2026-09-21 11:28:55",
-          "direction": "中性",
-          "source": "中国证券报·中证金牛座",
-          "relevance": 69,
-          "strength": "弱",
-          "url": "http://finance.eastmoney.com/a/202609213879853761.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "601952.SH",
         "name": "苏垦农发",
         "kind": "stock",
-        "price": 9.58,
+        "price": 9.61,
         "prev_close": 9.54,
-        "change": 0.04,
-        "change_pct": 0.42,
+        "change": 0.07,
+        "change_pct": 0.73,
         "open": 9.54,
         "high": 9.7,
         "low": 9.39,
-        "volume": 23931300.0,
-        "ts": "2026-09-21 13:21:41",
+        "volume": 25215600.0,
+        "ts": "2026-09-21 13:46:20",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若公司后续业绩证实题材影响则逻辑改变",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -763,59 +428,29 @@
       "region": "白糖",
       "climate_dir": "强弹性",
       "climate_logic": "国内食糖贸易与加工龙头，糖价弹性大",
-      "news_dir": "利多",
-      "news_count": 3,
-      "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
-        },
-        {
-          "title": "【期货热点追踪】备战节日旺季！印度出台食糖调控新政，放宽大宗库存并强力施压中间商与零售商，要求终端糖价必须与出厂价同步大",
-          "ts": "2026-09-21 12:57:34",
-          "direction": "利空",
-          "source": "金十数据",
-          "relevance": 67,
-          "strength": "中",
-          "url": ""
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "600737.SH",
         "name": "中粮糖业",
         "kind": "stock",
-        "price": 15.01,
+        "price": 15.02,
         "prev_close": 14.78,
-        "change": 0.23,
-        "change_pct": 1.56,
+        "change": 0.24,
+        "change_pct": 1.62,
         "open": 14.54,
         "high": 15.13,
         "low": 14.54,
-        "volume": 61327555.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 64457654.0,
+        "ts": "2026-09-21 13:46:21",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
-        "若印度政策执行不力或出口限制收紧则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     },
     {
@@ -827,59 +462,29 @@
       "region": "白糖",
       "climate_dir": "强弹性",
       "climate_logic": "制糖主业，糖价上行直接受益",
-      "news_dir": "利多",
-      "news_count": 3,
-      "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
-        },
-        {
-          "title": "【期货热点追踪】备战节日旺季！印度出台食糖调控新政，放宽大宗库存并强力施压中间商与零售商，要求终端糖价必须与出厂价同步大",
-          "ts": "2026-09-21 12:57:34",
-          "direction": "利空",
-          "source": "金十数据",
-          "relevance": 67,
-          "strength": "中",
-          "url": ""
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000911.SZ",
         "name": "南宁糖业",
         "kind": "stock",
-        "price": 5.28,
+        "price": 5.3,
         "prev_close": 5.22,
-        "change": 0.06,
-        "change_pct": 1.15,
+        "change": 0.08,
+        "change_pct": 1.53,
         "open": 5.2,
         "high": 5.36,
         "low": 5.14,
-        "volume": 6968100.0,
-        "ts": "2026-09-21 13:21:42",
+        "volume": 8157100.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
-        "若印度政策执行不力或出口限制收紧则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     },
     {
@@ -891,59 +496,29 @@
       "region": "白糖/浆纸",
       "climate_dir": "弹性中等",
       "climate_logic": "广西糖业+浆纸双主业",
-      "news_dir": "利多",
-      "news_count": 3,
-      "top_news": [
-        {
-          "title": "政策利好与厄尔尼诺共振 粮食概念再度活跃 融资客上周抢筹这5股(名单)",
-          "ts": "2026-09-21 11:37:51",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879850543.html"
-        },
-        {
-          "title": "超强厄尔尼诺预期强化 农产品与农化链迎气候驱动下的价值重估",
-          "ts": "2026-09-21 09:31:00",
-          "direction": "利多",
-          "source": "证券时报网",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202609213879616846.html"
-        },
-        {
-          "title": "【期货热点追踪】备战节日旺季！印度出台食糖调控新政，放宽大宗库存并强力施压中间商与零售商，要求终端糖价必须与出厂价同步大",
-          "ts": "2026-09-21 12:57:34",
-          "direction": "利空",
-          "source": "金十数据",
-          "relevance": 67,
-          "strength": "中",
-          "url": ""
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000833.SZ",
         "name": "粤桂股份",
         "kind": "stock",
-        "price": 19.96,
+        "price": 20.01,
         "prev_close": 20.09,
-        "change": -0.13,
-        "change_pct": -0.65,
+        "change": -0.08,
+        "change_pct": -0.4,
         "open": 20.09,
         "high": 20.13,
         "low": 19.9,
-        "volume": 12220536.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 12985156.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续降水恢复正常或厄尔尼诺减弱则逻辑弱化",
-        "若海温回落、厄尔尼诺强度预期下调则逻辑弱化",
-        "若印度政策执行不力或出口限制收紧则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     },
     {
@@ -963,15 +538,15 @@
         "key": "300999.SZ",
         "name": "金龙鱼",
         "kind": "stock",
-        "price": 24.95,
+        "price": 25.03,
         "prev_close": 25.0,
-        "change": -0.05,
-        "change_pct": -0.2,
+        "change": 0.03,
+        "change_pct": 0.12,
         "open": 24.91,
-        "high": 25.02,
+        "high": 25.04,
         "low": 24.71,
-        "volume": 8352500.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 8998500.0,
+        "ts": "2026-09-21 13:46:21",
         "source": "sina",
         "ok": true
       },
@@ -997,15 +572,15 @@
         "key": "002852.SZ",
         "name": "道道全",
         "kind": "stock",
-        "price": 8.22,
+        "price": 8.25,
         "prev_close": 8.14,
-        "change": 0.08,
-        "change_pct": 0.98,
+        "change": 0.11,
+        "change_pct": 1.35,
         "open": 8.09,
         "high": 8.26,
         "low": 8.03,
-        "volume": 5778702.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 6376602.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
@@ -1031,15 +606,15 @@
         "key": "600486.SH",
         "name": "扬农化工",
         "kind": "stock",
-        "price": 53.45,
+        "price": 53.79,
         "prev_close": 52.4,
-        "change": 1.05,
-        "change_pct": 2.0,
+        "change": 1.39,
+        "change_pct": 2.65,
         "open": 52.62,
         "high": 53.98,
         "low": 52.61,
-        "volume": 2381452.0,
-        "ts": "2026-09-21 13:21:46",
+        "volume": 2524252.0,
+        "ts": "2026-09-21 13:46:19",
         "source": "sina",
         "ok": true
       },
@@ -1065,15 +640,15 @@
         "key": "000902.SZ",
         "name": "新洋丰",
         "kind": "stock",
-        "price": 13.88,
+        "price": 13.97,
         "prev_close": 13.82,
-        "change": 0.06,
-        "change_pct": 0.43,
+        "change": 0.15,
+        "change_pct": 1.09,
         "open": 13.82,
-        "high": 13.98,
+        "high": 14.0,
         "low": 13.61,
-        "volume": 4838600.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 5524200.0,
+        "ts": "2026-09-21 13:46:21",
         "source": "sina",
         "ok": true
       },
@@ -1099,15 +674,15 @@
         "key": "002539.SZ",
         "name": "云图控股",
         "kind": "stock",
-        "price": 12.47,
+        "price": 12.54,
         "prev_close": 12.31,
-        "change": 0.16,
-        "change_pct": 1.3,
+        "change": 0.23,
+        "change_pct": 1.87,
         "open": 12.27,
         "high": 12.57,
         "low": 12.22,
-        "volume": 6967499.0,
-        "ts": "2026-09-21 13:21:42",
+        "volume": 7889499.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
@@ -1133,15 +708,15 @@
         "key": "002311.SZ",
         "name": "海大集团",
         "kind": "stock",
-        "price": 42.26,
+        "price": 42.36,
         "prev_close": 41.98,
-        "change": 0.28,
-        "change_pct": 0.67,
+        "change": 0.38,
+        "change_pct": 0.91,
         "open": 41.95,
         "high": 42.42,
         "low": 41.71,
-        "volume": 2880127.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 3355927.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
@@ -1167,15 +742,15 @@
         "key": "000876.SZ",
         "name": "新希望",
         "kind": "stock",
-        "price": 7.25,
+        "price": 7.27,
         "prev_close": 7.16,
-        "change": 0.09,
-        "change_pct": 1.26,
+        "change": 0.11,
+        "change_pct": 1.54,
         "open": 7.19,
         "high": 7.3,
         "low": 7.12,
-        "volume": 30594836.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 33603337.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
@@ -1201,15 +776,15 @@
         "key": "002714.SZ",
         "name": "牧原股份",
         "kind": "stock",
-        "price": 42.08,
+        "price": 42.29,
         "prev_close": 41.35,
-        "change": 0.73,
-        "change_pct": 1.77,
+        "change": 0.94,
+        "change_pct": 2.27,
         "open": 41.38,
-        "high": 42.2,
+        "high": 42.29,
         "low": 41.04,
-        "volume": 19132768.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 21423648.0,
+        "ts": "2026-09-21 13:46:24",
         "source": "sina",
         "ok": true
       },
@@ -1235,15 +810,15 @@
         "key": "300498.SZ",
         "name": "温氏股份",
         "kind": "stock",
-        "price": 14.82,
+        "price": 14.93,
         "prev_close": 14.79,
-        "change": 0.03,
-        "change_pct": 0.2,
+        "change": 0.14,
+        "change_pct": 0.95,
         "open": 14.73,
-        "high": 14.91,
+        "high": 14.93,
         "low": 14.65,
-        "volume": 21823139.0,
-        "ts": "2026-09-21 13:21:45",
+        "volume": 23929339.0,
+        "ts": "2026-09-21 13:46:21",
         "source": "sina",
         "ok": true
       },
@@ -1269,15 +844,15 @@
         "key": "601118.SH",
         "name": "海南橡胶",
         "kind": "stock",
-        "price": 6.35,
+        "price": 6.37,
         "prev_close": 6.15,
-        "change": 0.2,
-        "change_pct": 3.25,
+        "change": 0.22,
+        "change_pct": 3.58,
         "open": 6.14,
         "high": 6.44,
         "low": 6.09,
-        "volume": 97042860.0,
-        "ts": "2026-09-21 13:21:46",
+        "volume": 102283960.0,
+        "ts": "2026-09-21 13:46:19",
         "source": "sina",
         "ok": true
       },
@@ -1288,7 +863,7 @@
     }
   ],
   "stats": {
-    "news_total": 8,
+    "news_total": 2,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
