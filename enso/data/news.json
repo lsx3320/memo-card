@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23 00:56:24",
-  "cycle": 589,
+  "generated_at": "2026-09-23 01:35:44",
+  "cycle": 590,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -17,18 +17,15 @@
       "id": "em:202609223881470140",
       "ts": "2026-09-22 20:03:44",
       "title": "【环球财经】拉加经委会警告极端厄尔尼诺或重创拉美经济 巴西面临旱涝并存风险",
-      "summary": "拉加经委会指出，高温天气可能推高圣保罗等大城市的空调制冷用电需求，而部分地区降水减少又可能影响水库蓄水和水力发电，加大电力供应成本及局部供电中断风险。 巴西电力结构中水电占有较高比重。",
+      "summary": "根据美国国家海洋和大气管理局相关预测，2026年至2027年北半球秋冬季节，厄尔尼诺发展为很强事件的概率超过90%，其达到具有历史性强度的“超级厄尔尼诺”规模的概率为69%。",
       "source": "新华财经",
       "channel": "eastmoney",
       "url": "http://finance.eastmoney.com/a/202609223881470140.html",
       "authority": "media",
       "important": false,
-      "relevance": 100,
+      "relevance": 49,
       "matched": [
-        "厄尔尼诺",
-        "降水",
-        "高温",
-        "天气"
+        "厄尔尼诺"
       ],
       "direction": "不确定",
       "strength": "弱",
@@ -158,63 +155,6 @@
       "reason": "天气交易降温，豆棕破关键支撑，国内供强需弱；原糖天气溢价兑现叠加油价下滑回落",
       "verify": "若南美天气再度恶化或油价反弹则逻辑反转",
       "judged": true
-    },
-    {
-      "id": "em:202609223880647747",
-      "ts": "2026-09-22 08:35:25",
-      "title": "农产品 | 蛋价呈现先涨后跌走势 冲高后小幅回落",
-      "summary": "综合来看，尽管厄尔尼诺引发棕榈油长期减产风险，且印尼生柴政策不断加码，给棕榈油带来支撑，但高库存及出口需求疲弱仍是现阶段棕榈油的主要拖累，棕榈油大概率维持宽幅震荡走势。",
-      "source": "上海中期期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609223880647747.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产",
-        "库存",
-        "棕榈油",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "豆粕",
-        "大豆"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "巴西大豆9月中旬开启种植，四季度超强厄尔尼诺给单产带来较强不确定性",
-      "verify": "若南美降水恢复正常则减产预期弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609223880391417",
-      "ts": "2026-09-22 07:40:52",
-      "title": "东方财富期货早餐 9月22日 周二",
-      "summary": "（新华财经） 棕榈油：据Mysteel调研，截至2026年9月18日，全国重点地区棕榈油商业库存93.509万吨，环比减少0.46万吨，减幅0.49%；同比去年增加35.00万吨，增幅59.82%。",
-      "source": "东方财富研究中心",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609223880391417.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 41,
-      "matched": [
-        "库存",
-        "棕榈油",
-        "期货"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "沪镍"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "厄尔尼诺致印尼干旱，IMIP园区镍铁生产或10月受波及，但短期对供需格局影响有限",
-      "verify": "若印尼生产实际中断或库存下降则转多",
-      "judged": true
     }
   ],
   "news_new_count": 0,
@@ -228,7 +168,7 @@
       "region": "印尼/马来",
       "climate_dir": "看多",
       "climate_logic": "干旱削减产量前景，库存偏低→减产+去库预期",
-      "news_dir": "利多",
+      "news_dir": "利空",
       "news_count": 3,
       "top_news": [
         {
@@ -241,15 +181,6 @@
           "url": "http://finance.eastmoney.com/a/202609223881096455.html"
         },
         {
-          "title": "农产品 | 蛋价呈现先涨后跌走势 冲高后小幅回落",
-          "ts": "2026-09-22 08:35:25",
-          "direction": "利多",
-          "source": "上海中期期货",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609223880647747.html"
-        },
-        {
           "title": "上周国内豆油菜籽油商业库存上升棕榈油下降",
           "ts": "2026-09-22 10:09:16",
           "direction": "利空",
@@ -257,9 +188,18 @@
           "relevance": 61,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609223880997838.html"
+        },
+        {
+          "title": "农产品 | 获利了结打压 连粕冲高回落",
+          "ts": "2026-09-22 08:57:58",
+          "direction": "利空",
+          "source": "正信期货",
+          "relevance": 61,
+          "strength": "中",
+          "url": "http://futures.eastmoney.com/a/202609223880690859.html"
         }
       ],
-      "resonance": "共振（利多）",
+      "resonance": "背离（警惕）",
       "quote": {
         "key": "nf_P0",
         "name": "棕榈油",
@@ -278,7 +218,7 @@
       },
       "verify": [
         "若厄尔尼诺预期落空或进口品种供应正常则逻辑弱化",
-        "若南美降水恢复正常则减产预期弱化",
+        "若南美天气再度恶化或油价反弹则逻辑反转",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -347,18 +287,9 @@
       "region": "美豆/南美",
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
-      "news_dir": "利多",
-      "news_count": 2,
+      "news_dir": "利空",
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "农产品 | 蛋价呈现先涨后跌走势 冲高后小幅回落",
-          "ts": "2026-09-22 08:35:25",
-          "direction": "利多",
-          "source": "上海中期期货",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609223880647747.html"
-        },
         {
           "title": "农产品 | 获利了结打压 连粕冲高回落",
           "ts": "2026-09-22 08:57:58",
@@ -369,7 +300,7 @@
           "url": "http://futures.eastmoney.com/a/202609223880690859.html"
         }
       ],
-      "resonance": "共振（利多）",
+      "resonance": "背离（警惕）",
       "quote": {
         "key": "nf_M0",
         "name": "豆粕",
@@ -387,10 +318,10 @@
         "ok": true
       },
       "verify": [
-        "若南美降水恢复正常则减产预期弱化",
         "若南美天气再度恶化或油价反弹则逻辑反转",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -1151,7 +1082,7 @@
     }
   ],
   "stats": {
-    "news_total": 7,
+    "news_total": 5,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
