@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23 21:57:22",
-  "cycle": 600,
+  "generated_at": "2026-09-24 00:18:47",
+  "cycle": 601,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,37 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "em:202609233882813420",
+      "ts": "2026-09-23 21:56:52",
+      "title": "饲料养殖产业链探寻周期破局之道",
+      "summary": "与此同时，受全球大豆供应链成本抬升、主产区天气变化及厄尔尼诺影响，上游饲料价格呈现明显波动。 产业变化给不同环节的企业带来了截然不同的压力。“美豆价格在生物柴油新规、原油行情及7月主产区天气等因素的影响中上行，同步抬升了进口成本与国内市场价格。而玉米市场缺乏上涨动力。",
+      "source": "期货日报网",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202609233882813420.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "产区",
+        "天气",
+        "玉米",
+        "大豆",
+        "饲料"
+      ],
+      "direction": "利多",
+      "strength": "中",
+      "instruments": [
+        "豆粕",
+        "玉米"
+      ],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "期货日报称厄尔尼诺及主产区天气变化致上游饲料价格波动，美豆上行抬升进口成本；玉米缺乏上涨动力",
+      "verify": "若美豆主产区天气转好、进口成本回落则逻辑弱化",
+      "judged": true
+    },
     {
       "id": "em:202609233882466547",
       "ts": "2026-09-23 16:34:34",
@@ -74,71 +105,9 @@
       "reason": "亚行警示超强厄尔尼诺与地缘能源共振，35%大坝发电异常、光伏出力降15%，推升煤油替代需求",
       "verify": "若厄尔尼诺减弱或降水恢复，能源替代逻辑弱化",
       "judged": true
-    },
-    {
-      "id": "em:202609233882402838",
-      "ts": "2026-09-23 14:55:00",
-      "title": "高油价及厄尔尼诺现象可能推动粮价进入长期上行通道，关注低费率粮食ETF华夏（159030）",
-      "summary": "报告建议关注种子板块，特别是玉米相关标的，因低库存、高油价及厄尔尼诺现象可能推动粮价进入长期上行通道。 粮食ETF华夏（159030.SZ）：跟踪国证粮食产业指数。相比泛农业类产品，聚焦粮食产业链核心环节。",
-      "source": "21世纪经济报道",
-      "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202609233882402838.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "库存",
-        "农业",
-        "玉米",
-        "种子"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "玉米",
-        "粮食"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "报告称低库存、高油价及厄尔尼诺或推动粮价长期上行，建议关注玉米相关标的",
-      "verify": "若玉米库存回升或厄尔尼诺消退则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609233882417765",
-      "ts": "2026-09-23 14:52:38",
-      "title": "此轮厄尔尼诺预计在今年11月至次年1月达到峰值，关注低费率粮食ETF华夏（159030）",
-      "summary": "另一方面，由于厄尔尼诺事件影响，极端降水与阶段性高温将抬升病虫草害发生概率，形成刚性防治需求，国家气候中心亦提示需防范暖冬及异常温湿环境诱发病虫害大面积暴发。超强厄尔尼诺事件逐渐临近叠加原油价格大幅上涨，全球粮价中枢有望上移，化肥及农药等农资产品需求有望获得支撑。",
-      "source": "每日经济新闻",
-      "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202609233882417765.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "降水",
-        "高温",
-        "气候",
-        "化肥",
-        "农药"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "玉米",
-        "粮食",
-        "化肥"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "国家气候中心提示暖冬异常温湿或致病虫害暴发，刚需防治叠加油价上涨支撑农资需求",
-      "verify": "若病虫害未大面积暴发或油价回落则逻辑弱化",
-      "judged": true
     }
   ],
-  "news_new_count": 0,
+  "news_new_count": 1,
   "instruments": [
     {
       "key": "P",
@@ -167,15 +136,15 @@
         "key": "nf_P0",
         "name": "棕榈油",
         "kind": "future",
-        "price": 9774.0,
+        "price": 9781.0,
         "prev_close": 9740.0,
-        "change": 34.0,
-        "change_pct": 0.35,
+        "change": 41.0,
+        "change_pct": 0.42,
         "open": 9747.0,
-        "high": 9792.0,
+        "high": 9795.0,
         "low": 9722.0,
-        "volume": 114489.0,
-        "ts": "2026-09-23 21:57:20",
+        "volume": 165253.0,
+        "ts": "2026-09-23 22:59:59",
         "source": "sina",
         "ok": true
       },
@@ -213,15 +182,15 @@
         "key": "nf_SR0",
         "name": "白糖",
         "kind": "future",
-        "price": 5395.0,
+        "price": 5396.0,
         "prev_close": 5370.0,
-        "change": 25.0,
-        "change_pct": 0.47,
+        "change": 26.0,
+        "change_pct": 0.48,
         "open": 5382.0,
         "high": 5406.0,
         "low": 5373.0,
-        "volume": 117351.0,
-        "ts": "2026-09-23 21:57:21",
+        "volume": 174800.0,
+        "ts": "2026-09-23 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -242,8 +211,17 @@
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
       "news_dir": "利多",
-      "news_count": 1,
+      "news_count": 2,
       "top_news": [
+        {
+          "title": "饲料养殖产业链探寻周期破局之道",
+          "ts": "2026-09-23 21:56:52",
+          "direction": "利多",
+          "source": "期货日报网",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://finance.eastmoney.com/a/202609233882813420.html"
+        },
         {
           "title": "经合组织：全球经济前景面临能源市场波动、厄尔尼诺、国债收益率飙升以及AI投资不及预期等风险",
           "ts": "2026-09-23 16:34:34",
@@ -259,23 +237,23 @@
         "key": "nf_M0",
         "name": "豆粕",
         "kind": "future",
-        "price": 3396.0,
+        "price": 3397.0,
         "prev_close": 3414.0,
-        "change": -18.0,
-        "change_pct": -0.53,
+        "change": -17.0,
+        "change_pct": -0.5,
         "open": 3404.0,
         "high": 3412.0,
         "low": 3385.0,
-        "volume": 354033.0,
-        "ts": "2026-09-23 21:57:20",
+        "volume": 500804.0,
+        "ts": "2026-09-23 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
+        "若美豆主产区天气转好、进口成本回落则逻辑弱化",
         "若厄尔尼诺减弱或主产区降水恢复正常则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
-        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     },
     {
@@ -290,6 +268,15 @@
       "news_dir": "利多",
       "news_count": 3,
       "top_news": [
+        {
+          "title": "饲料养殖产业链探寻周期破局之道",
+          "ts": "2026-09-23 21:56:52",
+          "direction": "利多",
+          "source": "期货日报网",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://finance.eastmoney.com/a/202609233882813420.html"
+        },
         {
           "title": "经合组织：全球经济前景面临能源市场波动、厄尔尼诺、国债收益率飙升以及AI投资不及预期等风险",
           "ts": "2026-09-23 16:34:34",
@@ -307,15 +294,6 @@
           "relevance": 100,
           "strength": "弱",
           "url": "http://finance.eastmoney.com/a/202609233882424245.html"
-        },
-        {
-          "title": "高油价及厄尔尼诺现象可能推动粮价进入长期上行通道，关注低费率粮食ETF华夏（159030）",
-          "ts": "2026-09-23 14:55:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609233882402838.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -323,22 +301,22 @@
         "key": "nf_C0",
         "name": "玉米",
         "kind": "future",
-        "price": 2179.0,
+        "price": 2175.0,
         "prev_close": 2184.0,
-        "change": -5.0,
-        "change_pct": -0.23,
+        "change": -9.0,
+        "change_pct": -0.41,
         "open": 2185.0,
         "high": 2187.0,
-        "low": 2176.0,
-        "volume": 120236.0,
-        "ts": "2026-09-23 21:57:20",
+        "low": 2174.0,
+        "volume": 174932.0,
+        "ts": "2026-09-23 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
+        "若美豆主产区天气转好、进口成本回落则逻辑弱化",
         "若厄尔尼诺减弱或主产区降水恢复正常则逻辑弱化",
         "若厄尔尼诺减弱或降水恢复，能源替代逻辑弱化",
-        "若玉米库存回升或厄尔尼诺消退则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -369,15 +347,15 @@
         "key": "nf_RU0",
         "name": "天然橡胶",
         "kind": "future",
-        "price": 19385.0,
+        "price": 19395.0,
         "prev_close": 19120.0,
-        "change": 265.0,
-        "change_pct": 1.39,
+        "change": 275.0,
+        "change_pct": 1.44,
         "open": 19455.0,
         "high": 19470.0,
         "low": 19350.0,
-        "volume": 106767.0,
-        "ts": "2026-09-23 21:57:21",
+        "volume": 145318.0,
+        "ts": "2026-09-23 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -415,15 +393,15 @@
         "key": "nf_CF0",
         "name": "棉花",
         "kind": "future",
-        "price": 15810.0,
+        "price": 15835.0,
         "prev_close": 15795.0,
-        "change": 15.0,
-        "change_pct": 0.09,
+        "change": 40.0,
+        "change_pct": 0.25,
         "open": 15825.0,
         "high": 15855.0,
         "low": 15785.0,
-        "volume": 62362.0,
-        "ts": "2026-09-23 21:57:20",
+        "volume": 89561.0,
+        "ts": "2026-09-23 22:59:59",
         "source": "sina",
         "ok": true
       },
@@ -748,20 +726,10 @@
       "region": "农药",
       "climate_dir": "弱相关",
       "climate_logic": "菊酯龙头，抗灾保产需求+旺季",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "此轮厄尔尼诺预计在今年11月至次年1月达到峰值，关注低费率粮食ETF华夏（159030）",
-          "ts": "2026-09-23 14:52:38",
-          "direction": "利多",
-          "source": "每日经济新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609233882417765.html"
-        }
-      ],
-      "resonance": "中性",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "600486.SH",
         "name": "扬农化工",
@@ -779,7 +747,6 @@
         "ok": true
       },
       "verify": [
-        "若病虫害未大面积暴发或油价回落则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -793,20 +760,10 @@
       "region": "化肥",
       "climate_dir": "滞后受益",
       "climate_logic": "复合肥龙头，粮价高企提振施肥意愿",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "此轮厄尔尼诺预计在今年11月至次年1月达到峰值，关注低费率粮食ETF华夏（159030）",
-          "ts": "2026-09-23 14:52:38",
-          "direction": "利多",
-          "source": "每日经济新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609233882417765.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000902.SZ",
         "name": "新洋丰",
@@ -824,7 +781,6 @@
         "ok": true
       },
       "verify": [
-        "若病虫害未大面积暴发或油价回落则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -838,20 +794,10 @@
       "region": "化肥",
       "climate_dir": "滞后受益",
       "climate_logic": "磷复肥+联碱，农业景气传导",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "此轮厄尔尼诺预计在今年11月至次年1月达到峰值，关注低费率粮食ETF华夏（159030）",
-          "ts": "2026-09-23 14:52:38",
-          "direction": "利多",
-          "source": "每日经济新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609233882417765.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "002539.SZ",
         "name": "云图控股",
@@ -869,7 +815,6 @@
         "ok": true
       },
       "verify": [
-        "若病虫害未大面积暴发或油价回落则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -883,10 +828,20 @@
       "region": "饲料",
       "climate_dir": "成本承压",
       "climate_logic": "饲料龙头，豆粕/玉米成本上行挤压毛利（考验配方与采购）",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "饲料养殖产业链探寻周期破局之道",
+          "ts": "2026-09-23 21:56:52",
+          "direction": "利多",
+          "source": "期货日报网",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://finance.eastmoney.com/a/202609233882813420.html"
+        }
+      ],
+      "resonance": "背离（成本与价格博弈）",
       "quote": {
         "key": "002311.SZ",
         "name": "海大集团",
@@ -904,6 +859,7 @@
         "ok": true
       },
       "verify": [
+        "若美豆主产区天气转好、进口成本回落则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -985,10 +941,20 @@
       "region": "养殖",
       "climate_dir": "成本敏感",
       "climate_logic": "生猪+肉鸡，饲料成本转嫁能力一般",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "饲料养殖产业链探寻周期破局之道",
+          "ts": "2026-09-23 21:56:52",
+          "direction": "利多",
+          "source": "期货日报网",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://finance.eastmoney.com/a/202609233882813420.html"
+        }
+      ],
+      "resonance": "背离（成本与价格博弈）",
       "quote": {
         "key": "300498.SZ",
         "name": "温氏股份",
@@ -1006,6 +972,7 @@
         "ok": true
       },
       "verify": [
+        "若美豆主产区天气转好、进口成本回落则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1046,7 +1013,7 @@
     }
   ],
   "stats": {
-    "news_total": 4,
+    "news_total": 3,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
