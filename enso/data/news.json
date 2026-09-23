@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24 01:37:37",
-  "cycle": 602,
+  "generated_at": "2026-09-24 01:57:55",
+  "cycle": 606,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -133,7 +133,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 1,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
