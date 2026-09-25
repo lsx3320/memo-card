@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25 12:21:21",
-  "cycle": 629,
+  "generated_at": "2026-09-25 14:01:38",
+  "cycle": 630,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,31 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "jin10:20260925120150159800",
-      "ts": "2026-09-25 12:01:50",
-      "title": "【期货盯盘神器专属文章】市场深谈：柴油价格创历史新高，美国却在讨论禁止柴油出口？Hanley认为，这不但降不下油价，反而",
-      "summary": "【期货盯盘神器专属文章】市场深谈：柴油价格创历史新高，美国却在讨论禁止柴油出口？Hanley认为，这不但降不下油价，反而可能因炼厂减产推高燃料价格，加剧通胀。点击阅读。",
-      "source": "金十数据",
-      "channel": "jin10",
-      "url": "",
-      "authority": "media",
-      "important": true,
-      "relevance": 53,
-      "matched": [
-        "减产",
-        "期货",
-        "通胀"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "低",
-      "reason": "柴油出口禁令讨论及炼厂减产预期，属能源政策议题，未直接涉及农产品供需",
-      "verify": "若政策落地并实质影响生物柴油/玉米乙醇需求则需重估",
-      "judged": true
-    },
     {
       "id": "em:202609243883924653",
       "ts": "2026-09-24 22:06:02",
@@ -158,7 +133,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 1,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -1096,7 +1071,7 @@
     }
   ],
   "stats": {
-    "news_total": 5,
+    "news_total": 4,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
