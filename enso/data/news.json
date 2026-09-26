@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26 16:58:33",
-  "cycle": 643,
+  "generated_at": "2026-09-26 19:24:22",
+  "cycle": 644,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,31 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "em:202609263884400639",
+      "ts": "2026-09-26 17:17:08",
+      "title": "泰国曼谷持续强降雨 政府加强生活物资保供稳价",
+      "summary": "相关强降雨天气预计持续至27日。 目前，曼谷部分地区的洪涝影响仍在持续。曼谷市政府已将农触、绥安銮和堪纳耀3个区部分地区列为洪灾区域，共涉及13个分区。(完)",
+      "source": "中国新闻网",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202609263884400639.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 41,
+      "matched": [
+        "降雨",
+        "洪涝",
+        "天气"
+      ],
+      "direction": "不确定",
+      "strength": "弱",
+      "instruments": [],
+      "horizon": "短期",
+      "confidence": "中",
+      "reason": "曼谷强降雨持续至27日，3区13分区列为洪灾区域，但未提及农作物或产量受损",
+      "verify": "若后续报道确认产区或物流受损则方向明确",
+      "judged": true
+    },
     {
       "id": "em:202609243883924653",
       "ts": "2026-09-24 22:06:02",
@@ -44,7 +69,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 0,
+  "news_new_count": 1,
   "instruments": [
     {
       "key": "P",
@@ -901,7 +926,7 @@
     }
   ],
   "stats": {
-    "news_total": 1,
+    "news_total": 2,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
