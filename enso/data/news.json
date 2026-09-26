@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26 08:12:43",
-  "cycle": 639,
+  "generated_at": "2026-09-26 10:16:16",
+  "cycle": 640,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -71,37 +71,6 @@
       "reason": "国内方面，油脂延续弱势，棕榈油领跌。市场关注中美会谈结果，预期偏乐观。棕榈油疲软，因现货压力依然较大",
       "verify": "",
       "judged": false
-    },
-    {
-      "id": "em:202609243883306829",
-      "ts": "2026-09-24 09:29:18",
-      "title": "农产品 | 隔夜原油反弹 对油脂形成支撑",
-      "summary": "不过目前油脂基本面仍偏利空，因国内外棕榈油库存均处于高位。另外关注中美领导人会晤结果。还有节前资金离场，市场表现谨慎，油脂整体可能以偏弱震荡为主。 豆粕／菜粕： 原油在本周连续大跌后，隔夜反弹。佩泽希齐扬在纽约联合国大会上的演讲推动油价上涨。",
-      "source": "东吴期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609243883306829.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 86,
-      "matched": [
-        "库存",
-        "棕榈油",
-        "豆粕",
-        "油脂",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "棕榈油",
-        "白糖",
-        "白糖板块"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "国际方面，厄尔尼诺背景下泰国、印度及欧洲减产预期增强，巴西中南部累计制糖比明显低于去年同期，对原糖形",
-      "verify": "",
-      "judged": false
     }
   ],
   "news_new_count": 0,
@@ -116,17 +85,8 @@
       "climate_dir": "看多",
       "climate_logic": "干旱削减产量前景，库存偏低→减产+去库预期",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
-        {
-          "title": "农产品 | 隔夜原油反弹 对油脂形成支撑",
-          "ts": "2026-09-24 09:29:18",
-          "direction": "利多",
-          "source": "东吴期货",
-          "relevance": 86,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609243883306829.html"
-        },
         {
           "title": "农产品 | 后续市场博弈因素较多 预计短期棉价仍震荡运行为主",
           "ts": "2026-09-24 10:59:48",
@@ -180,17 +140,8 @@
       "climate_dir": "看多",
       "climate_logic": "主产区干旱减产预期+乙醇分流，外盘拉动内盘",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "农产品 | 隔夜原油反弹 对油脂形成支撑",
-          "ts": "2026-09-24 09:29:18",
-          "direction": "利多",
-          "source": "东吴期货",
-          "relevance": 86,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609243883306829.html"
-        },
         {
           "title": "安联表示 厄尔尼诺现象或导致2027年全球经济损失4510亿美元",
           "ts": "2026-09-24 22:06:02",
@@ -235,17 +186,8 @@
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "农产品 | 隔夜原油反弹 对油脂形成支撑",
-          "ts": "2026-09-24 09:29:18",
-          "direction": "利多",
-          "source": "东吴期货",
-          "relevance": 86,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609243883306829.html"
-        },
         {
           "title": "安联表示 厄尔尼诺现象或导致2027年全球经济损失4510亿美元",
           "ts": "2026-09-24 22:06:02",
@@ -539,17 +481,8 @@
       "climate_dir": "强弹性",
       "climate_logic": "国内食糖贸易与加工龙头，糖价弹性大",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "农产品 | 隔夜原油反弹 对油脂形成支撑",
-          "ts": "2026-09-24 09:29:18",
-          "direction": "利多",
-          "source": "东吴期货",
-          "relevance": 86,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609243883306829.html"
-        },
         {
           "title": "安联表示 厄尔尼诺现象或导致2027年全球经济损失4510亿美元",
           "ts": "2026-09-24 22:06:02",
@@ -593,17 +526,8 @@
       "climate_dir": "强弹性",
       "climate_logic": "制糖主业，糖价上行直接受益",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "农产品 | 隔夜原油反弹 对油脂形成支撑",
-          "ts": "2026-09-24 09:29:18",
-          "direction": "利多",
-          "source": "东吴期货",
-          "relevance": 86,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609243883306829.html"
-        },
         {
           "title": "安联表示 厄尔尼诺现象或导致2027年全球经济损失4510亿美元",
           "ts": "2026-09-24 22:06:02",
@@ -647,17 +571,8 @@
       "climate_dir": "弹性中等",
       "climate_logic": "广西糖业+浆纸双主业",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "农产品 | 隔夜原油反弹 对油脂形成支撑",
-          "ts": "2026-09-24 09:29:18",
-          "direction": "利多",
-          "source": "东吴期货",
-          "relevance": 86,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609243883306829.html"
-        },
         {
           "title": "安联表示 厄尔尼诺现象或导致2027年全球经济损失4510亿美元",
           "ts": "2026-09-24 22:06:02",
@@ -1033,7 +948,7 @@
     }
   ],
   "stats": {
-    "news_total": 3,
+    "news_total": 2,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
