@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27 08:09:12",
-  "cycle": 649,
+  "generated_at": "2026-09-28 01:55:10",
+  "cycle": 650,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -14,36 +14,35 @@
   },
   "news": [
     {
-      "id": "em:202609263884410575",
-      "ts": "2026-09-26 20:57:10",
-      "title": "中国驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
-      "summary": "据“中国驻泰国大使馆”公众号消息，近日，泰国多地持续出现强降雨天气，曼谷及周边地区受影响较为明显。泰国气象局发布强降雨预警称，曼谷未来一段时间仍有大范围雷雨及局地大雨天气。9月26-27日，泰国中部包括曼谷及周边地区可能出现大雨至特大暴雨，提醒公众防范持续降雨引发的洪涝灾害。",
-      "source": "财联社",
+      "id": "em:202609273884521321",
+      "ts": "2026-09-27 18:04:28",
+      "title": "期货周评：黄金多空博弈，能化链共振走强",
+      "summary": "农产品板块，棕榈油受马来累库压制（9月末库存预计超300万吨），红枣跌2.85%且增仓9.6%为空头主动打压。 有色金属方面，铜受低库存与高利率双重博弈，南华期货预计沪铜主力参考区间109000—112000元/吨。",
+      "source": "每日经济新闻",
       "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609263884410575.html",
+      "url": "http://finance.eastmoney.com/a/202609273884521321.html",
       "authority": "media",
       "important": false,
-      "relevance": 50,
+      "relevance": 57,
       "matched": [
-        "降雨",
-        "洪涝",
-        "天气"
+        "库存",
+        "棕榈油",
+        "农产品",
+        "期货"
       ],
-      "direction": "利多",
+      "direction": "利空",
       "strength": "中",
       "instruments": [
-        "天然橡胶",
-        "棕榈油",
-        "白糖"
+        "棕榈油"
       ],
       "horizon": "短期",
       "confidence": "中",
-      "reason": "泰国气象局预警曼谷及中部9月26-27日大雨至特大暴雨，泰国为橡胶、棕榈油、白糖主产区，洪涝威胁收割与运输",
-      "verify": "若后续泰国降水恢复正常则逻辑弱化",
+      "reason": "马来9月末棕榈油库存预计超300万吨，累库压制价格",
+      "verify": "若马棕出口大增或库存不及预期则逻辑弱化",
       "judged": true
     }
   ],
-  "news_new_count": 0,
+  "news_new_count": 1,
   "instruments": [
     {
       "key": "P",
@@ -54,20 +53,20 @@
       "region": "印尼/马来",
       "climate_dir": "看多",
       "climate_logic": "干旱削减产量前景，库存偏低→减产+去库预期",
-      "news_dir": "利多",
+      "news_dir": "利空",
       "news_count": 1,
       "top_news": [
         {
-          "title": "中国驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
-          "ts": "2026-09-26 20:57:10",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 50,
+          "title": "期货周评：黄金多空博弈，能化链共振走强",
+          "ts": "2026-09-27 18:04:28",
+          "direction": "利空",
+          "source": "每日经济新闻",
+          "relevance": 57,
           "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609263884410575.html"
+          "url": "http://finance.eastmoney.com/a/202609273884521321.html"
         }
       ],
-      "resonance": "共振（利多）",
+      "resonance": "背离（警惕）",
       "quote": {
         "key": "nf_P0",
         "name": "棕榈油",
@@ -85,7 +84,7 @@
         "ok": true
       },
       "verify": [
-        "若后续泰国降水恢复正常则逻辑弱化",
+        "若马棕出口大增或库存不及预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -100,20 +99,10 @@
       "region": "印度/泰国",
       "climate_dir": "看多",
       "climate_logic": "主产区干旱减产预期+乙醇分流，外盘拉动内盘",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
-          "ts": "2026-09-26 20:57:10",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 50,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609263884410575.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_SR0",
         "name": "白糖",
@@ -131,7 +120,6 @@
         "ok": true
       },
       "verify": [
-        "若后续泰国降水恢复正常则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -216,20 +204,10 @@
       "region": "东南亚",
       "climate_dir": "偏多（干旱减产逻辑）",
       "climate_logic": "产区干旱→割胶量下滑预期，成本端抬升",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
-          "ts": "2026-09-26 20:57:10",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 50,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609263884410575.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_RU0",
         "name": "天然橡胶",
@@ -247,7 +225,6 @@
         "ok": true
       },
       "verify": [
-        "若后续泰国降水恢复正常则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -399,20 +376,10 @@
       "region": "白糖",
       "climate_dir": "强弹性",
       "climate_logic": "国内食糖贸易与加工龙头，糖价弹性大",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
-          "ts": "2026-09-26 20:57:10",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 50,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609263884410575.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "600737.SH",
         "name": "中粮糖业",
@@ -430,7 +397,6 @@
         "ok": true
       },
       "verify": [
-        "若后续泰国降水恢复正常则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -444,20 +410,10 @@
       "region": "白糖",
       "climate_dir": "强弹性",
       "climate_logic": "制糖主业，糖价上行直接受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
-          "ts": "2026-09-26 20:57:10",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 50,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609263884410575.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000911.SZ",
         "name": "南宁糖业",
@@ -475,7 +431,6 @@
         "ok": true
       },
       "verify": [
-        "若后续泰国降水恢复正常则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -489,20 +444,10 @@
       "region": "白糖/浆纸",
       "climate_dir": "弹性中等",
       "climate_logic": "广西糖业+浆纸双主业",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "中国驻泰国使馆提醒在泰中国公民防范强降雨及洪涝灾害",
-          "ts": "2026-09-26 20:57:10",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 50,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609263884410575.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000833.SZ",
         "name": "粤桂股份",
@@ -520,7 +465,6 @@
         "ok": true
       },
       "verify": [
-        "若后续泰国降水恢复正常则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
