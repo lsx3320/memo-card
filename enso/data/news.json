@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28 19:12:14",
-  "cycle": 651,
+  "generated_at": "2026-09-29 06:58:52",
+  "cycle": 652,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -14,126 +14,66 @@
   },
   "news": [
     {
-      "id": "em:202609283885137784",
-      "ts": "2026-09-28 14:01:00",
-      "title": "全国秋粮收获有序推进，种植产业链景气度有望改善，农业ETF华夏（516810）持仓股牧原股份涨超3%",
-      "summary": "同时全球天气出现一定程度的扰动，整体农作物产量或出现一定程度的下降，目前种植板块景气度底部企稳，粮食价格已经开始上涨，若粮食出现实质性减产，种植产业链景气度有望改善。",
-      "source": "21世纪经济报道",
+      "id": "em:202609283885480471",
+      "ts": "2026-09-28 21:59:12",
+      "title": "【财经分析】气候保险如何改写中再保险账本？巨灾模型让“算得准”变“赚得到”",
+      "summary": "前述18.1万亿元风险责任既是业务规模与行业地位的体现，也是潜在负债；超强厄尔尼诺持续，更对准备金与资本占用形成阶段性压力。 周俊华提醒，气候变化正改变灾害结构，“非峰值灾害”接棒成为损失主力、损失持续抬升，进一步放大承保端波动。",
+      "source": "新华财经",
       "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202609283885137784.html",
+      "url": "http://insurance.eastmoney.com/a/202609283885480471.html",
       "authority": "media",
       "important": false,
-      "relevance": 80,
+      "relevance": 73,
       "matched": [
-        "减产",
-        "产量",
-        "种植",
-        "天气",
-        "农业"
+        "厄尔尼诺",
+        "气候"
+      ],
+      "direction": "不确定",
+      "strength": "弱",
+      "instruments": [],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "新华财经：超强厄尔尼诺推升再保险准备金与资本占用压力，未涉及具体农产品供需数据",
+      "verify": "若厄尔尼诺减弱或再保损失低于预期则逻辑弱化",
+      "judged": true
+    },
+    {
+      "id": "em:202609283885387986",
+      "ts": "2026-09-28 20:41:00",
+      "title": "电力需求激增、库存告急，印度令112家燃煤电厂满负荷运行",
+      "summary": "受厄尔尼诺增强影响，印度近期气温高于正常水平，制冷需求激增，叠加水库水位偏低导致水电出力下降。印度气象部门（IMD）此前已预测，9月全国大部分地区月平均最高气温将高于正常水平，且降雨量将低于长期平均值的91%。",
+      "source": "澎湃新闻",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202609283885387986.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 85,
+      "matched": [
+        "厄尔尼诺",
+        "降雨",
+        "库存"
       ],
       "direction": "利多",
       "strength": "中",
       "instruments": [
-        "种植粮油板块"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "同时全球天气出现一定程度的扰动，整体农作物产量或出现一定程度的下降，目前种植板块景气度底部企稳，粮食",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "sina:895541212",
-      "ts": "2026-09-28 10:33:28",
-      "title": "光大期货：9月28日软商品日报",
-      "summary": "白糖：巴西定产、北半球估产与厄尔尼诺的三重博弈 （张笑金，从业资格号：F0306200；交易咨询资格号：Z0000082） 1、三季度南半球处于压榨高峰抑制糖价表现...",
-      "source": "市场资讯",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initiwif8764844.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 89,
-      "matched": [
-        "厄尔尼诺",
         "白糖",
-        "期货"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [
-        "白糖",
-        "豆粕",
-        "白糖板块"
+        "棉花",
+        "玉米"
       ],
       "horizon": "短期",
-      "confidence": "中",
-      "reason": "白糖：巴西定产、北半球估产与厄尔尼诺的三重博弈 （张笑金，从业资格号：F0306200；交易咨询资格",
-      "verify": "",
-      "judged": false
+      "confidence": "高",
+      "reason": "IMD预测印度9月降雨低于长期均值91%，水库水位偏低，水电降、气温高，威胁作物",
+      "verify": "若印度季风降雨恢复至正常水平则逻辑弱化",
+      "judged": true
     },
     {
-      "id": "sina:895540907",
-      "ts": "2026-09-28 10:32:37",
-      "title": "光大期货：9月28日农产品日报",
-      "summary": "油脂油料：四季度不缺货 27年上半年供应有担忧 （侯雪玲，从业资格号：F3048706；交易咨询资格号：Z0013637） 在天气+通胀预期+高油价+生柴等利多因素推动下...",
-      "source": "市场资讯",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initiwif8764430.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 70,
-      "matched": [
-        "天气",
-        "油脂",
-        "农产品",
-        "期货",
-        "通胀"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [
-        "棕榈油"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "油脂油料：四季度不缺货 27年上半年供应有担忧 （侯雪玲，从业资格号：F3048706；交易咨询资格",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609283884828488",
-      "ts": "2026-09-28 10:06:32",
-      "title": "MPOA：马来西亚9月1-20日毛棕榈油产量环比增加18.91%",
-      "summary": "据马来西亚棕榈油协会（MPOA）公布的数据，马来西亚9月1-20日棕榈油产量较上月同期增加18.91%。其中马来西亚半岛产量增加11.95%，东马来西亚产量增加30.50%，沙巴产量增加33.77%，沙捞越产量增加23.72%。",
-      "source": "新华财经",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609283884828488.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 42,
-      "matched": [
-        "产量",
-        "棕榈油"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [
-        "棕榈油"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "据马来西亚棕榈油协会（MPOA）公布的数据，马来西亚9月1-20日棕榈油产量较上月同期增加18.91",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609283884876444",
-      "ts": "2026-09-28 10:05:57",
-      "title": "马来西亚9月1-20日毛棕榈油产量环比增加18.91%",
-      "summary": "据马来西亚棕榈油协会（MPOA）公布的数据，马来西亚9月1-20日棕榈油产量较上月同期增加18.91%。其中马来西亚半岛产量增加11.95%，东马来西亚产量增加30.50%，沙巴产量增加33.77%，沙捞越产量增加23.72%。",
+      "id": "em:202609283885187254",
+      "ts": "2026-09-28 15:34:17",
+      "title": "马来西亚2026年9月1-25日棕榈油产量环比上月同期增加20.84%",
+      "summary": "南部半岛棕榈油压榨商协会（SPPOMA）数据显示，2026年9月1-25日马来西亚棕榈油单产环比上月同期增加18.73%，出油率环比上月同期增加0.40%，产量环比上月同期增加20.84%。",
       "source": "财联社",
       "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609283884876444.html",
+      "url": "http://xianhuo.eastmoney.com/a/202609283885187254.html",
       "authority": "media",
       "important": false,
       "relevance": 42,
@@ -141,16 +81,16 @@
         "产量",
         "棕榈油"
       ],
-      "direction": "不确定",
-      "strength": "中",
+      "direction": "利空",
+      "strength": "强",
       "instruments": [
         "棕榈油"
       ],
       "horizon": "短期",
-      "confidence": "中",
-      "reason": "据马来西亚棕榈油协会（MPOA）公布的数据，马来西亚9月1-20日棕榈油产量较上月同期增加18.91",
-      "verify": "",
-      "judged": false
+      "confidence": "高",
+      "reason": "SPPOMA：9月1-25日马棕产量环比增20.84%，单产增18.73%，出油率增0.40%",
+      "verify": "若后续MPOB月度库存意外下降则逻辑弱化",
+      "judged": true
     },
     {
       "id": "em:202609283884633771",
@@ -215,100 +155,6 @@
       "judged": false
     },
     {
-      "id": "em:202609283884599286",
-      "ts": "2026-09-28 09:14:41",
-      "title": "农产品 | 棉花：多空因素交织 建议短线观望",
-      "summary": "【策略观点】 因厄尔尼诺事件可能导致2026/27年度泰国和印度出现较大幅度减产，推动近期原糖价格大幅上涨。但目前国内预期2026/27年度延续高产量，糖价走势外强内弱，短期以观望为主。",
-      "source": "五矿期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609283884599286.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产",
-        "产量",
-        "原糖",
-        "棉花",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "白糖",
-        "棉花"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "【策略观点】 因厄尔尼诺事件可能导致2026/27年度泰国和印度出现较大幅度减产，推动近期原糖价格大",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609283884594665",
-      "ts": "2026-09-28 09:09:30",
-      "title": "农产品 | 白糖：外盘偏弱叠加国内高库存 郑糖弱势延续 预计5300-5380元区间震荡",
-      "summary": "油脂：国外：马棕9月1-15日出口环比降17.8%/25.6%（ITS/AmSpec），需求疲弱叠加MPOB8月库存282万吨创7个月新高，产地压制延续；CBOT豆油随美豆走强提供一定支撑，印尼B50与厄尔尼诺减产担忧构成远端支撑。",
-      "source": "中财期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609283884594665.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产",
-        "库存",
-        "白糖",
-        "油脂",
-        "农产品"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [
-        "白糖",
-        "棕榈油"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "郑糖高库存弱势震荡5300-5380；马棕出口降17.8%/25.6%、MPOB库存282万吨创7个月新高，但厄尔尼诺减产担忧构成远端支撑",
-      "verify": "若马棕出口回升或库存回落则压制逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202609283884585390",
-      "ts": "2026-09-28 08:47:12",
-      "title": "农产品 | 生猪：供应仍存在一定压力 需求不及预期 生猪价格震荡偏弱运行",
-      "summary": "不过，中东局势依旧紧张，原油价格持续维持高位震荡，且世界气象组织称，厄尔尼诺将发展为超强级别，极端天气或持续至2027年，产地生柴政策以及厄尔尼诺气候仍为油脂市场提供支撑。另外，印度下调植物油进口关税，可能会刺激进口商加大采购力度。",
-      "source": "瑞达期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609283884585390.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "天气",
-        "气候",
-        "极端天气",
-        "油脂",
-        "农产品",
-        "生猪"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "棕榈油",
-        "豆油"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "WMO称厄尔尼诺将发展为超强级别、极端天气或持续至2027年，叠加印度下调植物油进口关税刺激采购",
-      "verify": "若厄尔尼诺强度下调或印度进口未放量则逻辑弱化",
-      "judged": true
-    },
-    {
       "id": "em:202609283884571119",
       "ts": "2026-09-28 07:55:48",
       "title": "多因素共振 天然橡胶强势上涨",
@@ -336,7 +182,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 11,
+  "news_new_count": 3,
   "instruments": [
     {
       "key": "P",
@@ -369,13 +215,13 @@
           "url": "http://stock.eastmoney.com/a/202609283884598564.html"
         },
         {
-          "title": "农产品 | 白糖：外盘偏弱叠加国内高库存 郑糖弱势延续 预计5300-5380元区间震荡",
-          "ts": "2026-09-28 09:09:30",
-          "direction": "中性",
-          "source": "中财期货",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609283884594665.html"
+          "title": "马来西亚2026年9月1-25日棕榈油产量环比上月同期增加20.84%",
+          "ts": "2026-09-28 15:34:17",
+          "direction": "利空",
+          "source": "财联社",
+          "relevance": 42,
+          "strength": "强",
+          "url": "http://xianhuo.eastmoney.com/a/202609283885187254.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -383,20 +229,20 @@
         "key": "nf_P0",
         "name": "棕榈油",
         "kind": "future",
-        "price": 9630.0,
-        "prev_close": 9787.0,
-        "change": -157.0,
-        "change_pct": -1.6,
-        "open": 9760.0,
-        "high": 9776.0,
-        "low": 9608.0,
-        "volume": 339366.0,
-        "ts": "2026-09-28 15:04:24",
+        "price": 9523.0,
+        "prev_close": 9675.0,
+        "change": -152.0,
+        "change_pct": -1.57,
+        "open": 9599.0,
+        "high": 9615.0,
+        "low": 9508.0,
+        "volume": 169751.0,
+        "ts": "2026-09-28 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若马棕出口回升或库存回落则压制逻辑弱化",
+        "若后续MPOB月度库存意外下降则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -412,34 +258,16 @@
       "climate_dir": "看多",
       "climate_logic": "主产区干旱减产预期+乙醇分流，外盘拉动内盘",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 1,
       "top_news": [
         {
-          "title": "农产品 | 棉花：多空因素交织 建议短线观望",
-          "ts": "2026-09-28 09:14:41",
+          "title": "电力需求激增、库存告急，印度令112家燃煤电厂满负荷运行",
+          "ts": "2026-09-28 20:41:00",
           "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 100,
+          "source": "澎湃新闻",
+          "relevance": 85,
           "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609283884599286.html"
-        },
-        {
-          "title": "农产品 | 白糖：外盘偏弱叠加国内高库存 郑糖弱势延续 预计5300-5380元区间震荡",
-          "ts": "2026-09-28 09:09:30",
-          "direction": "中性",
-          "source": "中财期货",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609283884594665.html"
-        },
-        {
-          "title": "光大期货：9月28日软商品日报",
-          "ts": "2026-09-28 10:33:28",
-          "direction": "不确定",
-          "source": "市场资讯",
-          "relevance": 89,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initiwif8764844.shtml"
+          "url": "http://finance.eastmoney.com/a/202609283885387986.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -447,20 +275,20 @@
         "key": "nf_SR0",
         "name": "白糖",
         "kind": "future",
-        "price": 5375.0,
-        "prev_close": 5400.0,
-        "change": -25.0,
-        "change_pct": -0.46,
-        "open": 5394.0,
-        "high": 5402.0,
-        "low": 5357.0,
-        "volume": 265100.0,
-        "ts": "2026-09-28 15:00:00",
+        "price": 5335.0,
+        "prev_close": 5374.0,
+        "change": -39.0,
+        "change_pct": -0.73,
+        "open": 5382.0,
+        "high": 5385.0,
+        "low": 5333.0,
+        "volume": 171030.0,
+        "ts": "2026-09-28 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若马棕出口回升或库存回落则压制逻辑弱化",
+        "若印度季风降雨恢复至正常水平则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -476,7 +304,7 @@
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
         {
           "title": "【季报】油脂：天气定义未来 能源决定当下",
@@ -486,15 +314,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609283884633771.html"
-        },
-        {
-          "title": "光大期货：9月28日软商品日报",
-          "ts": "2026-09-28 10:33:28",
-          "direction": "不确定",
-          "source": "市场资讯",
-          "relevance": 89,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initiwif8764844.shtml"
         }
       ],
       "resonance": "共振（利多）",
@@ -502,15 +321,15 @@
         "key": "nf_M0",
         "name": "豆粕",
         "kind": "future",
-        "price": 3363.0,
-        "prev_close": 3405.0,
-        "change": -42.0,
-        "change_pct": -1.23,
-        "open": 3412.0,
-        "high": 3412.0,
-        "low": 3362.0,
-        "volume": 1162962.0,
-        "ts": "2026-09-28 15:04:24",
+        "price": 3336.0,
+        "prev_close": 3386.0,
+        "change": -50.0,
+        "change_pct": -1.48,
+        "open": 3359.0,
+        "high": 3361.0,
+        "low": 3327.0,
+        "volume": 527573.0,
+        "ts": "2026-09-28 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -529,27 +348,38 @@
       "region": "美玉米/国内",
       "climate_dir": "震荡偏多",
       "climate_logic": "生长期高温干旱预期升水，国内供需相对独立",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "电力需求激增、库存告急，印度令112家燃煤电厂满负荷运行",
+          "ts": "2026-09-28 20:41:00",
+          "direction": "利多",
+          "source": "澎湃新闻",
+          "relevance": 85,
+          "strength": "中",
+          "url": "http://finance.eastmoney.com/a/202609283885387986.html"
+        }
+      ],
+      "resonance": "共振（利多）",
       "quote": {
         "key": "nf_C0",
         "name": "玉米",
         "kind": "future",
-        "price": 2180.0,
-        "prev_close": 2177.0,
-        "change": 3.0,
-        "change_pct": 0.14,
-        "open": 2189.0,
-        "high": 2190.0,
-        "low": 2174.0,
-        "volume": 407253.0,
-        "ts": "2026-09-28 15:04:23",
+        "price": 2184.0,
+        "prev_close": 2180.0,
+        "change": 4.0,
+        "change_pct": 0.18,
+        "open": 2179.0,
+        "high": 2186.0,
+        "low": 2175.0,
+        "volume": 154331.0,
+        "ts": "2026-09-28 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
+        "若印度季风降雨恢复至正常水平则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -582,15 +412,15 @@
         "key": "nf_RU0",
         "name": "天然橡胶",
         "kind": "future",
-        "price": 19275.0,
-        "prev_close": 19425.0,
-        "change": -150.0,
-        "change_pct": -0.77,
-        "open": 19650.0,
-        "high": 19675.0,
-        "low": 19230.0,
-        "volume": 270809.0,
-        "ts": "2026-09-28 15:00:00",
+        "price": 19025.0,
+        "prev_close": 19455.0,
+        "change": -430.0,
+        "change_pct": -2.21,
+        "open": 19250.0,
+        "high": 19275.0,
+        "low": 18970.0,
+        "volume": 125763.0,
+        "ts": "2026-09-28 23:00:00",
         "source": "sina",
         "ok": true
       },
@@ -614,13 +444,13 @@
       "news_count": 1,
       "top_news": [
         {
-          "title": "农产品 | 棉花：多空因素交织 建议短线观望",
-          "ts": "2026-09-28 09:14:41",
+          "title": "电力需求激增、库存告急，印度令112家燃煤电厂满负荷运行",
+          "ts": "2026-09-28 20:41:00",
           "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 100,
+          "source": "澎湃新闻",
+          "relevance": 85,
           "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609283884599286.html"
+          "url": "http://finance.eastmoney.com/a/202609283885387986.html"
         }
       ],
       "resonance": "中性",
@@ -628,19 +458,20 @@
         "key": "nf_CF0",
         "name": "棉花",
         "kind": "future",
-        "price": 16000.0,
-        "prev_close": 15840.0,
-        "change": 160.0,
-        "change_pct": 1.01,
-        "open": 16000.0,
-        "high": 16130.0,
-        "low": 15945.0,
-        "volume": 400164.0,
-        "ts": "2026-09-28 15:00:00",
+        "price": 15900.0,
+        "prev_close": 16035.0,
+        "change": -135.0,
+        "change_pct": -0.84,
+        "open": 15985.0,
+        "high": 15990.0,
+        "low": 15840.0,
+        "volume": 140191.0,
+        "ts": "2026-09-28 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
+        "若印度季风降雨恢复至正常水平则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -655,20 +486,10 @@
       "region": "种业/种植",
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "全国秋粮收获有序推进，种植产业链景气度有望改善，农业ETF华夏（516810）持仓股牧原股份涨超3%",
-          "ts": "2026-09-28 14:01:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 80,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609283885137784.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000998.SZ",
         "name": "隆平高科",
@@ -699,20 +520,10 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "东北种植主体，粮价景气受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "全国秋粮收获有序推进，种植产业链景气度有望改善，农业ETF华夏（516810）持仓股牧原股份涨超3%",
-          "ts": "2026-09-28 14:01:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 80,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609283885137784.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "600598.SH",
         "name": "北大荒",
@@ -743,20 +554,10 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "土地流转+稻麦种植，粮价上行受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "全国秋粮收获有序推进，种植产业链景气度有望改善，农业ETF华夏（516810）持仓股牧原股份涨超3%",
-          "ts": "2026-09-28 14:01:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 80,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609283885137784.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "601952.SH",
         "name": "苏垦农发",
@@ -788,34 +589,16 @@
       "climate_dir": "强弹性",
       "climate_logic": "国内食糖贸易与加工龙头，糖价弹性大",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 1,
       "top_news": [
         {
-          "title": "农产品 | 棉花：多空因素交织 建议短线观望",
-          "ts": "2026-09-28 09:14:41",
+          "title": "电力需求激增、库存告急，印度令112家燃煤电厂满负荷运行",
+          "ts": "2026-09-28 20:41:00",
           "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 100,
+          "source": "澎湃新闻",
+          "relevance": 85,
           "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609283884599286.html"
-        },
-        {
-          "title": "农产品 | 白糖：外盘偏弱叠加国内高库存 郑糖弱势延续 预计5300-5380元区间震荡",
-          "ts": "2026-09-28 09:09:30",
-          "direction": "中性",
-          "source": "中财期货",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609283884594665.html"
-        },
-        {
-          "title": "光大期货：9月28日软商品日报",
-          "ts": "2026-09-28 10:33:28",
-          "direction": "不确定",
-          "source": "市场资讯",
-          "relevance": 89,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initiwif8764844.shtml"
+          "url": "http://finance.eastmoney.com/a/202609283885387986.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -836,7 +619,7 @@
         "ok": true
       },
       "verify": [
-        "若马棕出口回升或库存回落则压制逻辑弱化",
+        "若印度季风降雨恢复至正常水平则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -851,34 +634,16 @@
       "climate_dir": "强弹性",
       "climate_logic": "制糖主业，糖价上行直接受益",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 1,
       "top_news": [
         {
-          "title": "农产品 | 棉花：多空因素交织 建议短线观望",
-          "ts": "2026-09-28 09:14:41",
+          "title": "电力需求激增、库存告急，印度令112家燃煤电厂满负荷运行",
+          "ts": "2026-09-28 20:41:00",
           "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 100,
+          "source": "澎湃新闻",
+          "relevance": 85,
           "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609283884599286.html"
-        },
-        {
-          "title": "农产品 | 白糖：外盘偏弱叠加国内高库存 郑糖弱势延续 预计5300-5380元区间震荡",
-          "ts": "2026-09-28 09:09:30",
-          "direction": "中性",
-          "source": "中财期货",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609283884594665.html"
-        },
-        {
-          "title": "光大期货：9月28日软商品日报",
-          "ts": "2026-09-28 10:33:28",
-          "direction": "不确定",
-          "source": "市场资讯",
-          "relevance": 89,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initiwif8764844.shtml"
+          "url": "http://finance.eastmoney.com/a/202609283885387986.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -899,7 +664,7 @@
         "ok": true
       },
       "verify": [
-        "若马棕出口回升或库存回落则压制逻辑弱化",
+        "若印度季风降雨恢复至正常水平则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -914,34 +679,16 @@
       "climate_dir": "弹性中等",
       "climate_logic": "广西糖业+浆纸双主业",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 1,
       "top_news": [
         {
-          "title": "农产品 | 棉花：多空因素交织 建议短线观望",
-          "ts": "2026-09-28 09:14:41",
+          "title": "电力需求激增、库存告急，印度令112家燃煤电厂满负荷运行",
+          "ts": "2026-09-28 20:41:00",
           "direction": "利多",
-          "source": "五矿期货",
-          "relevance": 100,
+          "source": "澎湃新闻",
+          "relevance": 85,
           "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609283884599286.html"
-        },
-        {
-          "title": "农产品 | 白糖：外盘偏弱叠加国内高库存 郑糖弱势延续 预计5300-5380元区间震荡",
-          "ts": "2026-09-28 09:09:30",
-          "direction": "中性",
-          "source": "中财期货",
-          "relevance": 100,
-          "strength": "弱",
-          "url": "http://futures.eastmoney.com/a/202609283884594665.html"
-        },
-        {
-          "title": "光大期货：9月28日软商品日报",
-          "ts": "2026-09-28 10:33:28",
-          "direction": "不确定",
-          "source": "市场资讯",
-          "relevance": 89,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-28/doc-initiwif8764844.shtml"
+          "url": "http://finance.eastmoney.com/a/202609283885387986.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -962,7 +709,7 @@
         "ok": true
       },
       "verify": [
-        "若马棕出口回升或库存回落则压制逻辑弱化",
+        "若印度季风降雨恢复至正常水平则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1010,20 +757,10 @@
       "region": "植物油",
       "climate_dir": "库存受益",
       "climate_logic": "菜籽油/棕榈油加工贸易，油脂涨价或有库存收益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "农产品 | 生猪：供应仍存在一定压力 需求不及预期 生猪价格震荡偏弱运行",
-          "ts": "2026-09-28 08:47:12",
-          "direction": "利多",
-          "source": "瑞达期货",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609283884585390.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "002852.SZ",
         "name": "道道全",
@@ -1041,7 +778,6 @@
         "ok": true
       },
       "verify": [
-        "若厄尔尼诺强度下调或印度进口未放量则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1225,20 +961,10 @@
       "region": "生猪养殖",
       "climate_dir": "成本敏感",
       "climate_logic": "自繁自养龙头，饲料成本占比高",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "全国秋粮收获有序推进，种植产业链景气度有望改善，农业ETF华夏（516810）持仓股牧原股份涨超3%",
-          "ts": "2026-09-28 14:01:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 80,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609283885137784.html"
-        }
-      ],
-      "resonance": "背离（成本与价格博弈）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "002714.SZ",
         "name": "牧原股份",
@@ -1330,7 +1056,7 @@
     }
   ],
   "stats": {
-    "news_total": 11,
+    "news_total": 6,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
