@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30 17:13:44",
-  "cycle": 654,
+  "generated_at": "2026-09-30 19:30:59",
+  "cycle": 655,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,124 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "em:202609303887708719",
+      "ts": "2026-09-30 15:36:46",
+      "title": "三重利空夹击铜矿！柴油短缺+厄尔尼诺+智利劳资谈判，铜价续涨！有色ETF汇添富(159652)喜提两连阳！基本面、交易面催化频繁，铜价展望！",
+      "summary": "摩根大通最新金属周报指出，柴油短缺、厄尔尼诺气候与智利铜矿劳资谈判三重因素叠加，当前铜市场面临的供给风险已超越印尼镍减产所带来的冲击，并有可能推动铜价在年末进一步走高。",
+      "source": "界面新闻",
+      "channel": "eastmoney",
+      "url": "http://stock.eastmoney.com/a/202609303887708719.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "减产",
+        "气候"
+      ],
+      "direction": "利多",
+      "strength": "中",
+      "instruments": [
+        "铜"
+      ],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "摩根大通指柴油短缺、厄尔尼诺与智利劳资谈判三重供给风险叠加，或推动铜价年末走高",
+      "verify": "若智利谈判达成且柴油供应恢复则逻辑弱化",
+      "judged": true
+    },
+    {
+      "id": "em:202609303887675792",
+      "ts": "2026-09-30 15:20:05",
+      "title": "期市收评 | 商品期货多数上涨 化工领涨期市",
+      "summary": "（上海有色网） 沪镍：受厄尔尼诺相关持续干旱天气影响，印尼中苏拉威西部分地区降雨量及水资源供应减少。Morowali工业园区（IMIP）部分RKEF产线已下调运行率，Nickel Industries旗下ENC HPAL项目爬产也受到影响。",
+      "source": "东方财富研究中心",
+      "channel": "eastmoney",
+      "url": "http://futures.eastmoney.com/a/202609303887675792.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "干旱",
+        "降雨",
+        "天气",
+        "期货"
+      ],
+      "direction": "利多",
+      "strength": "中",
+      "instruments": [
+        "镍"
+      ],
+      "horizon": "短期",
+      "confidence": "中",
+      "reason": "厄尔尼诺干旱致印尼Morowali部分RKEF产线下调运行率，ENC HPAL爬产受影响",
+      "verify": "若印尼降雨恢复、产线运行率回升则逻辑弱化",
+      "judged": true
+    },
+    {
+      "id": "em:202609303887660172",
+      "ts": "2026-09-30 14:39:00",
+      "title": "海温指数波动走高 超强厄尔尼诺事件正在成型？",
+      "summary": "“我国以中东太平洋关键海区海水表面温度指标作为厄尔尼诺相关判别依据，当海表温度距平指数（某一时段平均气温与同期气候基准值的差值）连续3个月达到或超0.5℃时，表明已进入厄尔尼诺状态。”国家气候中心主任巢清尘介绍，若该状态持续5个月及以上，则判定为一次厄尔尼诺事件。",
+      "source": "人民网",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202609303887660172.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "海温",
+        "海表温度",
+        "气候"
+      ],
+      "direction": "中性",
+      "strength": "弱",
+      "instruments": [],
+      "horizon": "中期",
+      "confidence": "高",
+      "reason": "国家气候中心称海表温度距平连续3月超0.5℃即入厄尔尼诺状态，持续5月判定事件",
+      "verify": "若海温指数回落至0.5℃以下则事件不成立",
+      "judged": true
+    },
+    {
+      "id": "em:202609303887663782",
+      "ts": "2026-09-30 11:38:03",
+      "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+      "summary": "与此同时，厄尔尼诺引发的极端天气将同步支撑棕榈油、棉花、食糖等其他农产品价格，全球农产品整体的通胀预期正在逐步升温。 粮食ETF华夏（159030.SZ）：跟踪国证粮食产业指数。相比泛农业类，聚焦粮食产业链核心环节。",
+      "source": "每日经济新闻",
+      "channel": "eastmoney",
+      "url": "http://stock.eastmoney.com/a/202609303887663782.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "天气",
+        "极端天气",
+        "农业",
+        "棕榈油",
+        "食糖",
+        "棉花",
+        "种业",
+        "农产品",
+        "通胀"
+      ],
+      "direction": "利多",
+      "strength": "中",
+      "instruments": [
+        "棕榈油",
+        "棉花",
+        "白糖"
+      ],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "中金称厄尔尼诺极端天气将支撑棕榈油、棉花、食糖价格，农产品通胀预期升温",
+      "verify": "若产区天气恢复正常、供应转宽松则逻辑弱化",
+      "judged": true
+    },
     {
       "id": "em:202609303887539882",
       "ts": "2026-09-30 10:59:27",
@@ -42,192 +160,6 @@
       "horizon": "短期",
       "confidence": "中",
       "reason": "回顾近年走势可以发现，橡胶、棕榈油、白糖等商品在历次厄尔尼诺现象中受影响较为明显，不过，具体走势还受",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609303887536417",
-      "ts": "2026-09-30 10:45:06",
-      "title": "开盘8秒，海南橡胶直线拉涨停",
-      "summary": "消息面上，根据中国气象局国家气候中心监测，9月以来，赤道中东太平洋海温持续增暖，为有监测记录以来候和旬尺度海温指数首次突破3℃，预计赤道中东太平洋海表温度将继续呈波动上升态势，海温指数峰值预计出现在11月前后，为3.2℃～3.5℃，将形成一次有监测记录以来最强的超强厄尔尼诺事件。",
-      "source": "大河财立方",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609303887536417.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "海温",
-        "海表温度",
-        "太平洋海温",
-        "气候",
-        "橡胶"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "消息面上，根据中国气象局国家气候中心监测，9月以来，赤道中东太平洋海温持续增暖，为有监测记录以来候和",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609303887516896",
-      "ts": "2026-09-30 10:29:14",
-      "title": "热点 | 多重因素共振 橡胶板块强势上涨",
-      "summary": "二是厄尔尼诺带来的四季度减产预期持续升温，市场提前计价东南亚产区远期减产风险，供应收缩预期推动远期溢价走扩。三是仓单与库存均处于低位，同样给胶价带来支撑。",
-      "source": "东方财富研究中心",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609303887516896.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产",
-        "库存",
-        "产区",
-        "橡胶"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "二是厄尔尼诺带来的四季度减产预期持续升温，市场提前计价东南亚产区远期减产风险，供应收缩预期推动远期溢",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609303887525591",
-      "ts": "2026-09-30 10:24:00",
-      "title": "海温指数首破3℃，农业产业链关注度有望继续提升，农业ETF华夏（516810）持仓股海南橡胶涨停",
-      "summary": "专业人士分析指出，厄尔尼诺强度峰值预计出现在今年四季度，而美国玉米、大豆的主要生长期与其并不完全重合，因此目前美国作物单产下修并不能完全归因于厄尔尼诺。后续仍需关注美国单产是否会进一步下调，以及四季度厄尔尼诺增强后，东南亚、南美等主产区天气是否出现更明显的异常。",
-      "source": "21世纪经济报道",
-      "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202609303887525591.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "海温",
-        "产区",
-        "天气",
-        "农业",
-        "橡胶",
-        "玉米",
-        "大豆"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "豆粕",
-        "玉米",
-        "天然橡胶"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "专业人士分析指出，厄尔尼诺强度峰值预计出现在今年四季度，而美国玉米、大豆的主要生长期与其并不完全重合",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609303887493971",
-      "ts": "2026-09-30 10:07:09",
-      "title": "黑海港口互袭拖累农产品出口，全球粮价压力再起，粮食ETF博时(159031)跟踪指数涨超1%",
-      "summary": "国盛证券指出，政策密集期叠加厄尔尼诺进入高发展期，四季度应重点关注种业板块。从产业端看，种植与农产品板块内品种换代趋势明确，中穗密植成长突破，后续关注转基因实际成交价格、利润分配和新季扩繁制种等逐步确认后行业公司成长性和兑现时间，板块投资潜力值得期待。",
-      "source": "东方财富证券",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202609303887493971.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 99,
-      "matched": [
-        "厄尔尼诺",
-        "种植",
-        "种业",
-        "农产品"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [
-        "种业板块",
-        "种植粮油板块"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "国盛证券指出，政策密集期叠加厄尔尼诺进入高发展期，四季度应重点关注种业板块。从产业端看，种植与农产品",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609303887310236",
-      "ts": "2026-09-30 09:20:56",
-      "title": "农产品 | 鸡蛋：短期蛋价或延续震荡偏弱格局 但下方空间相对有限",
-      "summary": "▼棕榈油 产地分化传导，节前棕油略弱于豆菜油 国内，长假临近，下游备货接近尾声，豆油现货成交一般，棕榈油少量补货。豆油库存127万吨，榈油库存97万吨，菜油库存39万吨。",
-      "source": "正信期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609303887310236.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 47,
-      "matched": [
-        "库存",
-        "棕榈油",
-        "农产品"
-      ],
-      "direction": "不确定",
-      "strength": "中",
-      "instruments": [
-        "棕榈油"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "▼棕榈油 产地分化传导，节前棕油略弱于豆菜油 国内，长假临近，下游备货接近尾声，豆油现货成交一般，棕",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "em:202609303887266679",
-      "ts": "2026-09-30 09:09:40",
-      "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-      "summary": "历史经验显示，超强厄尔尼诺通常导致东南亚、澳大利亚干旱，南美多雨，进而影响棕榈油、白糖、小麦、玉米等主要农作物的产量。 【机构观点】 中金公司指出，1960年以来历轮强及超强级别的厄尔尼诺大概率会导致全球玉米、棕榈减产，大豆则存增产可能。",
-      "source": "界面新闻",
-      "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202609303887266679.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "干旱",
-        "减产",
-        "产量",
-        "农业",
-        "棕榈油",
-        "白糖",
-        "玉米",
-        "大豆",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "棕榈油",
-        "白糖",
-        "豆粕",
-        "玉米"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "历史经验显示，超强厄尔尼诺通常导致东南亚、澳大利亚干旱，南美多雨，进而影响棕榈油、白糖、小麦、玉米等",
       "verify": "",
       "judged": false
     },
@@ -284,37 +216,9 @@
       "reason": "厄尔尼诺是赤道中东太平洋海水持续异常增暖的气候现象，和拉尼娜现象互为相反状态，平均每2至7年发生一次",
       "verify": "",
       "judged": false
-    },
-    {
-      "id": "em:202609293885857551",
-      "ts": "2026-09-29 08:49:13",
-      "title": "能化 | 沥青库存低位去化 受原油成本影响 沥青跟随原油波动",
-      "summary": "天然橡胶 近期国内云南产区天气尚可，原料继续上量，各片区采购价格存差异；海南产区天气情况尚可，割胶作业陆续开展，当地加工厂对原料延续加价抢收状态。近期青岛港口总库存延续去库态势，保税库及一般贸易库双库齐降。",
-      "source": "瑞达期货",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202609293885857551.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 59,
-      "matched": [
-        "库存",
-        "产区",
-        "天气",
-        "橡胶"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "天然橡胶 近期国内云南产区天气尚可，原料继续上量，各片区采购价格存差异；海南产区天气情况尚可，割胶作",
-      "verify": "",
-      "judged": false
     }
   ],
-  "news_new_count": 8,
+  "news_new_count": 4,
   "instruments": [
     {
       "key": "P",
@@ -326,8 +230,17 @@
       "climate_dir": "看多",
       "climate_logic": "干旱削减产量前景，库存偏低→减产+去库预期",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
+        {
+          "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+          "ts": "2026-09-30 11:38:03",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://stock.eastmoney.com/a/202609303887663782.html"
+        },
         {
           "title": "三大橡胶全线上涨 沪胶一度突破20000元大关 创逾9年新高",
           "ts": "2026-09-30 10:59:27",
@@ -336,24 +249,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609303887539882.html"
-        },
-        {
-          "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-          "ts": "2026-09-30 09:09:40",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887266679.html"
-        },
-        {
-          "title": "农产品 | 鸡蛋：短期蛋价或延续震荡偏弱格局 但下方空间相对有限",
-          "ts": "2026-09-30 09:20:56",
-          "direction": "不确定",
-          "source": "正信期货",
-          "relevance": 47,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609303887310236.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -374,6 +269,7 @@
         "ok": true
       },
       "verify": [
+        "若产区天气恢复正常、供应转宽松则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -392,6 +288,15 @@
       "news_count": 2,
       "top_news": [
         {
+          "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+          "ts": "2026-09-30 11:38:03",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://stock.eastmoney.com/a/202609303887663782.html"
+        },
+        {
           "title": "三大橡胶全线上涨 沪胶一度突破20000元大关 创逾9年新高",
           "ts": "2026-09-30 10:59:27",
           "direction": "不确定",
@@ -399,15 +304,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609303887539882.html"
-        },
-        {
-          "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-          "ts": "2026-09-30 09:09:40",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887266679.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -428,6 +324,7 @@
         "ok": true
       },
       "verify": [
+        "若产区天气恢复正常、供应转宽松则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -442,29 +339,10 @@
       "region": "美豆/南美",
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
-      "news_dir": "利多",
-      "news_count": 2,
-      "top_news": [
-        {
-          "title": "海温指数首破3℃，农业产业链关注度有望继续提升，农业ETF华夏（516810）持仓股海南橡胶涨停",
-          "ts": "2026-09-30 10:24:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887525591.html"
-        },
-        {
-          "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-          "ts": "2026-09-30 09:09:40",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887266679.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_M0",
         "name": "豆粕",
@@ -496,29 +374,10 @@
       "region": "美玉米/国内",
       "climate_dir": "震荡偏多",
       "climate_logic": "生长期高温干旱预期升水，国内供需相对独立",
-      "news_dir": "利多",
-      "news_count": 2,
-      "top_news": [
-        {
-          "title": "海温指数首破3℃，农业产业链关注度有望继续提升，农业ETF华夏（516810）持仓股海南橡胶涨停",
-          "ts": "2026-09-30 10:24:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887525591.html"
-        },
-        {
-          "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-          "ts": "2026-09-30 09:09:40",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887266679.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_C0",
         "name": "玉米",
@@ -550,8 +409,8 @@
       "region": "东南亚",
       "climate_dir": "偏多（干旱减产逻辑）",
       "climate_logic": "产区干旱→割胶量下滑预期，成本端抬升",
-      "news_dir": "利多",
-      "news_count": 3,
+      "news_dir": "中性",
+      "news_count": 2,
       "top_news": [
         {
           "title": "三大橡胶全线上涨 沪胶一度突破20000元大关 创逾9年新高",
@@ -563,25 +422,16 @@
           "url": "http://futures.eastmoney.com/a/202609303887539882.html"
         },
         {
-          "title": "开盘8秒，海南橡胶直线拉涨停",
-          "ts": "2026-09-30 10:45:06",
+          "title": "能化 | 橡胶：整体建议灵活应对 按照盘面短线交易 设置止损 快进快出",
+          "ts": "2026-09-30 09:09:04",
           "direction": "不确定",
-          "source": "大河财立方",
+          "source": "五矿期货",
           "relevance": 100,
           "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609303887536417.html"
-        },
-        {
-          "title": "热点 | 多重因素共振 橡胶板块强势上涨",
-          "ts": "2026-09-30 10:29:14",
-          "direction": "利多",
-          "source": "东方财富研究中心",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://futures.eastmoney.com/a/202609303887516896.html"
+          "url": "http://futures.eastmoney.com/a/202609303887236553.html"
         }
       ],
-      "resonance": "共振（利多）",
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_RU0",
         "name": "天然橡胶",
@@ -613,10 +463,20 @@
       "region": "印度/美棉",
       "climate_dir": "中性（区域分化）",
       "climate_logic": "印度减产利多外盘；中国产区影响待观察",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+          "ts": "2026-09-30 11:38:03",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://stock.eastmoney.com/a/202609303887663782.html"
+        }
+      ],
+      "resonance": "中性",
       "quote": {
         "key": "nf_CF0",
         "name": "棉花",
@@ -634,6 +494,7 @@
         "ok": true
       },
       "verify": [
+        "若产区天气恢复正常、供应转宽松则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -648,20 +509,20 @@
       "region": "种业/种植",
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
-      "news_dir": "中性",
+      "news_dir": "利多",
       "news_count": 1,
       "top_news": [
         {
-          "title": "黑海港口互袭拖累农产品出口，全球粮价压力再起，粮食ETF博时(159031)跟踪指数涨超1%",
-          "ts": "2026-09-30 10:07:09",
-          "direction": "不确定",
-          "source": "东方财富证券",
-          "relevance": 99,
+          "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+          "ts": "2026-09-30 11:38:03",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
           "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609303887493971.html"
+          "url": "http://stock.eastmoney.com/a/202609303887663782.html"
         }
       ],
-      "resonance": "仅气候信号",
+      "resonance": "共振（利多）",
       "quote": {
         "key": "000998.SZ",
         "name": "隆平高科",
@@ -679,6 +540,7 @@
         "ok": true
       },
       "verify": [
+        "若产区天气恢复正常、供应转宽松则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -693,18 +555,8 @@
       "climate_dir": "温和受益",
       "climate_logic": "东北种植主体，粮价景气受益",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "黑海港口互袭拖累农产品出口，全球粮价压力再起，粮食ETF博时(159031)跟踪指数涨超1%",
-          "ts": "2026-09-30 10:07:09",
-          "direction": "不确定",
-          "source": "东方财富证券",
-          "relevance": 99,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609303887493971.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "600598.SH",
@@ -737,18 +589,8 @@
       "climate_dir": "温和受益",
       "climate_logic": "土地流转+稻麦种植，粮价上行受益",
       "news_dir": "中性",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "黑海港口互袭拖累农产品出口，全球粮价压力再起，粮食ETF博时(159031)跟踪指数涨超1%",
-          "ts": "2026-09-30 10:07:09",
-          "direction": "不确定",
-          "source": "东方财富证券",
-          "relevance": 99,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609303887493971.html"
-        }
-      ],
+      "news_count": 0,
+      "top_news": [],
       "resonance": "仅气候信号",
       "quote": {
         "key": "601952.SH",
@@ -784,6 +626,15 @@
       "news_count": 2,
       "top_news": [
         {
+          "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+          "ts": "2026-09-30 11:38:03",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://stock.eastmoney.com/a/202609303887663782.html"
+        },
+        {
           "title": "三大橡胶全线上涨 沪胶一度突破20000元大关 创逾9年新高",
           "ts": "2026-09-30 10:59:27",
           "direction": "不确定",
@@ -791,15 +642,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609303887539882.html"
-        },
-        {
-          "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-          "ts": "2026-09-30 09:09:40",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887266679.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -820,6 +662,7 @@
         "ok": true
       },
       "verify": [
+        "若产区天气恢复正常、供应转宽松则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -837,6 +680,15 @@
       "news_count": 2,
       "top_news": [
         {
+          "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+          "ts": "2026-09-30 11:38:03",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://stock.eastmoney.com/a/202609303887663782.html"
+        },
+        {
           "title": "三大橡胶全线上涨 沪胶一度突破20000元大关 创逾9年新高",
           "ts": "2026-09-30 10:59:27",
           "direction": "不确定",
@@ -844,15 +696,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609303887539882.html"
-        },
-        {
-          "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-          "ts": "2026-09-30 09:09:40",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887266679.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -873,6 +716,7 @@
         "ok": true
       },
       "verify": [
+        "若产区天气恢复正常、供应转宽松则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -890,6 +734,15 @@
       "news_count": 2,
       "top_news": [
         {
+          "title": "国际市场农产品供应偏紧信号强化，中金：农产品通胀预期升温，粮食ETF华夏(159030)持仓股登海种业领涨6.67%",
+          "ts": "2026-09-30 11:38:03",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://stock.eastmoney.com/a/202609303887663782.html"
+        },
+        {
           "title": "三大橡胶全线上涨 沪胶一度突破20000元大关 创逾9年新高",
           "ts": "2026-09-30 10:59:27",
           "direction": "不确定",
@@ -897,15 +750,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202609303887539882.html"
-        },
-        {
-          "title": "超强厄尔尼诺或扰动全球农产品供给，农业ETF天弘(512620)标的指数昨日收涨0.23%，近5日净流入超4900万元",
-          "ts": "2026-09-30 09:09:40",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887266679.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -926,6 +770,7 @@
         "ok": true
       },
       "verify": [
+        "若产区天气恢复正常、供应转宽松则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -1245,29 +1090,10 @@
       "region": "橡胶种植",
       "climate_dir": "事件受益",
       "climate_logic": "国内天胶种植龙头，减产/胶价上行受益",
-      "news_dir": "利多",
-      "news_count": 2,
-      "top_news": [
-        {
-          "title": "开盘8秒，海南橡胶直线拉涨停",
-          "ts": "2026-09-30 10:45:06",
-          "direction": "不确定",
-          "source": "大河财立方",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202609303887536417.html"
-        },
-        {
-          "title": "海温指数首破3℃，农业产业链关注度有望继续提升，农业ETF华夏（516810）持仓股海南橡胶涨停",
-          "ts": "2026-09-30 10:24:00",
-          "direction": "利多",
-          "source": "21世纪经济报道",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202609303887525591.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "601118.SH",
         "name": "海南橡胶",
@@ -1291,7 +1117,7 @@
     }
   ],
   "stats": {
-    "news_total": 10,
+    "news_total": 7,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
