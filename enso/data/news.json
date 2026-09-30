@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30 19:51:24",
-  "cycle": 659,
+  "generated_at": "2026-09-30 20:11:49",
+  "cycle": 663,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,32 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "em:202609303887852075",
+      "ts": "2026-09-30 18:10:00",
+      "title": "专访国合会特邀顾问李晓江：气候适应融资需财政等政策参与",
+      "summary": "今年以来，全国极端天气频发，中央气象台多次发布高温、暴雨双预警，重庆、新疆多地气温突破40℃，广西、山东、辽宁接连遭遇大暴雨。台风“巴威”“白海豚”先后来袭。气候变化导致的极端天气灾害事件越来越多，对城市气候适应建设的安全、资金等方面提出新的要求。",
+      "source": "21世纪经济报道",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202609303887852075.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 65,
+      "matched": [
+        "高温",
+        "天气",
+        "气候",
+        "极端天气"
+      ],
+      "direction": "不确定",
+      "strength": "弱",
+      "instruments": [],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "仅述极端天气频发与气候适应融资，未涉及具体农产品产量或库存数据",
+      "verify": "若后续报道明确指向某作物减产或政策落地则重估",
+      "judged": true
+    },
     {
       "id": "em:202609303887708719",
       "ts": "2026-09-30 15:36:46",
@@ -1117,7 +1143,7 @@
     }
   ],
   "stats": {
-    "news_total": 7,
+    "news_total": 8,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
