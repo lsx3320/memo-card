@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03 12:15:37",
-  "cycle": 686,
+  "generated_at": "2026-10-03 14:22:29",
+  "cycle": 690,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,31 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "em:202610033888467812",
-      "ts": "2026-10-03 10:47:00",
-      "title": "广东大部仍有雷雨天气，粤西持续高温！假期后半段降温转晴",
-      "summary": "10月3日，南都N视频记者从中国天气网获悉，随着冷空气层层推进，4日华南北部将降到30℃以下，5日华南大部最高气温将不足30℃。据广东气象部门消息，预计，3日，广东省大部仍有雷雨天气，局部雨势大并伴有8级左右短时大风。 累计降水量预报。",
-      "source": "南方都市报",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610033888467812.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 48,
-      "matched": [
-        "降水",
-        "高温",
-        "天气"
-      ],
-      "direction": "中性",
-      "strength": "弱",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "广东雷雨降温转晴，属常规天气，未提及农产品减产或影响",
-      "verify": "若后续出现大范围农业灾害则逻辑改变",
-      "judged": true
-    },
     {
       "id": "em:202610033888457881",
       "ts": "2026-10-03 08:32:43",
@@ -935,7 +910,7 @@
     }
   ],
   "stats": {
-    "news_total": 3,
+    "news_total": 2,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
