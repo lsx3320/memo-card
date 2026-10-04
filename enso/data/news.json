@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04 22:05:03",
-  "cycle": 732,
+  "generated_at": "2026-10-04 23:00:22",
+  "cycle": 736,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,36 @@
     "soi": -1.1
   },
   "news": [
+    {
+      "id": "em:202610043888571237",
+      "ts": "2026-10-04 22:16:00",
+      "title": "橡胶、炭黑全线冲高，轮胎新一轮涨价潮能走多远？",
+      "summary": "广发期货指出，全球天然橡胶供给已步入顶部区域，叠加厄尔尼诺事件引发的减产预期使得胶价对天气扰动的敏感度被显著放大。 合成橡胶方面，受中东地缘冲突持续发酵影响，核心原料丁二烯供应紧张，价格重心上移。",
+      "source": "澎湃新闻",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202610043888571237.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "减产",
+        "供应紧张",
+        "天气",
+        "橡胶",
+        "期货"
+      ],
+      "direction": "利多",
+      "strength": "强",
+      "instruments": [
+        "天然橡胶"
+      ],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "广发期货称全球天然橡胶供给步入顶部区域，厄尔尼诺减产预期放大胶价对天气扰动敏感度",
+      "verify": "若主产区降水恢复正常、供给预期上修则逻辑弱化",
+      "judged": true
+    },
     {
       "id": "em:202610043888537827",
       "ts": "2026-10-04 13:09:16",
@@ -134,41 +164,9 @@
       "reason": "WMO确认厄尔尼诺并将增强为超强，非盟称1950年来最强，非洲极端天气风险上升，威胁经济作物产量",
       "verify": "若后续降水恢复正常或强度下调则逻辑弱化",
       "judged": true
-    },
-    {
-      "id": "em:202610033888482970",
-      "ts": "2026-10-03 15:15:14",
-      "title": "厄尔尼诺“放大”非洲气候风险",
-      "summary": "世界气象组织9月表示，厄尔尼诺事件已确认出现，预计将在数月内增强为超强厄尔尼诺事件，对全球降雨和温度模式产生重大影响，导致极端天气风险上升。非洲联盟官员表示，本轮厄尔尼诺预计“将是自1950年以来最强的一次”，非洲需要在国家、区域和大陆层面做好准备。",
-      "source": "新华社",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610033888482970.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "降雨",
-        "天气",
-        "气候",
-        "极端天气"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "棕榈油",
-        "白糖",
-        "天然橡胶",
-        "可可"
-      ],
-      "horizon": "中期",
-      "confidence": "高",
-      "reason": "WMO确认厄尔尼诺将增强为超强，非盟称1950年来最强，非洲极端天气风险上升，威胁经济作物产量",
-      "verify": "若后续降水恢复正常或强度下调则逻辑弱化",
-      "judged": true
     }
   ],
-  "news_new_count": 0,
+  "news_new_count": 1,
   "instruments": [
     {
       "key": "P",
@@ -180,7 +178,7 @@
       "climate_dir": "看多",
       "climate_logic": "干旱削减产量前景，库存偏低→减产+去库预期",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "经济热点问答｜产量仍高，全球粮价为何还在涨？",
@@ -199,15 +197,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://finance.eastmoney.com/a/202610033888486525.html"
-        },
-        {
-          "title": "厄尔尼诺“放大”非洲气候风险",
-          "ts": "2026-10-03 15:15:14",
-          "direction": "利多",
-          "source": "新华社",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610033888482970.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -244,7 +233,7 @@
       "climate_dir": "看多",
       "climate_logic": "主产区干旱减产预期+乙醇分流，外盘拉动内盘",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "经济热点问答｜产量仍高，全球粮价为何还在涨？",
@@ -263,15 +252,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://finance.eastmoney.com/a/202610033888486525.html"
-        },
-        {
-          "title": "厄尔尼诺“放大”非洲气候风险",
-          "ts": "2026-10-03 15:15:14",
-          "direction": "利多",
-          "source": "新华社",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610033888482970.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -403,6 +383,15 @@
       "news_count": 3,
       "top_news": [
         {
+          "title": "橡胶、炭黑全线冲高，轮胎新一轮涨价潮能走多远？",
+          "ts": "2026-10-04 22:16:00",
+          "direction": "利多",
+          "source": "澎湃新闻",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610043888571237.html"
+        },
+        {
           "title": "超强厄尔尼诺刺激 这品种价格创9年新高！",
           "ts": "2026-10-04 13:09:16",
           "direction": "利多",
@@ -419,15 +408,6 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://futures.eastmoney.com/a/202610033888501764.html"
-        },
-        {
-          "title": "综述｜厄尔尼诺“放大”非洲气候风险",
-          "ts": "2026-10-03 16:04:00",
-          "direction": "利多",
-          "source": "新华社",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610033888486525.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -448,9 +428,9 @@
         "ok": true
       },
       "verify": [
+        "若主产区降水恢复正常、供给预期上修则逻辑弱化",
         "若东南亚降水恢复正常或减产预期证伪",
         "若产区降水恢复正常或供给收缩证伪则逻辑弱化",
-        "若后续降水恢复正常或强度下调则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -601,7 +581,7 @@
       "climate_dir": "强弹性",
       "climate_logic": "国内食糖贸易与加工龙头，糖价弹性大",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "经济热点问答｜产量仍高，全球粮价为何还在涨？",
@@ -620,15 +600,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://finance.eastmoney.com/a/202610033888486525.html"
-        },
-        {
-          "title": "厄尔尼诺“放大”非洲气候风险",
-          "ts": "2026-10-03 15:15:14",
-          "direction": "利多",
-          "source": "新华社",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610033888482970.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -665,7 +636,7 @@
       "climate_dir": "强弹性",
       "climate_logic": "制糖主业，糖价上行直接受益",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "经济热点问答｜产量仍高，全球粮价为何还在涨？",
@@ -684,15 +655,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://finance.eastmoney.com/a/202610033888486525.html"
-        },
-        {
-          "title": "厄尔尼诺“放大”非洲气候风险",
-          "ts": "2026-10-03 15:15:14",
-          "direction": "利多",
-          "source": "新华社",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610033888482970.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -729,7 +691,7 @@
       "climate_dir": "弹性中等",
       "climate_logic": "广西糖业+浆纸双主业",
       "news_dir": "利多",
-      "news_count": 3,
+      "news_count": 2,
       "top_news": [
         {
           "title": "经济热点问答｜产量仍高，全球粮价为何还在涨？",
@@ -748,15 +710,6 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://finance.eastmoney.com/a/202610033888486525.html"
-        },
-        {
-          "title": "厄尔尼诺“放大”非洲气候风险",
-          "ts": "2026-10-03 15:15:14",
-          "direction": "利多",
-          "source": "新华社",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610033888482970.html"
         }
       ],
       "resonance": "共振（利多）",
