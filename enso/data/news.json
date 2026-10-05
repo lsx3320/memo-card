@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05 22:40:55",
-  "cycle": 764,
+  "generated_at": "2026-10-05 22:46:18",
+  "cycle": 765,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,31 +13,6 @@
     "soi": -1.1
   },
   "news": [
-    {
-      "id": "em:202610053888660074",
-      "ts": "2026-10-05 18:39:11",
-      "title": "国务院安委办、应急管理部视频调度国庆假期安全防范工作：要警惕极端天气风险",
-      "summary": "会议强调，要警惕极端天气风险。高度关注吉林东部、福建东部、云南、海南等部分地区强降雨可能造成的灾害影响，相关地区要加强监测预警，滚动会商研判，点对点指导督促高风险地区提前采取防范措施。",
-      "source": "界面新闻",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610053888660074.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 60,
-      "matched": [
-        "降雨",
-        "天气",
-        "极端天气"
-      ],
-      "direction": "不确定",
-      "strength": "弱",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "高",
-      "reason": "国务院安委办仅提示吉林福建云南海南强降雨风险，未涉及具体农产品减产或价格影响",
-      "verify": "若无实际灾害减产报告则无价格影响",
-      "judged": true
-    },
     {
       "id": "em:202610053888646392",
       "ts": "2026-10-05 17:34:24",
@@ -1082,7 +1057,7 @@
     }
   ],
   "stats": {
-    "news_total": 6,
+    "news_total": 5,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
