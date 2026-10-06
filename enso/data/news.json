@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06 16:52:36",
-  "cycle": 776,
+  "generated_at": "2026-10-06 21:18:35",
+  "cycle": 778,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,30 +13,6 @@
     "soi": -2.0
   },
   "news": [
-    {
-      "id": "sina:897631671",
-      "ts": "2026-10-06 14:12:40",
-      "title": "世行上调南亚经济增长预期，警告能源冲击和极端天气风险",
-      "summary": "世界银行上调了对南亚地区的增长预期，理由是尽管面临能源价格冲击，该地区的消费需求依然保持韧性；不过，该行也警告称，持续高企的油价...",
-      "source": "环球市场播报",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-06/doc-iniuhitf8952512.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 46,
-      "matched": [
-        "天气",
-        "极端天气"
-      ],
-      "direction": "不确定",
-      "strength": "弱",
-      "instruments": [],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "世行上调南亚增长预期但仅警告能源冲击与极端天气风险，未给出具体农产品减产数据",
-      "verify": "若世行后续报告明确南亚农业减产幅度则方向可确认",
-      "judged": true
-    },
     {
       "id": "em:202610043888571237",
       "ts": "2026-10-05 00:01:00",
@@ -837,7 +813,7 @@
     }
   ],
   "stats": {
-    "news_total": 2,
+    "news_total": 1,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
