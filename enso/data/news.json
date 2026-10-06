@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06 22:58:07",
-  "cycle": 793,
+  "generated_at": "2026-10-07 00:31:18",
+  "cycle": 794,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -12,38 +12,7 @@
     "nino34": 2.72,
     "soi": -2.0
   },
-  "news": [
-    {
-      "id": "em:202610043888571237",
-      "ts": "2026-10-05 00:01:00",
-      "title": "橡胶、炭黑全线冲高 轮胎新一轮涨价潮能走多远？",
-      "summary": "广发期货指出，全球天然橡胶供给已步入顶部区域，叠加厄尔尼诺事件引发的减产预期使得胶价对天气扰动的敏感度被显著放大。 合成橡胶方面，受中东地缘冲突持续发酵影响，核心原料丁二烯供应紧张，价格重心上移。",
-      "source": "澎湃新闻",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610043888571237.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产",
-        "供应紧张",
-        "天气",
-        "橡胶",
-        "期货"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "广发期货称全球天然橡胶供给步入顶部区域，厄尔尼诺减产预期放大胶价对天气扰动敏感度",
-      "verify": "若主产区降水恢复正常、供给预期上修则逻辑弱化",
-      "judged": true
-    }
-  ],
+  "news": [],
   "news_new_count": 0,
   "instruments": [
     {
@@ -195,20 +164,10 @@
       "region": "东南亚",
       "climate_dir": "偏多（干旱减产逻辑）",
       "climate_logic": "产区干旱→割胶量下滑预期，成本端抬升",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "橡胶、炭黑全线冲高 轮胎新一轮涨价潮能走多远？",
-          "ts": "2026-10-05 00:01:00",
-          "direction": "利多",
-          "source": "澎湃新闻",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610043888571237.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "nf_RU0",
         "name": "天然橡胶",
@@ -226,7 +185,6 @@
         "ok": true
       },
       "verify": [
-        "若主产区降水恢复正常、供给预期上修则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
         "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
@@ -813,7 +771,7 @@
     }
   ],
   "stats": {
-    "news_total": 1,
+    "news_total": 0,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
