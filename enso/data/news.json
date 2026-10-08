@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09 03:10:15",
-  "cycle": 872,
+  "generated_at": "2026-10-09 05:30:23",
+  "cycle": 873,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -34,31 +34,6 @@
       "horizon": "短期",
       "confidence": "中",
       "reason": "世界气象组织网站8日发布通报说，预计今年第四季度将出现厄尔尼诺增强现象，这将影响全球的天气模式，并对",
-      "verify": "",
-      "judged": false
-    },
-    {
-      "id": "sina:898224441",
-      "ts": "2026-10-08 23:07:03",
-      "title": "欧洲高温干旱 明年粮食收成堪忧",
-      "summary": "焦渴的土地与灼人的热浪，正威胁着欧洲的秋季播种季节，令本已因地缘政治紧张而绷紧的全球粮食供应，再添风险。 今年夏天席卷欧洲的多轮热浪已经打乱收成...",
-      "source": "环球市场播报",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniuptaz7486036.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 58,
-      "matched": [
-        "干旱",
-        "高温",
-        "热浪"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "焦渴的土地与灼人的热浪，正威胁着欧洲的秋季播种季节，令本已因地缘政治紧张而绷紧的全球粮食供应，再添风",
       "verify": "",
       "judged": false
     },
@@ -1164,7 +1139,7 @@
     }
   ],
   "stats": {
-    "news_total": 7,
+    "news_total": 6,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
