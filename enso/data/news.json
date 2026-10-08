@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08 21:16:29",
-  "cycle": 869,
+  "generated_at": "2026-10-08 23:02:34",
+  "cycle": 870,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -13,6 +13,66 @@
     "soi": -2.0
   },
   "news": [
+    {
+      "id": "em:202610083889926135",
+      "ts": "2026-10-08 20:47:19",
+      "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+      "summary": "南方财经10月8日电，联合国机构8日警告说，未来数月，厄尔尼诺现象将进一步加剧，并将于12月达到顶峰，或将成为1950年以来最强厄尔尼诺事件之一。（新华社）",
+      "source": "南方财经网",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202610083889926135.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 49,
+      "matched": [
+        "厄尔尼诺"
+      ],
+      "direction": "利多",
+      "strength": "强",
+      "instruments": [
+        "棕榈油",
+        "白糖",
+        "豆粕",
+        "玉米",
+        "天然橡胶",
+        "棉花"
+      ],
+      "horizon": "中期",
+      "confidence": "高",
+      "reason": "联合国警告厄尔尼诺12月达顶峰，或成1950年以来最强之一，东南亚干旱减产预期升温。",
+      "verify": "若后续降水恢复正常或强度下调则逻辑弱化",
+      "judged": true
+    },
+    {
+      "id": "em:202610083889943830",
+      "ts": "2026-10-08 18:27:37",
+      "title": "厄尔尼诺正在增强",
+      "summary": "此外该组织还预测，厄尔尼诺持续至2027年2月的可能性接近100%。",
+      "source": "CCTV国际时讯",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202610083889943830.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 49,
+      "matched": [
+        "厄尔尼诺"
+      ],
+      "direction": "利多",
+      "strength": "强",
+      "instruments": [
+        "棕榈油",
+        "白糖",
+        "豆粕",
+        "玉米",
+        "天然橡胶",
+        "棉花"
+      ],
+      "horizon": "中期",
+      "confidence": "高",
+      "reason": "CCTV引述机构预测厄尔尼诺持续至2027年2月概率近100%，长期干旱威胁作物产量。",
+      "verify": "若预测概率下调或提前结束则逻辑弱化",
+      "judged": true
+    },
     {
       "id": "em:202610083889821532",
       "ts": "2026-10-08 17:56:11",
@@ -40,120 +100,33 @@
       "judged": false
     },
     {
-      "id": "em:202610083889587738",
-      "ts": "2026-10-08 15:13:52",
-      "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-      "summary": "同时海表温度预计将创下历史纪录；厄尔尼诺现象核心区域——热带太平洋中部和东部海域——10月至12月的海表温度预计将比正常水平高出3.7摄氏度（6.7华氏度）。",
-      "source": "财联社",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610083889587738.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 67,
-      "matched": [
-        "厄尔尼诺",
-        "海表温度"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "棕榈油",
-        "白糖",
-        "天然橡胶",
-        "玉米",
-        "豆粕"
-      ],
-      "horizon": "中期",
-      "confidence": "高",
-      "reason": "WMO称厄尔尼诺加剧持续至2027年2月，核心海表温度将高正常3.7摄氏度创纪录",
-      "verify": "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202610083889615083",
-      "ts": "2026-10-08 14:28:43",
-      "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-      "summary": "报告显示，截至目前，全国共有428687人、115246户家庭受到厄尔尼诺影响，涉及多个地区906个村庄。 报告说，菲律宾已有约20.2万名农民和渔民受到厄尔尼诺影响，受损农作物种植面积约22.4万公顷，产量损失约11.7万吨，估计经济损失达55.8亿比索。",
-      "source": "中国新闻网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610083889615083.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "产量",
-        "种植",
-        "农业"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "棕榈油",
-        "白糖",
-        "玉米"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "厄尔尼诺致菲22.4万公顷农田受损、减产11.7万吨、损失55.8亿比索，东南亚减产预期升温",
-      "verify": "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202610083889535475",
-      "ts": "2026-10-08 14:09:51",
-      "title": "全国秋粮收获过四成，新粮集中上市！FAO下调全球谷物产量预估！农发种业涨超2%，粮食ETF汇添富(159073)标的指数逆市冲高！",
-      "summary": "中金公司指出，NOAA预计一次有观测记录以来最强的“超强”厄尔尼诺事件或将形成。复盘1960年以来的强及超强厄尔尼诺事件，全球玉米、棕榈减产概率较大，大豆则存在增产可能。",
+      "id": "em:202610083889955253",
+      "ts": "2026-10-08 17:55:03",
+      "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+      "summary": "世界气象组织秘书长塞莱丝特·绍洛表示，厄尔尼诺现象已经稳固形成并正在迅速增强，预计其持续至2027年2月的可能性接近100%，且可能成为至少自1950年以来最强的厄尔尼诺现象之一。",
       "source": "界面新闻",
       "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202610083889535475.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "减产",
-        "产量",
-        "玉米",
-        "大豆",
-        "种业"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "玉米",
-        "棕榈油",
-        "豆粕"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "中金引NOAA称或形成史上最强超强厄尔尼诺，复盘显示全球玉米、棕榈减产概率大",
-      "verify": "若厄尔尼诺减弱或降水恢复正常则逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202610083889431155",
-      "ts": "2026-10-08 12:10:00",
-      "title": "中旗股份：超级厄尔尼诺现象对除草剂需求会有较显著影响",
-      "summary": "另外，今年底到明年初的超级厄尔尼诺现象对除草剂的需求会有较显著影响。",
-      "source": "证券时报网",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610083889431155.html",
+      "url": "http://finance.eastmoney.com/a/202610083889955253.html",
       "authority": "media",
       "important": false,
       "relevance": 49,
       "matched": [
         "厄尔尼诺"
       ],
-      "direction": "不确定",
-      "strength": "弱",
+      "direction": "利多",
+      "strength": "强",
       "instruments": [
-        "化肥农药板块"
+        "棕榈油",
+        "白糖",
+        "豆粕",
+        "玉米",
+        "天然橡胶",
+        "棉花"
       ],
       "horizon": "中期",
-      "confidence": "中",
-      "reason": "公司称超级厄尔尼诺对除草剂需求有较显著影响，但未指明方向及具体品种",
-      "verify": "若公司后续明确需求增减方向则修正",
+      "confidence": "高",
+      "reason": "WMO秘书长称厄尔尼诺迅速增强，或为1950年来最强之一，持续至2027年2月概率近100%。",
+      "verify": "若WMO下调强度或持续预期则逻辑弱化",
       "judged": true
     },
     {
@@ -211,7 +184,7 @@
       "judged": true
     }
   ],
-  "news_new_count": 1,
+  "news_new_count": 3,
   "instruments": [
     {
       "key": "P",
@@ -226,24 +199,6 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
-          "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
-        },
-        {
-          "title": "全国秋粮收获过四成，新粮集中上市！FAO下调全球谷物产量预估！农发种业涨超2%，粮食ETF汇添富(159073)标的指数逆市冲高！",
-          "ts": "2026-10-08 14:09:51",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610083889535475.html"
-        },
-        {
           "title": "农产品 | 生猪：终端消费阶段性降温 走货速度放缓",
           "ts": "2026-10-08 08:50:02",
           "direction": "利空",
@@ -251,6 +206,24 @@
           "relevance": 68,
           "strength": "中",
           "url": "http://futures.eastmoney.com/a/202610083889075043.html"
+        },
+        {
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
+          "direction": "利多",
+          "source": "南方财经网",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
+        },
+        {
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
+          "direction": "利多",
+          "source": "CCTV国际时讯",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -263,17 +236,17 @@
         "change": 56.0,
         "change_pct": 0.59,
         "open": 9532.0,
-        "high": 9642.0,
+        "high": 9676.0,
         "low": 9530.0,
-        "volume": 68610.0,
-        "ts": "2026-10-08 21:16:16",
+        "volume": 204105.0,
+        "ts": "2026-10-08 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-        "若厄尔尼诺减弱或降水恢复正常则逻辑弱化",
         "若后续月度产量环比转负则供应压力缓解",
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -287,25 +260,34 @@
       "climate_dir": "看多",
       "climate_logic": "主产区干旱减产预期+乙醇分流，外盘拉动内盘",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 3,
       "top_news": [
         {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
           "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
+          "source": "南方财经网",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
         },
         {
-          "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-          "ts": "2026-10-08 15:13:52",
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
           "direction": "利多",
-          "source": "财联社",
-          "relevance": 67,
+          "source": "CCTV国际时讯",
+          "relevance": 49,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610083889587738.html"
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -313,23 +295,23 @@
         "key": "nf_SR0",
         "name": "白糖",
         "kind": "future",
-        "price": 5489.0,
+        "price": 5466.0,
         "prev_close": 5486.0,
-        "change": 3.0,
-        "change_pct": 0.05,
+        "change": -20.0,
+        "change_pct": -0.36,
         "open": 5464.0,
-        "high": 5494.0,
+        "high": 5502.0,
         "low": 5461.0,
-        "volume": 84970.0,
-        "ts": "2026-10-08 21:16:17",
+        "volume": 228952.0,
+        "ts": "2026-10-08 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-        "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -342,25 +324,34 @@
       "climate_dir": "震荡偏多（天气升水驱动）",
       "climate_logic": "北美生长期天气升水；南美播种期不确定性抬升波动",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 3,
       "top_news": [
         {
-          "title": "全国秋粮收获过四成，新粮集中上市！FAO下调全球谷物产量预估！农发种业涨超2%，粮食ETF汇添富(159073)标的指数逆市冲高！",
-          "ts": "2026-10-08 14:09:51",
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
           "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
+          "source": "南方财经网",
+          "relevance": 49,
           "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610083889535475.html"
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
         },
         {
-          "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-          "ts": "2026-10-08 15:13:52",
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
           "direction": "利多",
-          "source": "财联社",
-          "relevance": 67,
+          "source": "CCTV国际时讯",
+          "relevance": 49,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610083889587738.html"
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -368,23 +359,23 @@
         "key": "nf_M0",
         "name": "豆粕",
         "kind": "future",
-        "price": 3380.0,
+        "price": 3379.0,
         "prev_close": 3388.0,
-        "change": -8.0,
-        "change_pct": -0.24,
+        "change": -9.0,
+        "change_pct": -0.27,
         "open": 3372.0,
-        "high": 3386.0,
-        "low": 3371.0,
-        "volume": 112969.0,
-        "ts": "2026-10-08 21:16:16",
+        "high": 3388.0,
+        "low": 3370.0,
+        "volume": 322185.0,
+        "ts": "2026-10-08 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若厄尔尼诺减弱或降水恢复正常则逻辑弱化",
-        "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -400,31 +391,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
           "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
+          "source": "南方财经网",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
         },
         {
-          "title": "全国秋粮收获过四成，新粮集中上市！FAO下调全球谷物产量预估！农发种业涨超2%，粮食ETF汇添富(159073)标的指数逆市冲高！",
-          "ts": "2026-10-08 14:09:51",
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
+          "direction": "利多",
+          "source": "CCTV国际时讯",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
           "direction": "利多",
           "source": "界面新闻",
-          "relevance": 100,
+          "relevance": 49,
           "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610083889535475.html"
-        },
-        {
-          "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-          "ts": "2026-10-08 15:13:52",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 67,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610083889587738.html"
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -432,22 +423,22 @@
         "key": "nf_C0",
         "name": "玉米",
         "kind": "future",
-        "price": 2151.0,
+        "price": 2146.0,
         "prev_close": 2160.0,
-        "change": -9.0,
-        "change_pct": -0.42,
+        "change": -14.0,
+        "change_pct": -0.65,
         "open": 2154.0,
         "high": 2158.0,
-        "low": 2150.0,
-        "volume": 70163.0,
-        "ts": "2026-10-08 21:16:16",
+        "low": 2143.0,
+        "volume": 253235.0,
+        "ts": "2026-10-08 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-        "若厄尔尼诺减弱或降水恢复正常则逻辑弱化",
-        "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -461,16 +452,34 @@
       "climate_dir": "偏多（干旱减产逻辑）",
       "climate_logic": "产区干旱→割胶量下滑预期，成本端抬升",
       "news_dir": "利多",
-      "news_count": 1,
+      "news_count": 3,
       "top_news": [
         {
-          "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-          "ts": "2026-10-08 15:13:52",
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
           "direction": "利多",
-          "source": "财联社",
-          "relevance": 67,
+          "source": "南方财经网",
+          "relevance": 49,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610083889587738.html"
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
+        },
+        {
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
+          "direction": "利多",
+          "source": "CCTV国际时讯",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -478,23 +487,23 @@
         "key": "nf_RU0",
         "name": "天然橡胶",
         "kind": "future",
-        "price": 19925.0,
+        "price": 20050.0,
         "prev_close": 20065.0,
-        "change": -140.0,
-        "change_pct": -0.7,
+        "change": -15.0,
+        "change_pct": -0.07,
         "open": 20105.0,
         "high": 20150.0,
-        "low": 19910.0,
-        "volume": 58377.0,
-        "ts": "2026-10-08 21:16:17",
+        "low": 19860.0,
+        "volume": 143087.0,
+        "ts": "2026-10-08 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
-        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -506,30 +515,59 @@
       "region": "印度/美棉",
       "climate_dir": "中性（区域分化）",
       "climate_logic": "印度减产利多外盘；中国产区影响待观察",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 3,
+      "top_news": [
+        {
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
+          "direction": "利多",
+          "source": "南方财经网",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
+        },
+        {
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
+          "direction": "利多",
+          "source": "CCTV国际时讯",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
+        }
+      ],
+      "resonance": "中性",
       "quote": {
         "key": "nf_CF0",
         "name": "棉花",
         "kind": "future",
-        "price": 15710.0,
+        "price": 15700.0,
         "prev_close": 15770.0,
-        "change": -60.0,
-        "change_pct": -0.38,
+        "change": -70.0,
+        "change_pct": -0.44,
         "open": 15720.0,
         "high": 15765.0,
-        "low": 15690.0,
-        "volume": 33378.0,
-        "ts": "2026-10-08 21:16:17",
+        "low": 15670.0,
+        "volume": 93067.0,
+        "ts": "2026-10-08 23:00:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
-        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -541,29 +579,10 @@
       "region": "种业/种植",
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
-      "news_dir": "利多",
-      "news_count": 2,
-      "top_news": [
-        {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
-          "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
-        },
-        {
-          "title": "全国秋粮收获过四成，新粮集中上市！FAO下调全球谷物产量预估！农发种业涨超2%，粮食ETF汇添富(159073)标的指数逆市冲高！",
-          "ts": "2026-10-08 14:09:51",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610083889535475.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "000998.SZ",
         "name": "隆平高科",
@@ -576,13 +595,11 @@
         "high": 8.92,
         "low": 8.58,
         "volume": 24074299.0,
-        "ts": "2026-10-08 15:35:30",
+        "ts": "2026-10-08 16:29:30",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-        "若厄尔尼诺减弱或降水恢复正常则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -596,20 +613,10 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "东北种植主体，粮价景气受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
-          "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "600598.SH",
         "name": "北大荒",
@@ -627,7 +634,6 @@
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -641,20 +647,10 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "土地流转+稻麦种植，粮价上行受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
-          "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "601952.SH",
         "name": "苏垦农发",
@@ -672,7 +668,6 @@
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -687,25 +682,34 @@
       "climate_dir": "强弹性",
       "climate_logic": "国内食糖贸易与加工龙头，糖价弹性大",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 3,
       "top_news": [
         {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
           "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
+          "source": "南方财经网",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
         },
         {
-          "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-          "ts": "2026-10-08 15:13:52",
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
           "direction": "利多",
-          "source": "财联社",
-          "relevance": 67,
+          "source": "CCTV国际时讯",
+          "relevance": 49,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610083889587738.html"
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -726,10 +730,10 @@
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-        "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -742,25 +746,34 @@
       "climate_dir": "强弹性",
       "climate_logic": "制糖主业，糖价上行直接受益",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 3,
       "top_news": [
         {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
           "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
+          "source": "南方财经网",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
         },
         {
-          "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-          "ts": "2026-10-08 15:13:52",
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
           "direction": "利多",
-          "source": "财联社",
-          "relevance": 67,
+          "source": "CCTV国际时讯",
+          "relevance": 49,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610083889587738.html"
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -776,15 +789,15 @@
         "high": 5.89,
         "low": 5.51,
         "volume": 15484500.0,
-        "ts": "2026-10-08 15:36:00",
+        "ts": "2026-10-08 16:30:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-        "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -797,25 +810,34 @@
       "climate_dir": "弹性中等",
       "climate_logic": "广西糖业+浆纸双主业",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 3,
       "top_news": [
         {
-          "title": "厄尔尼诺致菲律宾逾42.8万人受影响 农业损失超55亿比索",
-          "ts": "2026-10-08 14:28:43",
+          "title": "联合国警告说厄尔尼诺现象将于12月达到顶峰",
+          "ts": "2026-10-08 20:47:19",
           "direction": "利多",
-          "source": "中国新闻网",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610083889615083.html"
+          "source": "南方财经网",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889926135.html"
         },
         {
-          "title": "世界气象组织：厄尔尼诺现象预计将加剧 并持续至2027年2月",
-          "ts": "2026-10-08 15:13:52",
+          "title": "厄尔尼诺正在增强",
+          "ts": "2026-10-08 18:27:37",
           "direction": "利多",
-          "source": "财联社",
-          "relevance": 67,
+          "source": "CCTV国际时讯",
+          "relevance": 49,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610083889587738.html"
+          "url": "http://finance.eastmoney.com/a/202610083889943830.html"
+        },
+        {
+          "title": "世界气象组织：厄尔尼诺现象预计在12月达到峰值",
+          "ts": "2026-10-08 17:55:03",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 49,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610083889955253.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -831,15 +853,15 @@
         "high": 19.77,
         "low": 18.94,
         "volume": 25745979.0,
-        "ts": "2026-10-08 15:36:00",
+        "ts": "2026-10-08 16:30:00",
         "source": "sina",
         "ok": true
       },
       "verify": [
-        "若后续东南亚降水恢复正常、产量损失未扩大则逻辑弱化",
-        "若海表温度回落或厄尔尼诺减弱则逻辑弱化",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "若后续降水恢复正常或强度下调则逻辑弱化",
+        "若预测概率下调或提前结束则逻辑弱化",
+        "若WMO下调强度或持续预期则逻辑弱化",
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -867,7 +889,7 @@
         "high": 24.2,
         "low": 23.81,
         "volume": 8405909.0,
-        "ts": "2026-10-08 15:35:45",
+        "ts": "2026-10-08 16:29:45",
         "source": "sina",
         "ok": true
       },
@@ -901,7 +923,7 @@
         "high": 8.78,
         "low": 8.58,
         "volume": 9959600.0,
-        "ts": "2026-10-08 15:35:30",
+        "ts": "2026-10-08 16:29:30",
         "source": "sina",
         "ok": true
       },
@@ -969,7 +991,7 @@
         "high": 13.71,
         "low": 13.45,
         "volume": 4758500.0,
-        "ts": "2026-10-08 15:35:15",
+        "ts": "2026-10-08 16:29:15",
         "source": "sina",
         "ok": true
       },
@@ -1003,7 +1025,7 @@
         "high": 11.97,
         "low": 11.74,
         "volume": 8798552.0,
-        "ts": "2026-10-08 15:35:30",
+        "ts": "2026-10-08 16:29:30",
         "source": "sina",
         "ok": true
       },
@@ -1037,7 +1059,7 @@
         "high": 42.2,
         "low": 41.45,
         "volume": 4503382.0,
-        "ts": "2026-10-08 15:35:30",
+        "ts": "2026-10-08 16:29:30",
         "source": "sina",
         "ok": true
       },
@@ -1071,7 +1093,7 @@
         "high": 6.94,
         "low": 6.73,
         "volume": 27625033.0,
-        "ts": "2026-10-08 15:36:00",
+        "ts": "2026-10-08 16:30:00",
         "source": "sina",
         "ok": true
       },
@@ -1105,7 +1127,7 @@
         "high": 42.4,
         "low": 41.06,
         "volume": 25530652.0,
-        "ts": "2026-10-08 15:35:15",
+        "ts": "2026-10-08 16:29:15",
         "source": "sina",
         "ok": true
       },
@@ -1139,7 +1161,7 @@
         "high": 15.22,
         "low": 14.75,
         "volume": 31422917.0,
-        "ts": "2026-10-08 15:35:15",
+        "ts": "2026-10-08 16:29:15",
         "source": "sina",
         "ok": true
       },
@@ -1184,7 +1206,7 @@
     }
   ],
   "stats": {
-    "news_total": 7,
+    "news_total": 6,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
