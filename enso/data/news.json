@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09 17:20:09",
-  "cycle": 888,
+  "generated_at": "2026-10-09 19:22:32",
+  "cycle": 889,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -14,18 +14,49 @@
   },
   "news": [
     {
-      "id": "sina:898443081",
-      "ts": "2026-10-09 16:27:30",
-      "title": "超强厄尔尼诺已经形成",
-      "summary": "新华社北京10月9日电（记者 刘诗平）记者9日从国家气候中心了解到，监测显示，2026年9月已正式形成一次超强厄尔尼诺事件。 国家气候中心首席预报员赵俊虎表示...",
-      "source": "中国经济时报",
+      "id": "sina:898469953",
+      "ts": "2026-10-09 18:57:54",
+      "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+      "summary": "种植链今日（10月9日）又掀涨停潮。截至收盘，敦煌种业、金健米业、万向德农、海南橡胶涨停，神农种业涨超10%，农发种业、亚盛集团等亦涨幅居前。",
+      "source": "新浪基金",
       "channel": "sina",
-      "url": "https://finance.sina.com.cn/jjxw/2026-10-09/doc-iniurmnm7838128.shtml",
+      "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml",
       "authority": "media",
       "important": false,
-      "relevance": 83,
+      "relevance": 100,
       "matched": [
         "厄尔尼诺",
+        "种植",
+        "橡胶",
+        "种业"
+      ],
+      "direction": "利多",
+      "strength": "中",
+      "instruments": [
+        "玉米",
+        "天然橡胶",
+        "白糖"
+      ],
+      "horizon": "短期",
+      "confidence": "低",
+      "reason": "厄尔尼诺加剧预期下种植链涨停潮，敦煌种业、海南橡胶等涨停，资金炒作天气题材",
+      "verify": "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+      "judged": true
+    },
+    {
+      "id": "sina:898464631",
+      "ts": "2026-10-09 18:34:22",
+      "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+      "summary": "日本气象厅称，正在扰乱南美与亚洲气候的厄尔尼诺现象已增强至史上最强级别，可能引发大范围经济扰动，相关影响在该气候事件消退后仍会长期延续。",
+      "source": "环球市场播报",
+      "channel": "sina",
+      "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "天气",
         "气候"
       ],
       "direction": "利多",
@@ -34,13 +65,101 @@
         "棕榈油",
         "白糖",
         "天然橡胶",
-        "豆粕",
         "玉米"
       ],
       "horizon": "中期",
       "confidence": "高",
-      "reason": "国家气候中心确认2026年9月已形成超强厄尔尼诺事件，首席预报员赵俊虎表态，官方机构定性，东南亚干旱减产预期强化。",
-      "verify": "若后续监测显示厄尔尼诺强度回落或提前消退则逻辑弱化。",
+      "reason": "日本气象厅称厄尔尼诺达史上最强级别，或引发大范围经济扰动且影响长期延续",
+      "verify": "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+      "judged": true
+    },
+    {
+      "id": "sina:898462955",
+      "ts": "2026-10-09 18:28:04",
+      "title": "菲律宾央行行长：最担忧厄尔尼诺现象",
+      "summary": "菲律宾央行行长埃利·雷莫洛纳二世表示，央行当前最担心厄尔尼诺现象，并称该气候事件将影响货币政策决议。 雷莫洛纳在马尼拉一场商业论坛上称：“目前我们最关注的情景就是...",
+      "source": "环球市场播报",
+      "channel": "sina",
+      "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurruh1018060.shtml",
+      "authority": "media",
+      "important": false,
+      "relevance": 89,
+      "matched": [
+        "厄尔尼诺",
+        "气候",
+        "货币政策"
+      ],
+      "direction": "利多",
+      "strength": "中",
+      "instruments": [
+        "棕榈油",
+        "白糖"
+      ],
+      "horizon": "中期",
+      "confidence": "中",
+      "reason": "菲律宾央行行长称最担忧厄尔尼诺，将影响货币政策决议，凸显东南亚农业风险",
+      "verify": "若菲律宾实际降水恢复正常则担忧缓解",
+      "judged": true
+    },
+    {
+      "id": "em:202610093891360228",
+      "ts": "2026-10-09 17:56:00",
+      "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+      "summary": "据国家气候中心监测，2026年9月已正式形成一次超强厄尔尼诺事件。国家气候中心预计，未来三个月赤道中东太平洋海表温度将继续升高，在秋末冬初达到峰值，此次厄尔尼诺事件将成为有系统性监测以来最强厄尔尼诺事件。",
+      "source": "证券时报网",
+      "channel": "eastmoney",
+      "url": "http://finance.eastmoney.com/a/202610093891360228.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "海表温度",
+        "气候"
+      ],
+      "direction": "利多",
+      "strength": "强",
+      "instruments": [
+        "棕榈油",
+        "白糖",
+        "天然橡胶",
+        "玉米"
+      ],
+      "horizon": "中期",
+      "confidence": "高",
+      "reason": "国家气候中心确认9月形成超强厄尔尼诺，预计秋末冬初达峰，为有监测以来最强",
+      "verify": "若海表温度提前回落或峰值低于预期则逻辑弱化",
+      "judged": true
+    },
+    {
+      "id": "em:202610093891320689",
+      "ts": "2026-10-09 17:08:20",
+      "title": "超强厄尔尼诺事件已形成，南方基金旗下粮食ETF南方(159063)标的指数涨3.9%，近3个交易日涨6.5%",
+      "summary": "据报道，世界气象组织指出，10月至12月热带太平洋中东部海表温度将升至创纪录水平，厄尔尼诺现象将持续增强并预计在12月达到顶峰，持续至2027年2月的可能性接近100%，或成为1950年以来强度居前的事件之一。 此前，农业农村部近日印发《全国种植业发展“十五五”规划》。",
+      "source": "财联社",
+      "channel": "eastmoney",
+      "url": "http://stock.eastmoney.com/a/202610093891320689.html",
+      "authority": "media",
+      "important": false,
+      "relevance": 100,
+      "matched": [
+        "厄尔尼诺",
+        "海表温度",
+        "种植",
+        "农业"
+      ],
+      "direction": "利多",
+      "strength": "强",
+      "instruments": [
+        "玉米",
+        "豆粕",
+        "棕榈油",
+        "白糖"
+      ],
+      "horizon": "中期",
+      "confidence": "高",
+      "reason": "WMO指海表温度将升至创纪录，厄尔尼诺持续至2027年2月概率近100%，粮食ETF涨3.9%",
+      "verify": "若WMO下调持续概率或强度预期则逻辑弱化",
       "judged": true
     },
     {
@@ -78,16 +197,15 @@
       "id": "em:202610093891292859",
       "ts": "2026-10-09 16:19:42",
       "title": "泰国这场洪灾会是“最强厄尔尼诺”的序幕吗？",
-      "summary": "有泰国学者指出，在全球变暖背景下，更暖的海洋和大气条件可能增加极端降雨风险。科学家表示，东南亚已经出现了极端洪水加剧的情形，随着化石燃料污染物进一步烘烤地球，这一趋势可能进一步恶化。炎热的海水蒸发了更多的水，温暖的空气可以容纳更多水分，使倾盆大雨以更大的力量倾泻而下。",
+      "summary": "值得关注的是，联合国机构8日警告说，未来数月，厄尔尼诺现象将进一步加剧，并将于12月达到顶峰，或将成为1950年以来最强厄尔尼诺事件之一。",
       "source": "上观新闻",
       "channel": "eastmoney",
       "url": "http://finance.eastmoney.com/a/202610093891292859.html",
       "authority": "media",
       "important": false,
-      "relevance": 83,
+      "relevance": 49,
       "matched": [
-        "厄尔尼诺",
-        "降雨"
+        "厄尔尼诺"
       ],
       "direction": "利多",
       "strength": "中",
@@ -100,32 +218,6 @@
       "confidence": "低",
       "reason": "泰国学者指全球变暖增加极端降雨风险，东南亚洪水加剧，炎热海水蒸发致倾盆大雨，或影响泰国橡胶、白糖、棕榈油产区。",
       "verify": "若泰国洪水退去且产区未实质减产则逻辑弱化。",
-      "judged": true
-    },
-    {
-      "id": "sina:898424056",
-      "ts": "2026-10-09 16:02:31",
-      "title": "光大期货1009热点追踪：进口断崖遇上库存见底，甲醇继续领涨能化",
-      "summary": "周五，甲醇延续节后强势。主力2611合约早盘一度暴涨9%，截至发稿前主力合约涨幅仍达6%以上，领涨整个能化系。现货端同步飙升，太仓进口现货报价已达4880元/吨...",
-      "source": "市场资讯",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/future/2026-10-09/doc-iniurfei6947758.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 30,
-      "matched": [
-        "库存",
-        "期货"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "甲醇"
-      ],
-      "horizon": "短期",
-      "confidence": "中",
-      "reason": "进口断崖叠加库存见底，主力2611合约早盘暴涨9%，太仓现货报价4880元/吨，领涨能化系。",
-      "verify": "若进口恢复或库存回升，则上涨逻辑弱化。",
       "judged": true
     },
     {
@@ -152,39 +244,6 @@
       "confidence": "高",
       "reason": "上期所天然橡胶库存减少310吨，库存下降对胶价形成小幅支撑",
       "verify": "若下周库存转为增加则支撑逻辑弱化",
-      "judged": true
-    },
-    {
-      "id": "em:202610093891241745",
-      "ts": "2026-10-09 15:34:10",
-      "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-      "summary": "10月9日上午，国家气候中心在官微发布快讯称，今年5月以来，赤道中东太平洋进入厄尔尼诺状态，5-9月关键区海温指数呈现快速增暖持续趋势。今年9月正式形成一次超强厄尔尼诺事件。 此前，有关超强厄尔尼诺事件的预警已多次引发A股农业板块集体上涨。",
-      "source": "时代周报",
-      "channel": "eastmoney",
-      "url": "http://finance.eastmoney.com/a/202610093891241745.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "海温",
-        "气候",
-        "农业"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "棕榈油",
-        "白糖",
-        "豆粕",
-        "玉米",
-        "天然橡胶",
-        "棉花"
-      ],
-      "horizon": "中期",
-      "confidence": "高",
-      "reason": "国家气候中心确认9月形成超强厄尔尼诺，历史罕见强度，农业板块涨停，减产预期升温",
-      "verify": "若后续关键区海温回落或降水恢复正常则逻辑弱化",
       "judged": true
     },
     {
@@ -243,36 +302,6 @@
       "confidence": "中",
       "reason": "界面新闻称强厄尔尼诺遏制产量预期，全球粮价持续上涨，扰动主粮供给",
       "verify": "若全球粮价回落或主产区天气恢复正常",
-      "judged": true
-    },
-    {
-      "id": "em:202610093891225470",
-      "ts": "2026-10-09 14:56:13",
-      "title": "粮食ETF鹏华(159698)标的指数飙涨超4%，种业板块中期机遇明显",
-      "summary": "历史数据显示，强厄尔尼诺事件通常会推升全球农产品价格，扰动小麦、玉米、水稻等主粮作物供给体系，放大粮食供需紧平衡预期。",
-      "source": "界面新闻",
-      "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202610093891225470.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "玉米",
-        "种业",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "小麦",
-        "玉米",
-        "水稻"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "界面新闻称强厄尔尼诺推升农产品价格，扰动小麦玉米水稻供给，放大紧平衡",
-      "verify": "若主粮供需转宽松或价格预期回落",
       "judged": true
     },
     {
@@ -432,36 +461,9 @@
       "reason": "节后国内棕榈油期货价格走势偏弱，现货价格跟盘下跌；但受现货库存较高等限制，基差报价持稳，整体仍然偏弱",
       "verify": "",
       "judged": false
-    },
-    {
-      "id": "em:202610093890504050",
-      "ts": "2026-10-09 09:20:21",
-      "title": "橡胶价格大涨 超60家轮胎企业集体涨价",
-      "summary": "山东青岛是我国最大的天然橡胶贸易集散地，一家橡胶期货交割库的负责人付新祥告诉记者，今年以来，库存周转期已从半年压缩到三个月左右，库存水平下降明显。“往年我们在青岛地区的橡胶总体库存大概在15万吨，目前在青岛的库存大概9万吨。”",
-      "source": "21世纪经济报道",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202610093890504050.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 41,
-      "matched": [
-        "库存",
-        "橡胶",
-        "期货"
-      ],
-      "direction": "利多",
-      "strength": "强",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "东南亚降雨偏多影响割胶天数，市场提前反应减产预期，超60家轮胎企业集体涨价",
-      "verify": "若东南亚降水恢复正常、割胶天数回升则逻辑弱化",
-      "judged": true
     }
   ],
-  "news_new_count": 3,
+  "news_new_count": 5,
   "instruments": [
     {
       "key": "P",
@@ -476,31 +478,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+          "ts": "2026-10-09 18:34:22",
           "direction": "利多",
-          "source": "时代周报",
+          "source": "环球市场播报",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
+          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
         },
         {
-          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
-          "ts": "2026-10-09 14:03:55",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "每日经济新闻",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         },
         {
-          "title": "国家气候中心：超强厄尔尼诺已经形成",
-          "ts": "2026-10-09 11:19:00",
+          "title": "超强厄尔尼诺事件已形成，南方基金旗下粮食ETF南方(159063)标的指数涨3.9%，近3个交易日涨6.5%",
+          "ts": "2026-10-09 17:08:20",
           "direction": "利多",
           "source": "财联社",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891024146.html"
+          "url": "http://stock.eastmoney.com/a/202610093891320689.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -521,9 +523,9 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
-        "若供需报告转宽松或天气影响减弱",
-        "若海温指数回落至0.5℃以下则事件结束",
+        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
+        "若WMO下调持续概率或强度预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -540,31 +542,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
           "direction": "利多",
-          "source": "时代周报",
+          "source": "新浪基金",
           "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
-          "ts": "2026-10-09 14:03:55",
+          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+          "ts": "2026-10-09 18:34:22",
           "direction": "利多",
-          "source": "每日经济新闻",
+          "source": "环球市场播报",
           "relevance": 100,
           "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
+          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
         },
         {
-          "title": "国家气候中心：超强厄尔尼诺已经形成",
-          "ts": "2026-10-09 11:19:00",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "财联社",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891024146.html"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -585,9 +587,9 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
-        "若供需报告转宽松或天气影响减弱",
-        "若海温指数回落至0.5℃以下则事件结束",
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -604,13 +606,13 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "超强厄尔尼诺事件已形成，南方基金旗下粮食ETF南方(159063)标的指数涨3.9%，近3个交易日涨6.5%",
+          "ts": "2026-10-09 17:08:20",
           "direction": "利多",
-          "source": "时代周报",
+          "source": "财联社",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
+          "url": "http://stock.eastmoney.com/a/202610093891320689.html"
         },
         {
           "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
@@ -649,7 +651,7 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
+        "若WMO下调持续概率或强度预期则逻辑弱化",
         "若供需报告转宽松或天气影响减弱",
         "若北半球冬季厄尔尼诺未持续或强度下调则逻辑弱化。",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
@@ -668,31 +670,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
           "direction": "利多",
-          "source": "时代周报",
+          "source": "新浪基金",
+          "relevance": 100,
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
+        },
+        {
+          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+          "ts": "2026-10-09 18:34:22",
+          "direction": "利多",
+          "source": "环球市场播报",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
+          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
         },
         {
-          "title": "超强厄尔尼诺遏制产量预期 全球粮价持续上涨",
-          "ts": "2026-10-09 14:57:18",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "界面新闻",
+          "source": "证券时报网",
           "relevance": 100,
-          "strength": "中",
-          "url": "http://finance.eastmoney.com/a/202610093891225995.html"
-        },
-        {
-          "title": "粮食ETF鹏华(159698)标的指数飙涨超4%，种业板块中期机遇明显",
-          "ts": "2026-10-09 14:56:13",
-          "direction": "利多",
-          "source": "界面新闻",
-          "relevance": 100,
-          "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202610093891225470.html"
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -713,9 +715,9 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
-        "若全球粮价回落或主产区天气恢复正常",
-        "若主粮供需转宽松或价格预期回落",
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -732,31 +734,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
           "direction": "利多",
-          "source": "时代周报",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
-        },
-        {
-          "title": "国家气候中心：超强厄尔尼诺已经形成",
-          "ts": "2026-10-09 11:19:00",
-          "direction": "利多",
-          "source": "财联社",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891024146.html"
-        },
-        {
-          "title": "粮食概念早盘活跃，粮食ETF易方达（159038）标的指数涨超1%，厄尔尼诺或引全球粮食供给收缩",
-          "ts": "2026-10-09 11:12:02",
-          "direction": "利多",
-          "source": "每日经济新闻",
+          "source": "新浪基金",
           "relevance": 100,
           "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202610093891192060.html"
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
+        },
+        {
+          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+          "ts": "2026-10-09 18:34:22",
+          "direction": "利多",
+          "source": "环球市场播报",
+          "relevance": 100,
+          "strength": "强",
+          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
+        },
+        {
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
+          "direction": "利多",
+          "source": "证券时报网",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -777,9 +779,9 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
-        "若海温指数回落至0.5℃以下则事件结束",
-        "若降水恢复正常或减产预期证伪则逻辑弱化",
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -793,17 +795,8 @@
       "climate_dir": "中性（区域分化）",
       "climate_logic": "印度减产利多外盘；中国产区影响待观察",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
-          "direction": "利多",
-          "source": "时代周报",
-          "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
-        },
         {
           "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
           "ts": "2026-10-09 14:03:55",
@@ -832,10 +825,10 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
         "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "政策面：国家抛储、进口配额放大、关税调整等平抑价格",
+        "若大宗通胀引发央行收紧，板块估值端（尤其高位品种）承压"
       ]
     },
     {
@@ -848,16 +841,25 @@
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 3,
       "top_news": [
         {
-          "title": "粮食ETF鹏华(159698)标的指数飙涨超4%，种业板块中期机遇明显",
-          "ts": "2026-10-09 14:56:13",
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
           "direction": "利多",
-          "source": "界面新闻",
+          "source": "新浪基金",
           "relevance": 100,
           "strength": "中",
-          "url": "http://stock.eastmoney.com/a/202610093891225470.html"
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
+        },
+        {
+          "title": "超强厄尔尼诺事件已形成，南方基金旗下粮食ETF南方(159063)标的指数涨3.9%，近3个交易日涨6.5%",
+          "ts": "2026-10-09 17:08:20",
+          "direction": "利多",
+          "source": "财联社",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891320689.html"
         },
         {
           "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
@@ -887,10 +889,10 @@
         "ok": true
       },
       "verify": [
-        "若主粮供需转宽松或价格预期回落",
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若WMO下调持续概率或强度预期则逻辑弱化",
         "若供需报告转宽松或天气影响减弱",
-        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
-        "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
+        "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
     {
@@ -902,10 +904,29 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "东北种植主体，粮价景气受益",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 2,
+      "top_news": [
+        {
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
+          "direction": "利多",
+          "source": "新浪基金",
+          "relevance": 100,
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
+        },
+        {
+          "title": "超强厄尔尼诺事件已形成，南方基金旗下粮食ETF南方(159063)标的指数涨3.9%，近3个交易日涨6.5%",
+          "ts": "2026-10-09 17:08:20",
+          "direction": "利多",
+          "source": "财联社",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891320689.html"
+        }
+      ],
+      "resonance": "共振（利多）",
       "quote": {
         "key": "600598.SH",
         "name": "北大荒",
@@ -923,6 +944,8 @@
         "ok": true
       },
       "verify": [
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若WMO下调持续概率或强度预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -936,10 +959,29 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "土地流转+稻麦种植，粮价上行受益",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 2,
+      "top_news": [
+        {
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
+          "direction": "利多",
+          "source": "新浪基金",
+          "relevance": 100,
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
+        },
+        {
+          "title": "超强厄尔尼诺事件已形成，南方基金旗下粮食ETF南方(159063)标的指数涨3.9%，近3个交易日涨6.5%",
+          "ts": "2026-10-09 17:08:20",
+          "direction": "利多",
+          "source": "财联社",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891320689.html"
+        }
+      ],
+      "resonance": "共振（利多）",
       "quote": {
         "key": "601952.SH",
         "name": "苏垦农发",
@@ -957,6 +999,8 @@
         "ok": true
       },
       "verify": [
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若WMO下调持续概率或强度预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -974,31 +1018,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
           "direction": "利多",
-          "source": "时代周报",
+          "source": "新浪基金",
           "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
-          "ts": "2026-10-09 14:03:55",
+          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+          "ts": "2026-10-09 18:34:22",
           "direction": "利多",
-          "source": "每日经济新闻",
+          "source": "环球市场播报",
           "relevance": 100,
           "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
+          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
         },
         {
-          "title": "国家气候中心：超强厄尔尼诺已经形成",
-          "ts": "2026-10-09 11:19:00",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "财联社",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891024146.html"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1019,9 +1063,9 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
-        "若供需报告转宽松或天气影响减弱",
-        "若海温指数回落至0.5℃以下则事件结束",
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1038,31 +1082,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
           "direction": "利多",
-          "source": "时代周报",
+          "source": "新浪基金",
           "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
-          "ts": "2026-10-09 14:03:55",
+          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+          "ts": "2026-10-09 18:34:22",
           "direction": "利多",
-          "source": "每日经济新闻",
+          "source": "环球市场播报",
           "relevance": 100,
           "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
+          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
         },
         {
-          "title": "国家气候中心：超强厄尔尼诺已经形成",
-          "ts": "2026-10-09 11:19:00",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "财联社",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891024146.html"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1083,9 +1127,9 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
-        "若供需报告转宽松或天气影响减弱",
-        "若海温指数回落至0.5℃以下则事件结束",
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1102,31 +1146,31 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "超强厄尔尼诺已形成，金健米业等多只农业股涨停",
-          "ts": "2026-10-09 15:34:10",
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
           "direction": "利多",
-          "source": "时代周报",
+          "source": "新浪基金",
           "relevance": 100,
-          "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891241745.html"
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
-          "ts": "2026-10-09 14:03:55",
+          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
+          "ts": "2026-10-09 18:34:22",
           "direction": "利多",
-          "source": "每日经济新闻",
+          "source": "环球市场播报",
           "relevance": 100,
           "strength": "强",
-          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
+          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
         },
         {
-          "title": "国家气候中心：超强厄尔尼诺已经形成",
-          "ts": "2026-10-09 11:19:00",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "财联社",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "http://finance.eastmoney.com/a/202610093891024146.html"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1147,9 +1191,9 @@
         "ok": true
       },
       "verify": [
-        "若后续关键区海温回落或降水恢复正常则逻辑弱化",
-        "若供需报告转宽松或天气影响减弱",
-        "若海温指数回落至0.5℃以下则事件结束",
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1468,10 +1512,20 @@
       "region": "橡胶种植",
       "climate_dir": "事件受益",
       "climate_logic": "国内天胶种植龙头，减产/胶价上行受益",
-      "news_dir": "中性",
-      "news_count": 0,
-      "top_news": [],
-      "resonance": "仅气候信号",
+      "news_dir": "利多",
+      "news_count": 1,
+      "top_news": [
+        {
+          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
+          "ts": "2026-10-09 18:57:54",
+          "direction": "利多",
+          "source": "新浪基金",
+          "relevance": 100,
+          "strength": "中",
+          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
+        }
+      ],
+      "resonance": "共振（利多）",
       "quote": {
         "key": "601118.SH",
         "name": "海南橡胶",
@@ -1489,6 +1543,7 @@
         "ok": true
       },
       "verify": [
+        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
