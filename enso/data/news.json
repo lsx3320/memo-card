@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09 22:32:55",
-  "cycle": 891,
+  "generated_at": "2026-10-09 22:53:18",
+  "cycle": 895,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -215,33 +215,33 @@
       "judged": true
     },
     {
-      "id": "sina:898464631",
-      "ts": "2026-10-09 18:34:22",
-      "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
-      "summary": "日本气象厅称，正在扰乱南美与亚洲气候的厄尔尼诺现象已增强至史上最强级别，可能引发大范围经济扰动，相关影响在该气候事件消退后仍会长期延续。",
-      "source": "环球市场播报",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml",
+      "id": "em:202610093891551744",
+      "ts": "2026-10-09 18:47:56",
+      "title": "疯涨19％！橡胶创九年新高背后：一边库存回落，一边轮胎旺季证伪｜大宗风云",
+      "summary": "胶价期现同步冲高 据美国气候预测中心（CPC）发布的ENSO诊断讨论，ENSO警报系统状态为厄尔尼诺警报。概要显示，厄尔尼诺继续增强，2027年1月至3月期间可能维持强至超强厄尔尼诺。与此同时，叠加全球供给处于周期关键位置，胶价对天气扰动的敏感度被放大。",
+      "source": "华夏时报网",
+      "channel": "eastmoney",
+      "url": "http://futures.eastmoney.com/a/202610093891551744.html",
       "authority": "media",
       "important": false,
       "relevance": 100,
       "matched": [
         "厄尔尼诺",
+        "ENSO",
+        "库存",
         "天气",
-        "气候"
+        "气候",
+        "橡胶"
       ],
       "direction": "利多",
       "strength": "强",
       "instruments": [
-        "棕榈油",
-        "白糖",
-        "天然橡胶",
-        "玉米"
+        "天然橡胶"
       ],
       "horizon": "中期",
-      "confidence": "高",
-      "reason": "日本气象厅称厄尔尼诺达史上最强级别，或引发大范围经济扰动且影响长期延续",
-      "verify": "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+      "confidence": "中",
+      "reason": "CPC确认厄尔尼诺增强，2027年1-3月或维持强至超强，胶价对天气扰动敏感度放大，库存回落。",
+      "verify": "若后续产区降水恢复正常或库存回升则逻辑弱化。",
       "judged": true
     },
     {
@@ -452,44 +452,9 @@
       "reason": "国家气候中心确认超强厄尔尼诺，7-9月Nio3.4滑动均值超2.5℃",
       "verify": "若海温指数回落至0.5℃以下则事件结束",
       "judged": true
-    },
-    {
-      "id": "em:202610093891192060",
-      "ts": "2026-10-09 11:12:02",
-      "title": "粮食概念早盘活跃，粮食ETF易方达（159038）标的指数涨超1%，厄尔尼诺或引全球粮食供给收缩",
-      "summary": "有券商指出，厄尔尼诺通常造成甘蔗、棕榈油、橡胶、小麦等农产品减产，对我国而言降水呈现“南涝北旱”格局。市场预期厄尔尼诺现象将影响全球农产品供给，引发对农业板块的关注。",
-      "source": "每日经济新闻",
-      "channel": "eastmoney",
-      "url": "http://stock.eastmoney.com/a/202610093891192060.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "降水",
-        "减产",
-        "农业",
-        "棕榈油",
-        "甘蔗",
-        "橡胶",
-        "农产品"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "白糖",
-        "棕榈油",
-        "天然橡胶",
-        "小麦"
-      ],
-      "horizon": "中期",
-      "confidence": "中",
-      "reason": "券商指厄尔尼诺致甘蔗棕榈油橡胶小麦减产，我国南涝北旱",
-      "verify": "若降水恢复正常或减产预期证伪则逻辑弱化",
-      "judged": true
     }
   ],
-  "news_new_count": 3,
+  "news_new_count": 0,
   "instruments": [
     {
       "key": "P",
@@ -513,15 +478,6 @@
           "url": "http://finance.eastmoney.com/a/202610093891520429.html"
         },
         {
-          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
-          "ts": "2026-10-09 18:34:22",
-          "direction": "利多",
-          "source": "环球市场播报",
-          "relevance": 100,
-          "strength": "强",
-          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
-        },
-        {
           "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
           "ts": "2026-10-09 17:56:00",
           "direction": "利多",
@@ -529,6 +485,15 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://finance.eastmoney.com/a/202610093891360228.html"
+        },
+        {
+          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
+          "ts": "2026-10-09 14:03:55",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -536,22 +501,22 @@
         "key": "nf_P0",
         "name": "棕榈油",
         "kind": "future",
-        "price": 9746.0,
+        "price": 9730.0,
         "prev_close": 9662.0,
-        "change": 84.0,
-        "change_pct": 0.87,
+        "change": 68.0,
+        "change_pct": 0.7,
         "open": 9598.0,
-        "high": 9747.0,
+        "high": 9758.0,
         "low": 9580.0,
-        "volume": 196501.0,
-        "ts": "2026-10-09 22:32:54",
+        "volume": 229069.0,
+        "ts": "2026-10-09 22:53:18",
         "source": "sina",
         "ok": true
       },
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
-        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
         "若海表温度提前回落或峰值低于预期则逻辑弱化",
+        "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -586,13 +551,13 @@
           "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
-          "ts": "2026-10-09 18:34:22",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "环球市场播报",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -600,22 +565,22 @@
         "key": "nf_SR0",
         "name": "白糖",
         "kind": "future",
-        "price": 5548.0,
+        "price": 5544.0,
         "prev_close": 5480.0,
-        "change": 68.0,
-        "change_pct": 1.24,
+        "change": 64.0,
+        "change_pct": 1.17,
         "open": 5492.0,
         "high": 5554.0,
         "low": 5488.0,
-        "volume": 309385.0,
-        "ts": "2026-10-09 22:32:54",
+        "volume": 328795.0,
+        "ts": "2026-10-09 22:53:17",
         "source": "sina",
         "ok": true
       },
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
         "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
-        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -664,15 +629,15 @@
         "key": "nf_M0",
         "name": "豆粕",
         "kind": "future",
-        "price": 3415.0,
+        "price": 3412.0,
         "prev_close": 3389.0,
-        "change": 26.0,
-        "change_pct": 0.77,
+        "change": 23.0,
+        "change_pct": 0.68,
         "open": 3402.0,
         "high": 3420.0,
         "low": 3395.0,
-        "volume": 333271.0,
-        "ts": "2026-10-09 22:32:54",
+        "volume": 375936.0,
+        "ts": "2026-10-09 22:53:18",
         "source": "sina",
         "ok": true
       },
@@ -705,15 +670,6 @@
           "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
-          "ts": "2026-10-09 18:34:22",
-          "direction": "利多",
-          "source": "环球市场播报",
-          "relevance": 100,
-          "strength": "强",
-          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
-        },
-        {
           "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
           "ts": "2026-10-09 17:56:00",
           "direction": "利多",
@@ -721,6 +677,15 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://finance.eastmoney.com/a/202610093891360228.html"
+        },
+        {
+          "title": "超强厄尔尼诺遏制产量预期 全球粮价持续上涨",
+          "ts": "2026-10-09 14:57:18",
+          "direction": "利多",
+          "source": "界面新闻",
+          "relevance": 100,
+          "strength": "中",
+          "url": "http://finance.eastmoney.com/a/202610093891225995.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -728,22 +693,22 @@
         "key": "nf_C0",
         "name": "玉米",
         "kind": "future",
-        "price": 2176.0,
+        "price": 2177.0,
         "prev_close": 2151.0,
-        "change": 25.0,
-        "change_pct": 1.16,
+        "change": 26.0,
+        "change_pct": 1.21,
         "open": 2163.0,
         "high": 2185.0,
         "low": 2162.0,
-        "volume": 292959.0,
-        "ts": "2026-10-09 22:32:54",
+        "volume": 306039.0,
+        "ts": "2026-10-09 22:53:17",
         "source": "sina",
         "ok": true
       },
       "verify": [
         "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
-        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
         "若海表温度提前回落或峰值低于预期则逻辑弱化",
+        "若全球粮价回落或主产区天气恢复正常",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -792,15 +757,15 @@
         "key": "nf_RU0",
         "name": "天然橡胶",
         "kind": "future",
-        "price": 20890.0,
+        "price": 20960.0,
         "prev_close": 20220.0,
-        "change": 670.0,
-        "change_pct": 3.31,
+        "change": 740.0,
+        "change_pct": 3.66,
         "open": 20620.0,
         "high": 20980.0,
         "low": 20600.0,
-        "volume": 181680.0,
-        "ts": "2026-10-09 22:32:54",
+        "volume": 195993.0,
+        "ts": "2026-10-09 22:53:18",
         "source": "sina",
         "ok": true
       },
@@ -854,8 +819,8 @@
         "open": 15800.0,
         "high": 15950.0,
         "low": 15800.0,
-        "volume": 123635.0,
-        "ts": "2026-10-09 22:32:54",
+        "volume": 131882.0,
+        "ts": "2026-10-09 22:53:17",
         "source": "sina",
         "ok": true
       },
@@ -1042,13 +1007,13 @@
           "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
-          "ts": "2026-10-09 18:34:22",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "环球市场播报",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1071,7 +1036,7 @@
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
         "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
-        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1106,13 +1071,13 @@
           "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
-          "ts": "2026-10-09 18:34:22",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "环球市场播报",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1135,7 +1100,7 @@
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
         "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
-        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1170,13 +1135,13 @@
           "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
         },
         {
-          "title": "日本气象厅：扰乱全球天气的厄尔尼诺已达到历史最高强度",
-          "ts": "2026-10-09 18:34:22",
+          "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
+          "ts": "2026-10-09 17:56:00",
           "direction": "利多",
-          "source": "环球市场播报",
+          "source": "证券时报网",
           "relevance": 100,
           "strength": "强",
-          "url": "https://finance.sina.com.cn/world/2026-10-09/doc-iniurrui7795302.shtml"
+          "url": "http://finance.eastmoney.com/a/202610093891360228.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1199,7 +1164,7 @@
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
         "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
-        "若后续机构下调厄尔尼诺强度评级则逻辑弱化",
+        "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1556,7 +1521,7 @@
     }
   ],
   "stats": {
-    "news_total": 16,
+    "news_total": 15,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
