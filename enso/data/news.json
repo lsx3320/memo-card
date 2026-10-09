@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09 23:36:55",
-  "cycle": 897,
+  "generated_at": "2026-10-09 23:58:58",
+  "cycle": 898,
   "climate": {
     "event": "厄尔尼诺",
     "phase": "增强",
@@ -185,36 +185,6 @@
       "judged": true
     },
     {
-      "id": "sina:898469953",
-      "ts": "2026-10-09 18:57:54",
-      "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-      "summary": "种植链今日（10月9日）又掀涨停潮。截至收盘，敦煌种业、金健米业、万向德农、海南橡胶涨停，神农种业涨超10%，农发种业、亚盛集团等亦涨幅居前。",
-      "source": "新浪基金",
-      "channel": "sina",
-      "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml",
-      "authority": "media",
-      "important": false,
-      "relevance": 100,
-      "matched": [
-        "厄尔尼诺",
-        "种植",
-        "橡胶",
-        "种业"
-      ],
-      "direction": "利多",
-      "strength": "中",
-      "instruments": [
-        "玉米",
-        "天然橡胶",
-        "白糖"
-      ],
-      "horizon": "短期",
-      "confidence": "低",
-      "reason": "厄尔尼诺加剧预期下种植链涨停潮，敦煌种业、海南橡胶等涨停，资金炒作天气题材",
-      "verify": "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
-      "judged": true
-    },
-    {
       "id": "em:202610093891551744",
       "ts": "2026-10-09 18:47:56",
       "title": "疯涨19％！橡胶创九年新高背后：一边库存回落，一边轮胎旺季证伪｜大宗风云",
@@ -297,32 +267,6 @@
       "confidence": "中",
       "reason": "印尼8月棕榈油出口增至358.8万吨，库存降至221.4万吨，出口增与库存降方向相反",
       "verify": "若后续库存转为累积或出口回落则偏空",
-      "judged": true
-    },
-    {
-      "id": "em:202610093891248929",
-      "ts": "2026-10-09 15:40:39",
-      "title": "据上期所，本周铜库存增加20000吨，铝库存减少22391吨，锌库存增加2637吨，铅库存不变，镍库存减少245吨，锡库存减少102吨，天然橡胶库存减少310吨",
-      "summary": "据上期所，本周铜库存增加20000吨，铝库存减少22391吨，锌库存增加2637吨，铅库存不变，镍库存减少245吨，锡库存减少102吨，天然橡胶库存减少310吨。",
-      "source": "财联社",
-      "channel": "eastmoney",
-      "url": "http://futures.eastmoney.com/a/202610093891248929.html",
-      "authority": "media",
-      "important": false,
-      "relevance": 40,
-      "matched": [
-        "库存",
-        "橡胶"
-      ],
-      "direction": "利多",
-      "strength": "弱",
-      "instruments": [
-        "天然橡胶"
-      ],
-      "horizon": "短期",
-      "confidence": "高",
-      "reason": "上期所天然橡胶库存减少310吨，库存下降对胶价形成小幅支撑",
-      "verify": "若下周库存转为增加则支撑逻辑弱化",
       "judged": true
     },
     {
@@ -541,15 +485,6 @@
           "url": "http://finance.eastmoney.com/a/202610093891520429.html"
         },
         {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        },
-        {
           "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
           "ts": "2026-10-09 17:56:00",
           "direction": "利多",
@@ -557,6 +492,15 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://finance.eastmoney.com/a/202610093891360228.html"
+        },
+        {
+          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
+          "ts": "2026-10-09 14:03:55",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -578,8 +522,8 @@
       },
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "若海表温度提前回落或峰值低于预期则逻辑弱化",
+        "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -660,15 +604,6 @@
       "news_count": 3,
       "top_news": [
         {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        },
-        {
           "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
           "ts": "2026-10-09 17:56:00",
           "direction": "利多",
@@ -685,6 +620,15 @@
           "relevance": 100,
           "strength": "中",
           "url": "http://finance.eastmoney.com/a/202610093891225995.html"
+        },
+        {
+          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
+          "ts": "2026-10-09 14:03:55",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -705,9 +649,9 @@
         "ok": true
       },
       "verify": [
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "若海表温度提前回落或峰值低于预期则逻辑弱化",
         "若全球粮价回落或主产区天气恢复正常",
+        "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -742,13 +686,13 @@
           "url": "http://finance.eastmoney.com/a/202610093891520429.html"
         },
         {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
+          "title": "疯涨19％！橡胶创九年新高背后：一边库存回落，一边轮胎旺季证伪｜大宗风云",
+          "ts": "2026-10-09 18:47:56",
           "direction": "利多",
-          "source": "新浪基金",
+          "source": "华夏时报网",
           "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
+          "strength": "强",
+          "url": "http://futures.eastmoney.com/a/202610093891551744.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -771,7 +715,7 @@
       "verify": [
         "若海温提前见顶回落或产区天气正常则逻辑弱化",
         "若海表温度提前见顶回落则逻辑弱化",
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
+        "若后续产区降水恢复正常或库存回升则逻辑弱化。",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -840,17 +784,8 @@
       "climate_dir": "事件敏感",
       "climate_logic": "水稻/玉米种子，天气减产年份用种与价格弹性",
       "news_dir": "利多",
-      "news_count": 2,
+      "news_count": 1,
       "top_news": [
-        {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        },
         {
           "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
           "ts": "2026-10-09 14:03:55",
@@ -879,7 +814,6 @@
         "ok": true
       },
       "verify": [
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
@@ -894,20 +828,10 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "东北种植主体，粮价景气受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "600598.SH",
         "name": "北大荒",
@@ -925,7 +849,6 @@
         "ok": true
       },
       "verify": [
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -939,20 +862,10 @@
       "region": "种植/粮油",
       "climate_dir": "温和受益",
       "climate_logic": "土地流转+稻麦种植，粮价上行受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "601952.SH",
         "name": "苏垦农发",
@@ -970,7 +883,6 @@
         "ok": true
       },
       "verify": [
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
@@ -997,15 +909,6 @@
           "url": "http://finance.eastmoney.com/a/202610093891520429.html"
         },
         {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        },
-        {
           "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
           "ts": "2026-10-09 17:56:00",
           "direction": "利多",
@@ -1013,6 +916,15 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://finance.eastmoney.com/a/202610093891360228.html"
+        },
+        {
+          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
+          "ts": "2026-10-09 14:03:55",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1034,8 +946,8 @@
       },
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "若海表温度提前回落或峰值低于预期则逻辑弱化",
+        "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1061,15 +973,6 @@
           "url": "http://finance.eastmoney.com/a/202610093891520429.html"
         },
         {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        },
-        {
           "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
           "ts": "2026-10-09 17:56:00",
           "direction": "利多",
@@ -1077,6 +980,15 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://finance.eastmoney.com/a/202610093891360228.html"
+        },
+        {
+          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
+          "ts": "2026-10-09 14:03:55",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1098,8 +1010,8 @@
       },
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "若海表温度提前回落或峰值低于预期则逻辑弱化",
+        "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1125,15 +1037,6 @@
           "url": "http://finance.eastmoney.com/a/202610093891520429.html"
         },
         {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        },
-        {
           "title": "超强厄尔尼诺袭来 这个化工品价格大涨（附股）",
           "ts": "2026-10-09 17:56:00",
           "direction": "利多",
@@ -1141,6 +1044,15 @@
           "relevance": 100,
           "strength": "强",
           "url": "http://finance.eastmoney.com/a/202610093891360228.html"
+        },
+        {
+          "title": "厄尔尼诺现象进一步增强，低费率粮食ETF华夏（159030）强势上涨，敦煌种业涨停",
+          "ts": "2026-10-09 14:03:55",
+          "direction": "利多",
+          "source": "每日经济新闻",
+          "relevance": 100,
+          "strength": "强",
+          "url": "http://stock.eastmoney.com/a/202610093891143878.html"
         }
       ],
       "resonance": "共振（利多）",
@@ -1162,8 +1074,8 @@
       },
       "verify": [
         "若海表温度提前见顶回落则逻辑弱化",
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "若海表温度提前回落或峰值低于预期则逻辑弱化",
+        "若供需报告转宽松或天气影响减弱",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐"
       ]
     },
@@ -1482,20 +1394,10 @@
       "region": "橡胶种植",
       "climate_dir": "事件受益",
       "climate_logic": "国内天胶种植龙头，减产/胶价上行受益",
-      "news_dir": "利多",
-      "news_count": 1,
-      "top_news": [
-        {
-          "title": "厄尔尼诺现象或进一步加剧，种植链再掀涨停潮！农牧渔ETF华宝（159275）标的指数盘中涨超2%",
-          "ts": "2026-10-09 18:57:54",
-          "direction": "利多",
-          "source": "新浪基金",
-          "relevance": 100,
-          "strength": "中",
-          "url": "https://finance.sina.com.cn/money/fund/etf/2026-10-09/doc-iniurruc2807853.shtml"
-        }
-      ],
-      "resonance": "共振（利多）",
+      "news_dir": "中性",
+      "news_count": 0,
+      "top_news": [],
+      "resonance": "仅气候信号",
       "quote": {
         "key": "601118.SH",
         "name": "海南橡胶",
@@ -1513,14 +1415,13 @@
         "ok": true
       },
       "verify": [
-        "若涨停潮次日回落或厄尔尼诺预期降温则逻辑弱化",
         "降水/海温超预期回归（如 MJO 扰动引发降水修复），减产预期被证伪，升水快速回吐",
         "政策面：国家抛储、进口配额放大、关税调整等平抑价格"
       ]
     }
   ],
   "stats": {
-    "news_total": 15,
+    "news_total": 13,
     "futures_total": 6,
     "stocks_total": 16,
     "quotes_ok": 22
