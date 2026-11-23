@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>后生仔 · 卢仕潇的博客</title>
+    <link>https://yc002428.ccwu.cc/blog/</link>
+    <atom:link href="https://yc002428.ccwu.cc/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <description>技术的来龙去脉，生活的所见所想。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0800</lastBuildDate>
+    <item>
+      <title>把博客发布流水线压到 20 秒</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=agent-pipeline</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=agent-pipeline</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0800</pubDate>
+      <category>技术</category>
+      <description>静态站最爽的地方在于：一次提交就是一次发布。我把它拆成三步——构建、上链、校验——并给每一步都加了可观测的出口。</description>
+    </item>
+    <item>
+      <title>关于「慢」的一点练习</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=slow-practice</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=slow-practice</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0800</pubDate>
+      <category>随笔</category>
+      <description>把速度降下来之后，我才发现自己以前一直在用「快」掩盖「没想清楚」。慢不是效率的反面，是判断力的前置条件。</description>
+    </item>
+    <item>
+      <title>静态站做相册，我踩过的三个坑</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=static-album-pitfalls</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=static-album-pitfalls</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0800</pubDate>
+      <category>技术</category>
+      <description>从纯静态图库到能自己上传照片，中间隔着的不是代码量，而是「数据放在哪」这个问题。</description>
+    </item>
+    <item>
+      <title>在城市里找一条能走很久的路</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=long-walk</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=long-walk</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0800</pubDate>
+      <category>生活</category>
+      <description>周末的固定节目：从住处出发，不带目的地，走到脚酸为止。城市会在这时候露出另一面。</description>
+    </item>
+    <item>
+      <title>读《瓦尔登湖》的三个瞬间</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=walden</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=walden</guid>
+      <pubDate>Sun, 15 Nov 2026 09:00:00 +0800</pubDate>
+      <category>随笔</category>
+      <description>这本书被引用得太多，反而少有人认真读。我记住的是三个特别具体的场景。</description>
+    </item>
+    <item>
+      <title>为什么我不再追工具链的「最新」</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=no-chasing-tools</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=no-chasing-tools</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0800</pubDate>
+      <category>社会思考</category>
+      <description>每年都有一批「你还在用 X？已经过时了」的声音。我用了三年才想明白：工具的价值在于它解决了我哪个具体问题。</description>
+    </item>
+    <item>
+      <title>把笔记从云端搬回本地</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=notes-back-home</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=notes-back-home</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0800</pubDate>
+      <category>技术</category>
+      <description>六年云端笔记，三万条记录。迁回本地之后，我最大的收获不是隐私，而是「搜索变快了」。</description>
+    </item>
+    <item>
+      <title>三十岁前想明白的一件事</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=one-thing-before-thirty</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=one-thing-before-thirty</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0800</pubDate>
+      <category>随笔</category>
+      <description>人要为自己的选择付账，而不是为别人的期待付账。</description>
+    </item>
+    <item>
+      <title>一个人住的第三年</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=third-year-alone</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=third-year-alone</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0800</pubDate>
+      <category>生活</category>
+      <description>一个人住久了，会发展出一套自己的仪式感。比如周五晚上一定要把厨房彻底擦一遍。</description>
+    </item>
+    <item>
+      <title>信息过载时代的减法</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=subtraction</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=subtraction</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0800</pubDate>
+      <category>社会思考</category>
+      <description>我取消了 30 个订阅、退出 12 个群。三个月后，我发现真正需要的信息，几乎都会自己找上门。</description>
+    </item>
+    <item>
+      <title>从零写一个 Markdown 渲染器</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=markdown-renderer</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=markdown-renderer</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0800</pubDate>
+      <category>技术</category>
+      <description>不引入任何库，两百行代码搞定标题、列表、引用、代码块和行内样式。写完才理解为什么说「解析是靠状态机」。</description>
+    </item>
+    <item>
+      <title>周末去了趟海边</title>
+      <link>https://yc002428.ccwu.cc/blog/post.html?id=weekend-sea</link>
+      <guid isPermaLink="true">https://yc002428.ccwu.cc/blog/post.html?id=weekend-sea</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0800</pubDate>
+      <category>生活</category>
+      <description>坐了三个小时的车，在海边待了四十分钟。值不值？值。</description>
+    </item>
+  </channel>
+</rss>

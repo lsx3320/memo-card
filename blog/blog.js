@@ -66,7 +66,7 @@
     if (strip) {
       strip.innerHTML = D.photos.slice(0, 3).map(function (p) {
         return '<a class="strip-card" href="gallery.html">' +
-          '<img src="' + p.src + '" alt="' + esc(p.title) + '" loading="lazy" />' +
+          '<img src="' + p.src + '" alt="' + esc(p.title) + '" width="1200" height="800" loading="lazy" decoding="async" />' +
           '<span class="cap"><b>' + esc(p.title) + '</b><span>' + esc(p.place) + '</span></span>' +
           "</a>";
       }).join("");
@@ -93,16 +93,18 @@
   }
 
   function postRow(p, i) {
+    var cover = p.cover || D.photos[i % D.photos.length].src;
     return '<a class="post-row" href="post.html?id=' + encodeURIComponent(p.id) + '">' +
-      '<div class="post-date">' + esc(p.date) + "</div>" +
-      "<div>" +
-      '<div class="post-meta"><span>' + esc(p.category) + '</span><span class="dot">·</span>' +
-      "<span>约 " + p.minutes + " 分钟</span></div>" +
+      '<img class="post-thumb" src="' + cover + '" alt="" width="132" height="84" loading="lazy" decoding="async" />' +
+      '<div class="post-main">' +
       '<h3 class="post-title">' + esc(p.title) + "</h3>" +
       '<p class="post-excerpt">' + esc(p.excerpt) + "</p>" +
       '<div class="post-tags">' + p.tags.map(function (t) { return "<span>#" + esc(t) + "</span>"; }).join("") + "</div>" +
       "</div>" +
-      '<div class="post-arrow"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8"/></svg></div>' +
+      '<div class="post-side">' +
+      '<span class="post-date">' + esc(p.date) + "</span>" +
+      '<span class="post-meta">' + esc(p.category) + " · " + p.minutes + " 分钟</span>" +
+      "</div>" +
       "</a>";
   }
 
@@ -178,6 +180,48 @@
     renderList();
   }
 
+  /* ---------------- 文章目录 ---------------- */
+  function buildToc() {
+    var toc = $("#toc"), list = $("#tocList");
+    if (!toc || !list) return;
+    var layout = document.querySelector(".article-layout");
+    var heads = $$("#aBody h2");
+    if (heads.length < 2) {
+      toc.hidden = true;
+      if (layout) layout.classList.add("no-toc");
+      return;
+    }
+    toc.hidden = false;
+    if (layout) layout.classList.remove("no-toc");
+    list.innerHTML = "";
+    heads.forEach(function (h, i) {
+      var id = "sec-" + (i + 1);
+      h.id = id;
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = "#" + id;
+      a.textContent = h.textContent;
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        h.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.replaceState(null, "", "#" + id);
+      });
+      li.appendChild(a);
+      list.appendChild(li);
+    });
+
+    if (!("IntersectionObserver" in window)) return;
+    var links = $$("a", list);
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        var idx = heads.indexOf(en.target);
+        links.forEach(function (l, i) { l.classList.toggle("active", i === idx); });
+      });
+    }, { rootMargin: "-96px 0px -65% 0px", threshold: 0 });
+    heads.forEach(function (h) { io.observe(h); });
+  }
+
   /* ---------------- 文章详情 ---------------- */
   function renderPost() {
     var id = new URLSearchParams(location.search).get("id");
@@ -198,6 +242,7 @@
       return "<p>" + inline(b.v) + "</p>";
     }).join("");
     $("#aBody").innerHTML = body;
+    buildToc();
 
     var i = D.posts.indexOf(p);
     var prev = D.posts[i - 1], next = D.posts[i + 1];
@@ -244,7 +289,7 @@
       current = D.photos.filter(function (p) { return state.cat === "全部" || p.cat === state.cat; });
       gridEl.innerHTML = current.map(function (p, i) {
         return '<button class="g-card" type="button" data-i="' + i + '">' +
-          '<img src="' + p.src + '" alt="' + esc(p.title) + '" loading="lazy" />' +
+          '<img src="' + p.src + '" alt="' + esc(p.title) + '" width="1200" height="800" loading="lazy" decoding="async" />' +
           '<span class="g-meta"><span>' + esc(p.title) + '</span><span>' + esc(p.date) + "</span></span>" +
           "</button>";
       }).join("");

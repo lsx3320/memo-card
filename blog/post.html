@@ -3,8 +3,16 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>文章 | 卢仕潇的博客</title>
+<title>文章 | 后生仔 · 卢仕潇的博客</title>
 <meta name="description" content="一篇文章的正文。" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="后生仔 · 卢仕潇的博客" />
+<meta property="og:title" content="文章 | 后生仔 · 卢仕潇的博客" />
+<meta property="og:description" content="一篇文章的正文。" />
+<meta property="og:image" content="https://yc002428.ccwu.cc/blog/img/hero.jpg" />
+<meta property="og:url" content="https://yc002428.ccwu.cc/blog/post.html" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="alternate" type="application/rss+xml" title="后生仔 · RSS" href="feed.xml" />
 <link rel="stylesheet" href="blog.css" />
 </head>
 <body data-page="post">
@@ -46,19 +54,38 @@
   <div class="progress" id="progress"></div>
   <article class="article">
     <div class="wrap">
-      <header class="article-head">
-        <div class="article-meta">
-          <span id="aCat">技术</span><span class="dot">·</span>
-          <span id="aDate">2026.11.22</span><span class="dot">·</span>
-          <span id="aMin">约 6 分钟</span>
+      <div class="article-layout">
+        <div>
+          <header class="article-head">
+            <div class="article-meta">
+              <span id="aCat">技术</span><span>·</span>
+              <span id="aDate"></span><span>·</span>
+              <span id="aMin"></span>
+            </div>
+            <h1 class="article-title" id="aTitle"></h1>
+            <p class="article-lead" id="aLead"></p>
+          </header>
+
+          <div class="article-body" id="aBody"></div>
+
+          <div class="article-foot">
+            <span id="aPrev"></span>
+            <span id="aNext"></span>
+          </div>
+
+        <div class="subscribe">
+          <div>
+            <b>订阅更新</b>
+            <p>新文章发布时第一时间收到，不需要留邮箱。</p>
+          </div>
+          <a class="btn" href="feed.xml">RSS 订阅</a>
         </div>
-        <h1 class="article-title" id="aTitle">标题</h1>
-        <p class="article-lead" id="aLead"></p>
-      </header>
-      <div class="article-body" id="aBody"></div>
-      <div class="article-foot">
-        <span id="aPrev"></span>
-        <span id="aNext"></span>
+        </div>
+
+        <aside class="toc" id="toc" hidden>
+          <h4>目录</h4>
+          <ul id="tocList"></ul>
+        </aside>
       </div>
     </div>
   </article>
@@ -80,12 +107,14 @@
         <a href="posts.html">文章</a>
         <a href="gallery.html">相册</a>
         <a href="about.html">关于我</a>
+        <a href="feed.xml">RSS 订阅</a>
       </div>
       <div class="footer-col">
         <h4>主题</h4>
         <a href="posts.html?cat=技术">技术</a>
         <a href="posts.html?cat=随笔">随笔</a>
         <a href="posts.html?cat=生活">生活</a>
+        <a href="posts.html?cat=社会思考">社会思考</a>
       </div>
       <div class="footer-col">
         <h4>联系</h4>
