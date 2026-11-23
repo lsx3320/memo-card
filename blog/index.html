@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>首页 | 卢仕潇的博客</title>
+<meta name="description" content="个人博客：技术笔记、生活片段、光影收藏与成长记录。" />
+<link rel="stylesheet" href="blog.css" />
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">潇</span>
+      <span class="brand-name">后生仔</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="index.html" aria-current="page">首页</a>
+      <a href="posts.html">文章</a>
+      <a href="gallery.html">相册</a>
+      <a href="about.html">关于</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-btn" href="posts.html" aria-label="搜索文章">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/>
+        </svg>
+      </a>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="切换到深色">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/>
+        </svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-label="菜单">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-media">
+    <img src="img/hero.jpg" alt="雾中山峦" />
+  </div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Lu Shixiao / Personal Journal</p>
+    <p class="hero-hello">你好，我是卢仕潇。</p>
+    <h1>后生仔。</h1>
+    <p class="hero-sub">于无常处知有情，于有情处知众生</p>
+    <div class="hero-foot">
+      <a href="#recent">翻开最近的记录 ↓</a>
+      <span class="mid">Life, in progress.</span>
+      <a href="gallery.html">我的相册 ↗</a>
+    </div>
+  </div>
+</section>
+
+<main>
+  <section class="section" style="padding-bottom: 0;">
+    <div class="wrap">
+      <div class="tagline-row">
+        <p>于此间记录点滴思考，既为自省，亦为留痕。</p>
+        <div class="pill-row">
+          <span class="pill">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3"/></svg>
+            技术探索
+          </span>
+          <span class="pill">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 15l5-4 4 3 3-2 6 4"/></svg>
+            生活片段
+          </span>
+          <span class="pill">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>
+            光影收藏
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="recent">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="section-eyebrow">Recently written</p>
+          <h2 class="section-title">最近写下的</h2>
+        </div>
+        <a class="link-more" href="posts.html">全部 12 篇文章 →</a>
+      </div>
+      <div class="post-list" id="homePosts"></div>
+    </div>
+  </section>
+
+  <section class="quote-block">
+    <div class="wrap">
+      <blockquote>天行健，君子以自强不息</blockquote>
+      <cite>一个做技术的人，也认真过日子。</cite>
+      <div class="quote-foot">
+        <span>智能体开发 · 大小模型调优 · 网站小程序部署 · 办公自动化</span>
+        <a class="btn" href="about.html">多认识我一点</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="section-eyebrow">Start here</p>
+          <h2 class="section-title">从这里读起</h2>
+          <p class="section-lead">把 AI 讲明白</p>
+        </div>
+        <a class="link-more" href="posts.html">全部文章 →</a>
+      </div>
+      <div class="read-list" id="homeReading"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="section-eyebrow">Away from the screen</p>
+          <h2 class="section-title">屏幕之外</h2>
+          <p class="section-lead">总有一些瞬间，值得按下快门。</p>
+        </div>
+        <a class="link-more" href="gallery.html">走进相册 →</a>
+      </div>
+      <div class="gallery-strip" id="homeStrip"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="section-eyebrow">Along the way</p>
+          <h2 class="section-title">来时的路</h2>
+          <p class="section-lead">人会在经历里，慢慢成为自己。</p>
+        </div>
+        <a class="link-more" href="about.html">完整成长记录 →</a>
+      </div>
+      <div class="timeline" id="homeTimeline"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">潇</span>
+          <span class="brand-name">后生仔</span>
+        </a>
+        <p>纸上得来终觉浅，绝知此事要躬行。</p>
+      </div>
+      <div class="footer-col">
+        <h4>站点</h4>
+        <a href="posts.html">文章</a>
+        <a href="gallery.html">相册</a>
+        <a href="about.html">关于我</a>
+      </div>
+      <div class="footer-col">
+        <h4>主题</h4>
+        <a href="posts.html?cat=技术">技术</a>
+        <a href="posts.html?cat=随笔">随笔</a>
+        <a href="posts.html?cat=生活">生活</a>
+      </div>
+      <div class="footer-col">
+        <h4>联系</h4>
+        <a href="https://github.com/lsx3320" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:hi@example.com">写封邮件</a>
+        <p>这个站点是仿写练习，内容为占位示例。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 卢仕潇 · 于此间，留下一点痕迹。</span>
+      <span>仿写练习 · 非官方站点</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="data.js"></script>
+<script src="blog.js"></script>
+</body>
+</html>

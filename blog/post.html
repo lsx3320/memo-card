@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>文章 | 卢仕潇的博客</title>
+<meta name="description" content="一篇文章的正文。" />
+<link rel="stylesheet" href="blog.css" />
+</head>
+<body data-page="post">
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">潇</span>
+      <span class="brand-name">后生仔</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="posts.html">文章</a>
+      <a href="gallery.html">相册</a>
+      <a href="about.html">关于</a>
+    </nav>
+    <div class="header-actions">
+      <a class="icon-btn" href="posts.html" aria-label="搜索文章">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <circle cx="11" cy="11" r="7"/><path d="M16.5 16.5L21 21"/>
+        </svg>
+      </a>
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="切换到深色">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/>
+        </svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-label="菜单">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <div class="progress" id="progress"></div>
+  <article class="article">
+    <div class="wrap">
+      <header class="article-head">
+        <div class="article-meta">
+          <span id="aCat">技术</span><span class="dot">·</span>
+          <span id="aDate">2026.11.22</span><span class="dot">·</span>
+          <span id="aMin">约 6 分钟</span>
+        </div>
+        <h1 class="article-title" id="aTitle">标题</h1>
+        <p class="article-lead" id="aLead"></p>
+      </header>
+      <div class="article-body" id="aBody"></div>
+      <div class="article-foot">
+        <span id="aPrev"></span>
+        <span id="aNext"></span>
+      </div>
+    </div>
+  </article>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">潇</span>
+          <span class="brand-name">后生仔</span>
+        </a>
+        <p>纸上得来终觉浅，绝知此事要躬行。</p>
+      </div>
+      <div class="footer-col">
+        <h4>站点</h4>
+        <a href="posts.html">文章</a>
+        <a href="gallery.html">相册</a>
+        <a href="about.html">关于我</a>
+      </div>
+      <div class="footer-col">
+        <h4>主题</h4>
+        <a href="posts.html?cat=技术">技术</a>
+        <a href="posts.html?cat=随笔">随笔</a>
+        <a href="posts.html?cat=生活">生活</a>
+      </div>
+      <div class="footer-col">
+        <h4>联系</h4>
+        <a href="https://github.com/lsx3320" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:hi@example.com">写封邮件</a>
+        <p>这个站点是仿写练习，内容为占位示例。</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 卢仕潇 · 于此间，留下一点痕迹。</span>
+      <span>仿写练习 · 非官方站点</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="data.js"></script>
+<script src="blog.js"></script>
+</body>
+</html>
