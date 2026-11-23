@@ -429,3 +429,261 @@ main { position: relative; z-index: 1; padding-bottom: 80px; }
   .card { opacity: 1; transform: none; }
 }
 
+
+/* ---------- 添加照片：按钮 ---------- */
+.add-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 36px;
+  padding: 0 15px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 122, 69, .45);
+  background: linear-gradient(180deg, rgba(255, 138, 90, .22), rgba(255, 122, 69, .12));
+  color: #ffb598;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background .18s, color .18s, border-color .18s, transform .12s;
+}
+
+.add-btn:hover { background: linear-gradient(180deg, rgba(255, 138, 90, .34), rgba(255, 122, 69, .2)); color: #fff; }
+.add-btn:active { transform: scale(.97); }
+
+/* 本地照片徽章 */
+.badge-local {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 10.5px;
+  letter-spacing: .04em;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(52, 211, 153, .16);
+  border: 1px solid rgba(52, 211, 153, .45);
+  color: #6ee7b7;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* ---------- 灯箱删除 ---------- */
+.lb-del {
+  font: inherit;
+  font-size: 12px;
+  color: #ff9c9c;
+  background: rgba(255, 90, 90, .1);
+  border: 1px solid rgba(255, 90, 90, .35);
+  padding: 7px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background .18s;
+}
+
+.lb-del:hover { background: rgba(255, 90, 90, .22); }
+
+/* ---------- 添加照片：抽屉 ---------- */
+.sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(4, 4, 6, .72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.sheet[hidden] { display: none; }
+
+.sheet-card {
+  width: min(720px, 100%);
+  max-height: min(86vh, 760px);
+  display: flex;
+  flex-direction: column;
+  background: #121215;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .6);
+  overflow: hidden;
+}
+
+.sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--line);
+}
+
+.sheet-head h2 { margin: 0; font-size: 16px; font-weight: 650; }
+
+.sheet-close {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.sheet-close:hover { color: var(--text); background: rgba(255, 255, 255, .06); }
+
+.sheet-body {
+  padding: 20px 22px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  border: 1.5px dashed rgba(255, 255, 255, .18);
+  background: rgba(255, 255, 255, .02);
+  color: var(--muted);
+  text-align: center;
+  cursor: pointer;
+  transition: border-color .18s, background .18s, color .18s;
+}
+
+.drop:hover, .drop.over {
+  border-color: rgba(255, 122, 69, .6);
+  background: rgba(255, 122, 69, .07);
+  color: #ffb598;
+}
+
+.drop strong { color: var(--text); font-size: 14px; font-weight: 600; }
+.drop span { font-size: 12px; }
+.drop svg { color: var(--accent); }
+
+.sheet-hint { margin: 12px 2px 4px; font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+.queue { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+
+.q-item {
+  display: grid;
+  grid-template-columns: 92px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, .025);
+}
+
+.q-item img {
+  width: 92px;
+  height: 68px;
+  object-fit: cover;
+  border-radius: 9px;
+  background: var(--panel-2);
+}
+
+.q-fields { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+
+.q-fields input, .q-fields select {
+  width: 100%;
+  background: rgba(255, 255, 255, .05);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  font: inherit;
+  font-size: 12.5px;
+  padding: 7px 9px;
+  outline: 0;
+}
+
+.q-fields input:focus, .q-fields select:focus { border-color: rgba(255, 122, 69, .55); }
+.q-fields input::placeholder { color: #6e6e78; }
+.q-row { display: flex; gap: 6px; }
+
+.q-remove {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.q-remove:hover { color: #ff9c9c; border-color: rgba(255, 90, 90, .4); }
+
+.sheet-empty { color: var(--muted); font-size: 12.5px; text-align: center; margin: 18px 0 4px; }
+
+.sheet-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px 22px;
+  border-top: 1px solid var(--line);
+  background: rgba(255, 255, 255, .015);
+}
+
+.sheet-count { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sheet-actions { display: flex; gap: 10px; }
+
+.btn {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 9px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: background .18s, opacity .18s, border-color .18s;
+}
+
+.btn.ghost:hover { background: rgba(255, 255, 255, .06); }
+
+.btn.primary {
+  background: linear-gradient(180deg, #ffa16e, var(--accent));
+  border-color: rgba(255, 255, 255, .14);
+  color: #1a1208;
+}
+
+.btn.primary:hover { filter: brightness(1.06); }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+
+/* ---------- toast ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: rgba(24, 24, 28, .96);
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-size: 13px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .5);
+}
+
+.toast[hidden] { display: none; }
+
+@media (max-width: 760px) {
+  .add-btn { height: 32px; padding: 0 11px; font-size: 12px; }
+  .add-btn span { display: none; }
+  .sheet { padding: 0; align-items: end; }
+  .sheet-card { width: 100%; max-height: 92vh; border-radius: 22px 22px 0 0; }
+  .q-item { grid-template-columns: 64px 1fr auto; }
+  .q-item img { width: 64px; height: 52px; }
+  .sheet-foot { flex-wrap: wrap; }
+}
